@@ -1,0 +1,1764 @@
+head	1.38;
+access;
+symbols;
+locks
+	nakashim:1.38; strict;
+comment	@ * @;
+
+
+1.38
+date	2021.09.21.07.42.10;	author nakashim;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2020.11.26.01.00.11;	author nakashim;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2020.11.16.14.17.02;	author nakashim;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2020.11.16.13.34.05;	author nakashim;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2020.11.16.13.15.28;	author nakashim;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2020.05.13.23.51.23;	author nakashim;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2019.02.17.12.45.35;	author nakashim;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2018.10.18.12.42.50;	author nakashim;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2018.10.16.13.26.38;	author nakashim;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2018.09.04.02.02.31;	author nakashim;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2017.04.28.01.03.08;	author nakashim;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2017.04.23.13.09.27;	author nakashim;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2017.04.21.03.30.17;	author nakashim;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2016.11.26.12.18.47;	author nakashim;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2016.05.03.00.19.44;	author nakashim;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2016.04.27.15.20.12;	author nakashim;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2016.04.11.02.30.24;	author nakashim;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2016.01.21.14.10.01;	author nakashim;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2016.01.19.03.03.51;	author nakashim;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2016.01.17.14.28.05;	author nakashim;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2016.01.17.04.05.52;	author nakashim;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2016.01.16.08.47.30;	author nakashim;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2016.01.16.01.54.10;	author nakashim;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2016.01.15.12.29.43;	author nakashim;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2015.12.12.08.45.04;	author nakashim;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2015.12.04.05.02.59;	author nakashim;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.11.18.14.47.20;	author nakashim;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.11.16.23.56.46;	author nakashim;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.11.14.02.15.50;	author nakashim;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.11.12.14.25.01;	author nakashim;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.11.11.16.09.20;	author nakashim;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.11.08.07.15.38;	author nakashim;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.11.08.05.17.05;	author nakashim;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.11.08.04.02.24;	author nakashim;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.11.08.03.54.03;	author nakashim;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.11.08.03.08.13;	author nakashim;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.11.08.02.59.28;	author nakashim;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.27.23.16.09;	author nakashim;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@
+/* EMAX6 Compiler                      */
+/*        Copyright (C) 2012 by NAIST. */
+/*         Primary writer: Y.Nakashima */
+/*                nakashim@@is.naist.jp */
+
+/* conv-c2c.l   2012/6/15 */
+
+%e      300
+%p      700
+%n      100
+%k      60
+%a      300
+%o      500
+
+%{
+double      atof();
+void        *malloc();
+static int  indx;
+%}
+
+%%
+\n                   { ++y_lineno; return(EOL); }
+^[^\/\n].*           { return(ARMV8); }
+^\/[^-\n].*          { return(ARMV8); }
+^\/-EMAX5AB-\/       { return(EMAX6ABEGIN); }
+^\/-EMAX5AS-\/       { return(EMAX6ASTATEM); }
+^\/-EMAX5AE-\/       { return(EMAX6AEND); }
+^\/-EMAX5AD-\/       { return(EMAX6ADRAIN); }
+^\/-EMAX5TB-\/       { return(EMAX6TBEGIN); }
+^\/-EMAX5TS-\/       { return(EMAX6TSTATEM); }
+^\/-EMAX5TE-\/       { return(EMAX6TEND); }
+\(Ull\)              { return(CGRA_ULL); }
+\(Uint\)             { return(CGRA_UINT); }
+"<<"                 { return(CGRA_SLL); }
+">>"                 { return(CGRA_SRL); }
+while                { return(CGRA_WHILE); }
+for                  { return(CGRA_FOR); }
+cex                  { return(CGRA_CEX); }
+ex4                  { return(CGRA_EX4); }
+exe                  { return(CGRA_EXE); }
+mex                  { return(CGRA_MEX); }
+mo4                  { return(CGRA_MO4); }
+mop                  { return(CGRA_MOP); }
+\-\-                 {
+    /* copy "-1LL" --> buf[] */
+    yylval = hash_reg_immediate(-1LL);
+    return(CGRA_DECR);
+}
+\+\+                 { return(CGRA_INCR); }
+read                 { return(TRAN_READ); }
+write                { return(TRAN_WRITE); }
+[\(\)\[\]\{\}\<\>,\;\*\/\%\+\-\&\|\^\~\=\?\:] { return(*yytext); }
+[ \t]+ ;
+
+\(\(void[ ]*\*\)0\)  {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_IMMEDIATE;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val = 0;
+    }
+    return(IMMEDIATE);
+}
+
+0x[0-9A-Fa-f]+   |
+0x[0-9A-Fa-f]+LL |
+[0-9]+           |
+[0-9]+LL         {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_IMMEDIATE;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val = strtoull(buf, NULL, 0);
+    }
+    return(IMMEDIATE);
+}
+
+ex[0-9] {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_EXRNO;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val = strtoull(buf+3, NULL, 0);
+    }
+    return(EXRNO);
+}
+
+AR\[[0-9][0-9]*\] { /* row only */
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_ALRNO;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val = strtoull(buf+3, NULL, 0);
+    }
+    return(ALRNO);
+}
+
+BR\[[0-9][0-9]*\]\[[0-3]\] { /* row+column only */
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_BDRNO;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val = strtoull(strchr(buf, '\[')+1, NULL, 0)*EMAX_WIDTH+strtoull(strrchr(buf, '\[')+1, NULL, 0);
+    }
+    return(BDRNO);
+}
+
+CHIP {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_VARIABLE;
+      id[yylval].chip = 1;
+      id[yylval].cidx = 0;
+      id[yylval].val = 0;
+    }
+    return(CHIP);
+}
+
+LOOP[0-3] { /* LOOP[23] not available */
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_LOOPNO;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val = strtoull(buf+4, NULL, 0);
+    }
+    return(LOOPNO);
+}
+
+INIT[0-3] { /* INIT[23] not available */
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_INITNO;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val = strtoull(buf+4, NULL, 0);
+    }
+    return(INITNO);
+}
+
+\.*[A-Za-z_][A-Za-z0-9_]* |
+[A-Za-z_][A-Za-z0-9_]* |
+[A-Za-z_][A-Za-z0-9_]*\[[0-9][0-9]*\] |
+[a-z_][a-z0-9_]*\[[0-9][0-9]*\]\[[0-9][0-9]*\] |
+[a-z_][a-z0-9_]*\[[0-9][0-9]*\]\[[0-9][0-9]*\]\[[0-9][0-9]*\] {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_VARIABLE;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val  = 0;
+    }
+    return(VARIABLE);
+}
+
+\"\"[^\"]*\"\" {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+      buf[indx] = yytext[indx];
+    buf[     0] = '(';
+    buf[     1] = '(';
+    buf[indx-2] = ')';
+    buf[indx-1] = ')';
+    buf[indx  ] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_ASIS;
+      id[yylval].chip = 0;
+      id[yylval].cidx = 0;
+      id[yylval].val  = 0;
+    }
+    return(ASIS);
+}
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d42 1
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d81 1
+a81 1
+      id[yylval].val = strtoll(buf, NULL, 0);
+d95 1
+a95 1
+      id[yylval].val = strtoll(buf+3, NULL, 0);
+d109 1
+a109 1
+      id[yylval].val = strtoll(buf+3, NULL, 0);
+d123 1
+a123 1
+      id[yylval].val = strtoll(strchr(buf, '\[')+1, NULL, 0)*EMAX_WIDTH+strtoll(strrchr(buf, '\[')+1, NULL, 0);
+d151 1
+a151 1
+      id[yylval].val = strtoll(buf+4, NULL, 0);
+d165 1
+a165 1
+      id[yylval].val = strtoll(buf+4, NULL, 0);
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d170 3
+a172 3
+\.*[a-z_][a-z0-9_]* |
+[a-z_][a-z0-9_]* |
+[a-z_][a-z0-9_]*\[[0-9][0-9]*\] |
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@d170 5
+a174 5
+\.*[A-Za-z_][A-Za-z0-9_]* |
+[A-Za-z_][A-Za-z0-9_]* |
+[A-Za-z_][A-Za-z0-9_]*\[[0-9][0-9]*\] |
+[A-Za-z_][A-Za-z0-9_]*\[[0-9][0-9]*\]\[[0-9][0-9]*\] |
+[A-Za-z_][A-Za-z0-9_]*\[[0-9][0-9]*\]\[[0-9][0-9]*\]\[[0-9][0-9]*\] {
+@
+
+
+1.33
+log
+@y
+@
+text
+@d172 3
+a174 1
+[A-Za-z_][A-Za-z0-9_]*\[[0-9][0-9]*\] {
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d171 2
+a172 1
+[A-Za-z_][A-Za-z0-9_]* {
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d184 18
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d63 1
+d80 1
+d94 1
+d108 1
+d122 1
+d136 1
+d150 1
+d164 1
+d179 1
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d52 1
+a52 1
+[\(\)\[\]\{\},\;\*\/\%\+\-\&\|\^\~\=\?\:] { return(*yytext); }
+d62 1
+d78 1
+d91 1
+d104 1
+d117 1
+d123 1
+a123 1
+INIT[0-3] { /* column only */
+d129 3
+a131 2
+      id[yylval].type = T_INITNO;
+      id[yylval].val = strtoll(buf+4, NULL, 0);
+d133 1
+a133 1
+    return(INITNO);
+d136 1
+a136 1
+LOOP[0-3] { /* column only */
+d143 1
+d149 13
+d170 1
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d38 1
+d52 1
+a52 1
+[\(\)\[\]\{\},\;\*\/\%\+\-\&\|\^\~] { return(*yytext); }
+d70 1
+a70 3
+[0-9]+LL         |
+-[0-9]+          |
+-[0-9]+LL        {
+d118 24
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+/* conv-c2e.l   2012/6/15 */
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d26 7
+a32 7
+^\/-EMAX6AB-\/       { return(EMAX6ABEGIN); }
+^\/-EMAX6AS-\/       { return(EMAX6ASTATEM); }
+^\/-EMAX6AE-\/       { return(EMAX6AEND); }
+^\/-EMAX6AD-\/       { return(EMAX6ADRAIN); }
+^\/-EMAX6TB-\/       { return(EMAX6TBEGIN); }
+^\/-EMAX6TS-\/       { return(EMAX6TSTATEM); }
+^\/-EMAX6TE-\/       { return(EMAX6TEND); }
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+/* EMAX5 Compiler                      */
+d7 1
+a7 1
+/* conv-c2d.l   2012/6/15 */
+d26 7
+a32 7
+^\/-EMAX5AB-\/       { return(EMAX5ABEGIN); }
+^\/-EMAX5AS-\/       { return(EMAX5ASTATEM); }
+^\/-EMAX5AE-\/       { return(EMAX5AEND); }
+^\/-EMAX5AD-\/       { return(EMAX5ADRAIN); }
+^\/-EMAX5TB-\/       { return(EMAX5TBEGIN); }
+^\/-EMAX5TS-\/       { return(EMAX5TSTATEM); }
+^\/-EMAX5TE-\/       { return(EMAX5TEND); }
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@a34 1
+\(\(void[ ]*\*\)0\)  { return(CGRA_NULL); }
+d54 12
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d79 1
+a79 1
+      id[yylval].val = strtoll(buf+2, NULL, 0);
+d91 1
+a91 1
+      id[yylval].val = strtoll(buf+2, NULL, 0);
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d26 2
+a27 2
+^\/-EMAX5AS-\/       { return(EMAX5ASTART); }
+^\/-EMAX5AD-\/       { return(EMAX5ADESCR); }
+d29 3
+a31 2
+^\/-EMAX5TS-\/       { return(EMAX5TSTART); }
+^\/-EMAX5TD-\/       { return(EMAX5TDESCR); }
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d45 1
+a45 9
+    buf[0] = '-';
+    buf[1] = '1';
+    buf[2] = 'L';
+    buf[3] = 'L';
+    buf[4] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_IMMEDIATE;
+      id[yylval].val = strtoll(buf, NULL, 0);
+    }
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@a78 13
+r[0-9] |
+r[0-9][0-9] {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_GPRNO;
+      id[yylval].val = strtoll(buf+1, NULL, 0);
+    }
+    return(GPRNO);
+}
+
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@a91 12
+c[0-9] {
+    /* copy yytext[] --> buf[] */
+    for (indx=0; indx<yyleng && indx<BUF_MAXLEN; indx++)
+        buf[indx] = yytext[indx];
+    buf[indx] = 0;
+    if (!hash_search(buf, &yylval)) { /* not found */
+      id[yylval].type = T_CCRNO;
+      id[yylval].val = strtoll(buf+1, NULL, 0);
+    }
+    return(CCRNO);
+}
+
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d135 1
+a135 1
+      id[yylval].val = strtoll(strchr(buf, '\[')+1, NULL, 0)*UNIT_WIDTH+strtoll(strrchr(buf, '\[')+1, NULL, 0);
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d116 1
+a116 1
+AR\[[0-9][0-9]*\] {
+d128 1
+a128 1
+BR\[[0-9][0-9]*\]\[[0-3]\] {
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a19 1
+static int  buflen, indx;
+d50 1
+a50 3
+    buflen = 5;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a51 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+d72 1
+a72 3
+    buflen = indx+1;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a73 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+d85 1
+a85 3
+    buflen = indx+1;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a86 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+d97 1
+a97 3
+    buflen = indx+1;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a98 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+d109 1
+a109 3
+    buflen = indx+1;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a110 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+d121 1
+a121 3
+    buflen = indx+1;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a122 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+d133 1
+a133 3
+    buflen = indx+1;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a134 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+d146 1
+a146 3
+    buflen = indx+1;
+
+    if (!hash_search(buf, buflen, &yylval)) { /* not found */
+a147 2
+      id[yylval].row = -1; /* init */
+      id[yylval].col = -1; /* init */
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@a16 1
+#define BUF_MAXLEN 120
+a18 1
+static char *bufptr, buf[BUF_MAXLEN+1];
+a19 1
+static int  hashval, hashsave;
+d35 2
+d52 5
+a56 10
+    /* hash */
+    hashval = hashsave = hash(buf);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(CGRA_DECR);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a57 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new number */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_IMMEDIATE;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val = strtoll(buf, NULL, 0);
+    yylval = hashval;
+d78 5
+a82 10
+    /* hash */
+    hashval = hashsave = hash(buf);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(IMMEDIATE);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a83 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new number */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_IMMEDIATE;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val = strtoll(buf, NULL, 0);
+    yylval = hashval;
+d95 5
+a99 10
+    /* hash */
+    hashval = hashsave = hash(buf);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(GPRNO);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a100 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new number */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_GPRNO;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val = strtoll(buf+1, NULL, 0);
+    yylval = hashval;
+d111 5
+a115 10
+    /* hash */
+    hashval = hashsave = hash(buf);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(CCRNO);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a116 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new number */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_CCRNO;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val = strtoll(buf+1, NULL, 0);
+    yylval = hashval;
+d127 5
+a131 10
+    /* hash */
+    hashval = hashsave = hash(buf);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(EXRNO);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a132 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new number */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_EXRNO;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val = strtoll(buf+2, NULL, 0);
+    yylval = hashval;
+d143 5
+a147 10
+    /* hash */
+    hashval = hashsave = hash(buf);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(ALRNO);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a148 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new number */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_ALRNO;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val = strtoll(buf+2, NULL, 0);
+    yylval = hashval;
+d159 5
+a163 10
+    /* hash */
+    hashval = hashsave = hash(buf);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(BDRNO);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a164 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new number */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_BDRNO;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val = strtoll(strchr(buf, '\[')+1, NULL, 0)*UNIT_WIDTH+strtoll(strrchr(buf, '\[')+1, NULL, 0);
+    yylval = hashval;
+d176 5
+a180 10
+    /* hash */
+    hashval = hashsave = hash(id);
+    while (id[hashval].name != NULL) {
+        if (!strcmp(buf, id[hashval].name)) {
+            yylval = hashval;
+            return(VARIABLE);
+        }
+        hashval = rehash(hashval);
+        if (hashval == hashsave)
+            break;
+a181 15
+    if (id[hashval].name != NULL) {
+        yyerror("too many IDs");
+        fprintf(stderr, "current ID_NUM is %d\n", ID_NUM);
+        exit(1);
+    }
+
+    /* new identifier */
+    id[hashval].name = bufptr = malloc(buflen);
+    for (indx=0; indx<buflen; indx++)
+        *bufptr++ = buf[indx];
+    id[hashval].type = T_VARIABLE;
+    id[hashval].row = -1; /* init */
+    id[hashval].col = -1; /* init */
+    id[hashval].val  = 0;
+    yylval = hashval;
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d128 2
+a129 2
+\.*[A-Za-z_][A-Za-z0-9_]* |
+[A-Za-z_][A-Za-z0-9_]* {
+d137 1
+a137 1
+    hashval = hashsave = hash(id);
+d141 1
+a141 1
+            return(VARIABLE);
+d153 1
+a153 1
+    /* new identifier */
+d157 1
+a157 1
+    id[hashval].type = T_VARIABLE;
+d160 1
+a160 1
+    id[hashval].val  = 0;
+d162 1
+a162 1
+    return(VARIABLE);
+d165 1
+a165 2
+r[0-9] |
+r[0-9][0-9] {
+d177 1
+a177 1
+            return(GPRNO);
+d193 1
+a193 1
+    id[hashval].type = T_GPRNO;
+d198 1
+a198 1
+    return(GPRNO);
+d201 1
+a201 1
+c[0-9] {
+d213 1
+a213 1
+            return(CCRNO);
+d229 1
+a229 1
+    id[hashval].type = T_CCRNO;
+d232 1
+a232 1
+    id[hashval].val = strtoll(buf+1, NULL, 0);
+d234 1
+a234 1
+    return(CCRNO);
+d237 1
+a237 1
+ex[0-9] {
+d249 1
+a249 1
+            return(EXRNO);
+d265 1
+a265 1
+    id[hashval].type = T_EXRNO;
+d270 1
+a270 1
+    return(EXRNO);
+d273 1
+a273 1
+AR\[[0-9][0-9]*\] {
+d285 1
+a285 1
+            return(ALRNO);
+d301 1
+a301 1
+    id[hashval].type = T_ALRNO;
+d304 1
+a304 1
+    id[hashval].val = strtoll(buf+2, NULL, 0);
+d306 1
+a306 1
+    return(ALRNO);
+d309 2
+a310 1
+BR\[[0-9][0-9]*\]\[[0-3]\] {
+d318 1
+a318 1
+    hashval = hashsave = hash(buf);
+d322 1
+a322 1
+            return(BDRNO);
+d334 1
+a334 1
+    /* new number */
+d338 1
+a338 1
+    id[hashval].type = T_BDRNO;
+d341 1
+a341 1
+    id[hashval].val = strtoll(strchr(buf, '\[')+1, NULL, 0)*UNIT_WIDTH+strtoll(strrchr(buf, '\[')+1, NULL, 0);
+d343 1
+a343 1
+    return(BDRNO);
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d45 1
+a45 1
+    /* copy "-1" --> buf[] */
+d48 4
+a51 2
+    buf[2] = 0;
+    buflen = 2;
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d44 35
+a78 1
+\-\-                 { return(CGRA_DECR); }
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d85 2
+a86 1
+    id[hashval].flag = 1; /* found */
+d122 2
+a123 1
+    id[hashval].flag = 1; /* found */
+d159 2
+a160 1
+    id[hashval].flag = 1; /* found */
+d195 2
+a196 1
+    id[hashval].flag = 1; /* found */
+d231 2
+a232 1
+    id[hashval].flag = 1; /* found */
+d267 2
+a268 1
+    id[hashval].flag = 1; /* found */
+d303 2
+a304 1
+    id[hashval].flag = 1; /* found */
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d76 1
+a76 1
+        fprintf(stderr, "current ID_NUM is %d.\n", ID_NUM);
+d112 1
+a112 1
+        fprintf(stderr, "current ID_NUM is %d.\n", ID_NUM);
+d148 1
+a148 1
+        fprintf(stderr, "current ID_NUM is %d.\n", ID_NUM);
+d183 1
+a183 1
+        fprintf(stderr, "current ID_NUM is %d.\n", ID_NUM);
+d218 1
+a218 1
+        fprintf(stderr, "current ID_NUM is %d.\n", ID_NUM);
+d253 1
+a253 1
+        fprintf(stderr, "current ID_NUM is %d.\n", ID_NUM);
+d288 1
+a288 1
+        fprintf(stderr, "current ID_NUM is %d.\n", ID_NUM);
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d39 1
+a39 1
+mop                  { return(CGRA_MOP); }
+d42 2
+a43 1
+cex                  { return(CGRA_CEX); }
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d138 1
+a138 1
+            yylval = id[hashval].val;
+d158 1
+a158 1
+    yylval = id[hashval].val;
+d173 1
+a173 1
+            yylval = id[hashval].val;
+d193 1
+a193 1
+    yylval = id[hashval].val;
+d208 1
+a208 1
+            yylval = id[hashval].val;
+d228 1
+a228 1
+    yylval = id[hashval].val;
+d243 1
+a243 1
+            yylval = id[hashval].val;
+d263 1
+a263 1
+    yylval = id[hashval].val;
+d278 1
+a278 1
+            yylval = id[hashval].val;
+d298 1
+a298 1
+    yylval = id[hashval].val;
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d90 36
+d232 1
+a232 1
+BR\[[0-9][0-9]*\]\[[0-3]\] {
+d244 1
+a244 1
+            return(BDRNO);
+d260 1
+a260 1
+    id[hashval].type = T_BDRNO;
+d262 1
+a262 1
+    id[hashval].val = strtoll(strchr(buf, '\[')+1, NULL, 0)*UNIT_WIDTH+strtoll(strrchr(buf, '\[')+1, NULL, 0);
+d264 1
+a264 1
+    return(BDRNO);
+d267 1
+a267 2
+\.*[A-Za-z_][A-Za-z0-9_]* |
+[A-Za-z_][A-Za-z0-9_]* {
+d275 1
+a275 1
+    hashval = hashsave = hash(id);
+d278 2
+a279 2
+            yylval = hashval;
+            return(VARIABLE);
+d291 1
+a291 1
+    /* new identifier */
+d295 1
+a295 1
+    id[hashval].type = T_VARIABLE;
+d297 3
+a299 3
+    id[hashval].val  = 0;
+    yylval = hashval;
+    return(VARIABLE);
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d40 1
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d27 2
+a28 2
+^[^\/].*             { return(ARMV8); }
+^\/[^-].*            { return(ARMV8); }
+d47 1
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d17 1
+a17 1
+#define BUF_MAXLEN 80
+d27 8
+a34 9
+[ \t]*\n             { ++y_lineno; return(EOL); }
+^[ \t]*[^\/].*       { return(ARMV8); }
+^[ \t]*\/[^-].*      { return(ARMV8); }
+^[ \t]*\/-EMAX5AS-\/ { return(EMAX5ASTART); }
+^[ \t]*\/-EMAX5AD-\/ { return(EMAX5ADESCR); }
+^[ \t]*\/-EMAX5AE-\/ { return(EMAX5AEND); }
+^[ \t]*\/-EMAX5TS-\/ { return(EMAX5TSTART); }
+^[ \t]*\/-EMAX5TD-\/ { return(EMAX5TDESCR); }
+^[ \t]*\/-EMAX5TE-\/ { return(EMAX5TEND); }
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d26 22
+a47 21
+\n                  { ++y_lineno; return(EOL); }
+^[^\/].*            { return(ARMV8); }
+^\/[^-].*           { return(ARMV8); }
+^\/-EMAX5AS-\/      { return(EMAX5ASTART); }
+^\/-EMAX5AD-\/      { return(EMAX5ADESCR); }
+^\/-EMAX5AE-\/      { return(EMAX5AEND); }
+^\/-EMAX5TS-\/      { return(EMAX5TSTART); }
+^\/-EMAX5TD-\/      { return(EMAX5TDESCR); }
+^\/-EMAX5TE-\/      { return(EMAX5TEND); }
+\(Ull\)             { return(CGRA_ULL); }
+\(Uint\)            { return(CGRA_UINT); }
+\(\(void[ ]*\*\)0\) { return(CGRA_NULL); }
+while               { return(CGRA_WHILE); }
+mop                 { return(CGRA_MOP); }
+exe                 { return(CGRA_EXE); }
+cex                 { return(CGRA_CEX); }
+\-\-                { return(CGRA_DECR); }
+\+\+                { return(CGRA_INCR); }
+read                { return(TRAN_READ); }
+write               { return(TRAN_WRITE); }
+[\(\)\[\]\{\},;\*\/\%\+\-\&\|\^\~] { return(*yytext); }
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@a34 2
+[\(\)\[\]\{\},;\*\/\%\+\-\&\|\^\~] { return(*yytext); }
+
+d38 1
+a41 3
+BR                  { return(CGRA_BR); }
+
+while               { return(CGRA_WHILE); }
+d44 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d7 1
+a7 1
+/* conv-c2d.l	2012/6/15 */
+d9 6
+a14 6
+%e	300
+%p	700
+%n	100
+%k	60
+%a	300
+%o	500
+d17 5
+a21 5
+#define	ID_MAXLEN 80
+double	    atof();
+void	    *malloc();
+static char *idptr, id[ID_MAXLEN+1];
+static int  idlen, indx;
+d26 34
+a59 113
+[\!#].* ;
+^[ \t]*\/\/EMAX5A { return(EMAX5APREFIX); }
+^[ \t]*\/\/EMAX5T { return(EMAX5TPREFIX); }
+^[ \t]*\/\/[^E\n].* { return(INTEL); }
+^[ \t]*\/\/\n { return(INTEL); }
+^[ \t]*\/[^\/\n].* { return(INTEL); }
+^[ \t]*[^\/\n].* { return(INTEL); }
+[ \t]+ ;
+[@@\[\]\(\)?=,\*\/\+\-\&\|\~] { return(*yytext); }
+\n { ++y_lineno; return(EOL); }
+
+start   { return(START); }
+ctl     { return(CTL);   }
+map_dist { return(M_DIST);}
+end     { return(END);   }
+cexe    { return(CEXE);  }
+read    { return(READ);  }
+write   { return(WRITE); }
+base    { return(BASE);  }
+regv    { return(REGV);  }
+ofs     { return(OFS);   }
+len     { return(LEN);   }
+eq      { return(EQ);    }
+ne      { return(NE);    }
+ge      { return(GE);    }
+term    { return(TERM);  }
+error   { return(ERROR); }
+dst     { return(DST);   }
+src     { return(SRC);   }
+
+"+="    { return(POSTI); }
+"\.f"   { return(SUFFL); }
+"\.h"   { return(SUFHI); }
+"\.l"   { return(SUFLO); }
+"\.3"   { return(SUFB3); }
+"\.2"   { return(SUFB2); }
+"\.1"   { return(SUFB1); }
+"\.0"   { return(SUFB0); }
+ri      { return(RI);    }
+rgi     { return(RGI);   }
+lmr     { return(LMR);   } /* read  (reuse if possible) */
+lmw     { return(LMW);   } /* write (store lmm & lmm->DDR3) */
+lmx     { return(LMX);   } /* r+w   (reuse)+(lmm->DDR3) */
+lmp     { return(LMP);   } /* prefetch-lmm<-DDR3 */
+lmf     { return(LMF);   } /* read  (force) */
+lmd     { return(LMD);   } /* drain (lmm->DDR3 only) */
+mmr     { return(MMR);   } /* direct mem read */
+mmtr    { return(MMTR);  } /* direct mem transaction */
+
+nop	{ return(NOP);   }
+while   { return(WHILE); }
+add	{ return(ADD);   }
+add3	{ return(ADD3);  }
+sub	{ return(SUB);   }
+sub3	{ return(SUB3);  }
+mauh 	{ return(MAUH);  }
+mauh3	{ return(MAUH3); }
+msuh 	{ return(MSUH);  }
+msuh3	{ return(MSUH3); }
+mmrg3	{ return(MMRG3); }
+msad	{ return(MSAD);  }
+minl	{ return(MINL);  }
+minl3	{ return(MINL3); }
+mluh	{ return(MLUH);  }
+mh2bw	{ return(MH2BW); }
+mcas	{ return(MCAS);  }
+mmid3	{ return(MMID3); }
+mmax	{ return(MMAX);  }
+mmax3	{ return(MMAX3); }
+mmin	{ return(MMIN);  }
+mmin3	{ return(MMIN3); }
+fmul	{ return(FMUL);  }
+fma3	{ return(FMA3);  }
+fadd	{ return(FADD);  }
+
+cmp.eq  { return(CMPEQ); }
+cmp.ne  { return(CMPNE); }
+cmp.lt  { return(CMPLT); }
+cmp.le  { return(CMPLE); }
+cmp.gt  { return(CMPGT); }
+cmp.ge  { return(CMPGE); }
+cmov    { return(CMOV);  }
+
+and	{ return(AND);   }
+or	{ return(OR);    }
+xor	{ return(XOR);   }
+sumh	{ return(SUMH);  }
+suml	{ return(SUML);  }
+"<<"    { return(SLL);   }
+">>"    { return(SRL);   }
+">M"    { return(MSRL);  }
+">A"    { return(SRA31); }
+">B"    { return(SRA23); }
+">C"    { return(SRA15); }
+">D"    { return(SRA07); }
+
+ldb	{ return(LDB);   }
+ldub	{ return(LDUB);  }
+ldh	{ return(LDH);   }
+lduh	{ return(LDUH);  }
+ld	{ return(LD);    }
+stb	{ return(STB);   }
+sth	{ return(STH);   }
+st	{ return(ST);    }
+
+0x[0-9A-Fa-f]+ |
+[0-9]+ |
+-[0-9]+ {
+    /* copy yytext[] --> id[] */
+    for (indx=0; indx<yyleng && indx<ID_MAXLEN; indx++)
+	id[indx] = yytext[indx];
+    id[indx] = 0;
+    idlen = indx+1;
+d62 15
+a76 15
+    hashval = hashsave = hash(id);
+    while (label[hashval].name != NULL) {
+	if (!strcmp(id, label[hashval].name)) {
+	    yylval = hashval;
+	    return(IMMEDIATE);
+	}
+	hashval = rehash(hashval);
+	if (hashval == hashsave)
+	    break;
+    }
+    if (label[hashval].name != NULL) {
+	yyerror("too many LABELs");
+	fprintf(stderr, "current LABEL_NUM is %d.\n", LABEL_NUM);
+	exit(1);
+    }	
+d79 6
+a84 6
+    label[hashval].name = idptr = malloc(idlen);
+    for (indx=0; indx<idlen; indx++)
+	*idptr++ = id[indx];
+    label[hashval].type = T_IMMEDIATE;
+    label[hashval].flag = 1; /* found */
+    label[hashval].val = (Uint)strtoll(id, NULL, 0);
+d90 6
+a95 7
+r[12][0-9] |
+r3[01] {
+    /* copy yytext[] --> id[] */
+    for (indx=0; indx<yyleng && indx<ID_MAXLEN; indx++)
+	id[indx] = yytext[indx];
+    id[indx] = 0;
+    idlen = indx+1;
+d98 15
+a112 15
+    hashval = hashsave = hash(id);
+    while (label[hashval].name != NULL) {
+	if (!strcmp(id, label[hashval].name)) {
+	    yylval = label[hashval].val;
+	    return(REGNO);
+	}
+	hashval = rehash(hashval);
+	if (hashval == hashsave)
+	    break;
+    }
+    if (label[hashval].name != NULL) {
+	yyerror("too many LABELs");
+	fprintf(stderr, "current LABEL_NUM is %d.\n", LABEL_NUM);
+	exit(1);
+    }	
+d115 8
+a122 8
+    label[hashval].name = idptr = malloc(idlen);
+    for (indx=0; indx<idlen; indx++)
+	*idptr++ = id[indx];
+    label[hashval].type = T_REGNO;
+    label[hashval].flag = 1; /* found */
+    label[hashval].val = strtol(id+1, NULL, 0);
+    yylval = label[hashval].val;
+    return(REGNO);
+d125 6
+a130 6
+c[0-3] {
+    /* copy yytext[] --> id[] */
+    for (indx=0; indx<yyleng && indx<ID_MAXLEN; indx++)
+	id[indx] = yytext[indx];
+    id[indx] = 0;
+    idlen = indx+1;
+d133 15
+a147 15
+    hashval = hashsave = hash(id);
+    while (label[hashval].name != NULL) {
+	if (!strcmp(id, label[hashval].name)) {
+	    yylval = label[hashval].val;
+	    return(CCRNO);
+	}
+	hashval = rehash(hashval);
+	if (hashval == hashsave)
+	    break;
+    }
+    if (label[hashval].name != NULL) {
+	yyerror("too many LABELs");
+	fprintf(stderr, "current LABEL_NUM is %d.\n", LABEL_NUM);
+	exit(1);
+    }	
+d150 7
+a156 7
+    label[hashval].name = idptr = malloc(idlen);
+    for (indx=0; indx<idlen; indx++)
+	*idptr++ = id[indx];
+    label[hashval].type = T_CCRNO;
+    label[hashval].flag = 1; /* found */
+    label[hashval].val = strtol(id+1, NULL, 0);
+    yylval = label[hashval].val;
+d160 6
+a165 7
+\.*[A-Za-z_][A-Za-z0-9_]*: |
+[A-Za-qs-z_][A-Za-z0-9_]*: {
+    /* copy yytext[] --> id[] */
+    for (indx=0; indx<yyleng && indx<ID_MAXLEN; indx++)
+	id[indx] = yytext[indx];
+    id[indx] = 0;
+    idlen = indx+1;
+d168 50
+a217 23
+    hashval = hashsave = hash(id);
+    while (label[hashval].name != NULL) {
+	if (!strcmp(id, label[hashval].name)) {
+            if (label[hashval].flag == 1) { /* duplicated label found */
+	        yyerror("duplicated LABEL");
+		fprintf(stderr, "current LABEL is %s.\n", label[hashval].name);
+		exit(1);
+            }
+            label[hashval].type = T_LABEL;
+            label[hashval].flag = 1; /* found */
+            label[hashval].val  = 0;
+	    yylval = hashval;
+	    return(LABEL);
+	}
+	hashval = rehash(hashval);
+	if (hashval == hashsave)
+	    break;
+    }
+    if (label[hashval].name != NULL) {
+       	yyerror("too many LABELs");
+	fprintf(stderr, "current LABEL_NUM is %d.\n", LABEL_NUM);
+	exit(1);
+    }	
+d219 9
+a227 9
+    /* new identifier */
+    label[hashval].name = idptr = malloc(idlen);
+    for (indx=0; indx<idlen; indx++)
+	*idptr++ = id[indx];
+    label[hashval].type = T_LABEL;
+    label[hashval].flag = 1; /* found */
+    label[hashval].val  = 0;
+    yylval = hashval;
+    return(LABEL);
+d231 6
+a236 6
+[A-Za-qs-z_][A-Za-z0-9_]* {
+    /* copy yytext[] --> id[] */
+    for (indx=0; indx<yyleng && indx<ID_MAXLEN; indx++)
+	id[indx] = yytext[indx];
+    id[indx] = 0;
+    idlen = indx+1;
+d240 14
+a253 14
+    while (label[hashval].name != NULL) {
+	if (!strcmp(id, label[hashval].name)) {
+	    yylval = hashval;
+	    return(STRING);
+	}
+	hashval = rehash(hashval);
+	if (hashval == hashsave)
+	    break;
+    }
+    if (label[hashval].name != NULL) {
+       	yyerror("too many LABELs");
+	fprintf(stderr, "current LABEL_NUM is %d.\n", LABEL_NUM);
+	exit(1);
+    }	
+d256 6
+a261 6
+    label[hashval].name = idptr = malloc(idlen);
+    for (indx=0; indx<idlen; indx++)
+	*idptr++ = id[indx];
+    label[hashval].type = T_STRING;
+    label[hashval].flag = 1; /* found */
+    label[hashval].val  = 0;
+d263 1
+a263 1
+    return(STRING);
+@

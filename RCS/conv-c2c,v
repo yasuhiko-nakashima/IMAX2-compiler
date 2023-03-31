@@ -1,0 +1,42 @@
+head	1.1;
+access;
+symbols;
+locks
+	nakashim:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2021.12.23.11.46.35;	author nakashim;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#!/bin/csh -f
+set loc=`dirname $0`
+set nam=`echo $HOST | cut -c1-4`
+switch ($HOSTTYPE)
+case 'x86_64-linux':
+ $loc/conv-c2c-cent $*
+ breaksw
+case 'FreeBSD':
+ $loc/conv-c2c-bsd $*
+ breaksw
+case 'aarch64-linux':
+ if ( $nam == 'cadp' ) then
+ $loc/conv-c2c-fugaku $*
+ else
+ $loc/conv-c2c-zynq $*
+ endif
+ breaksw
+endsw
+@

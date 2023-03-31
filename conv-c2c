@@ -1,0 +1,18 @@
+#!/bin/csh -f
+set loc=`dirname $0`
+set nam=`echo $HOST | cut -c1-4`
+switch ($HOSTTYPE)
+case 'x86_64-linux':
+ $loc/conv-c2c-cent $*
+ breaksw
+case 'FreeBSD':
+ $loc/conv-c2c-bsd $*
+ breaksw
+case 'aarch64-linux':
+ if ( $nam == 'cadp' ) then
+ $loc/conv-c2c-fugaku $*
+ else
+ $loc/conv-c2c-zynq $*
+ endif
+ breaksw
+endsw

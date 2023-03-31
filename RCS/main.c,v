@@ -1,0 +1,371 @@
+head	1.9;
+access;
+symbols;
+locks
+	nakashim:1.9; strict;
+comment	@ * @;
+
+
+1.9
+date	2022.03.03.14.58.15;	author nakashim;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2021.12.23.09.46.04;	author nakashim;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2021.12.23.06.26.43;	author nakashim;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2021.12.21.04.00.00;	author nakashim;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2021.06.06.06.24.28;	author nakashim;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.04.28.01.03.01;	author nakashim;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2017.04.21.03.30.17;	author nakashim;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2016.12.05.13.48.43;	author nakashim;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.08.09.12.19.56;	author nakashim;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2c/RCS/main.c,v 1.8 2021/12/23 09:46:04 nakashim Exp nakashim $";
+
+/* EMAX6 Compiler                      */
+/*        Copyright (C) 2012 by NAIST. */
+/*         Primary writer: Y.Nakashima */
+/*                nakashim@@is.naist.jp */
+
+/* main.c: emin assembler 2012/3/16 */ 
+
+#include "conv-c2c.h"
+#include "emax6.h"
+
+extern FILE *yyin;
+
+main(argc, argv) int argc; char **argv;
+{
+  char *version();
+  struct stat stbuf;
+  int i, j, offset;
+
+  EMAX_DEPTH = 64; /* default */
+  /* オプション解析 */
+  for (argc--, argv++; argc; argc--, argv++) {
+    if (**argv == '-') { /* regard as a command */
+      switch (*(*argv+1)) {
+      case 'v':
+	printf("Conv-c2c Version %s\n", version());
+	break;
+      case 'u':
+	sscanf(*argv+2, "%d", &EMAX_DEPTH);
+	switch (EMAX_DEPTH) {
+	case 64:
+	case 32:
+	case 16:
+	case  8:
+	  break;
+	default:
+	  printf("usage: conv-c2c [-v] [-uxx] src_prog\n");
+	  printf(" xx should be 64,32,16,8\n");
+	  exit(1);
+	}
+	break;
+      default:
+	printf("usage: conv-c2c [-v] [-uxx] src_prog\n");
+	printf("       -v: vervose\n");
+	printf("       -u64: 64 units\n");
+	printf("       -u32: 32 units\n");
+	printf("       -u16: 16 units\n");
+	printf("       -u8 :  8 units\n");
+	exit(1);
+      }
+    }
+    else { /* regard as a filename */
+      strncpy(srcprog = (char*)malloc(strlen(*argv)+1), *argv, strlen(*argv)+1);
+    }
+  }
+
+  /* ファイルオープン */
+  if ((yyin = fopen(srcprog, "r")) == NULL) {
+    fprintf(stderr, "can't open source:\"%s\"\n", srcprog);
+    exit(1);
+  }
+  strncpy(objprog = (char*)malloc(strlen(srcprog)+strlen(OBJSUFX)+1), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax6.c */
+  for (i=0; i<strlen(srcprog); i++) {
+    if (objprog[i] == '.' || objprog[i] == '\0' ) {
+      strncpy(objprog+i, OBJSUFX, strlen(OBJSUFX)+1);
+      break;
+    }
+  }
+  if ((ofile = fopen(objprog, "w")) == NULL) {
+    fprintf(stderr, "can't open output:\"%s\"\n", objprog);
+    exit(1);
+  }
+  strncpy(sc1prog = (char*)malloc(strlen(srcprog)+strlen(SC1SUFX)+1), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax6pt.c */
+  for (i=0; i<strlen(srcprog); i++) {
+    if (sc1prog[i] == '.' || sc1prog[i] == '\0' ) {
+      strncpy(sc1prog+i, SC1SUFX, strlen(SC1SUFX)+1);
+      break;
+    }
+  }
+  if ((s1fil = fopen(sc1prog, "w")) == NULL) {
+    fprintf(stderr, "can't open output:\"%s\"\n", sc1prog);
+    exit(1);
+  }
+  strncpy(sc2prog = (char*)malloc(strlen(srcprog)+strlen(SC2SUFX)+1), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax6pt.c */
+  for (i=0; i<strlen(srcprog); i++) {
+    if (sc2prog[i] == '.' || sc2prog[i] == '\0' ) {
+      strncpy(sc2prog+i, SC2SUFX, strlen(SC2SUFX)+1);
+      break;
+    }
+  }
+  if ((s2fil = fopen(sc2prog, "w")) == NULL) {
+    fprintf(stderr, "can't open output:\"%s\"\n", sc2prog);
+    exit(1);
+  }
+
+  /* ASM読み込み */
+  y_lineno = 1;
+  y_errornum = 0;
+  while (yyparse());
+  fclose(yyin);
+  fclose(ofile);
+  fclose(s1fil);
+  fclose(s2fil);
+
+  if (y_errornum) exit(1);
+
+  exit(0);
+}
+
+char *
+version()
+{
+  char *i;
+
+  for (i=RcsHeader; *i && *i!=' '; i++);
+  for (           ; *i && *i==' '; i++);
+  for (           ; *i && *i!=' '; i++);
+  for (           ; *i && *i==' '; i++);
+  return (i);
+}
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2c/RCS/main.c,v 1.7 2021/12/23 06:26:43 nakashim Exp nakashim $";
+d12 1
+d22 1
+d30 14
+d45 1
+a45 1
+	printf("usage: conv-c2c [-v] src_prog\n");
+d47 4
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2c/RCS/main.c,v 1.6 2021/12/21 04:00:00 nakashim Exp nakashim $";
+d55 1
+a55 1
+  strncpy(pt1prog = (char*)malloc(strlen(srcprog)+strlen(PT1SUFX)+1), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax6pt.c */
+d57 2
+a58 2
+    if (pt1prog[i] == '.' || pt1prog[i] == '\0' ) {
+      strncpy(pt1prog+i, PT1SUFX, strlen(PT1SUFX)+1);
+d62 2
+a63 2
+  if ((pfile1 = fopen(pt1prog, "w")) == NULL) {
+    fprintf(stderr, "can't open output:\"%s\"\n", pt1prog);
+d66 1
+a66 1
+  strncpy(pt2prog = (char*)malloc(strlen(srcprog)+strlen(PT2SUFX)+1), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax6pt.c */
+d68 2
+a69 2
+    if (pt2prog[i] == '.' || pt2prog[i] == '\0' ) {
+      strncpy(pt2prog+i, PT2SUFX, strlen(PT2SUFX)+1);
+d73 2
+a74 2
+  if ((pfile2 = fopen(pt2prog, "w")) == NULL) {
+    fprintf(stderr, "can't open output:\"%s\"\n", pt2prog);
+d84 2
+a85 2
+  fclose(pfile1);
+  fclose(pfile2);
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2c/RCS/main.c,v 1.5 2021/06/06 06:24:28 nakashim Exp nakashim $";
+d55 1
+a55 1
+  strncpy(pthprog = (char*)malloc(strlen(srcprog)+strlen(PTHSUFX)+1), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax6pt.c */
+d57 2
+a58 2
+    if (pthprog[i] == '.' || pthprog[i] == '\0' ) {
+      strncpy(pthprog+i, PTHSUFX, strlen(PTHSUFX)+1);
+d62 13
+a74 2
+  if ((pfile = fopen(pthprog, "w")) == NULL) {
+    fprintf(stderr, "can't open output:\"%s\"\n", pthprog);
+d84 2
+a85 1
+  fclose(pfile);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2c/RCS/main.c,v 1.4 2017/04/28 01:03:01 nakashim Exp $";
+a50 1
+
+d52 12
+a63 1
+    fprintf(stderr, "can't open object:\"%s\"\n", objprog);
+d73 1
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2c/RCS/main.c,v 1.3 2017/04/21 03:30:17 nakashim Exp nakashim $";
+d9 1
+a9 1
+/* main.c: emin assembler 2012/3/16 */
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2e/RCS/main.c,v 1.2 2016/12/05 13:48:43 nakashim Exp nakashim $";
+d11 1
+a11 1
+#include "conv-c2e.h"
+d26 1
+a26 1
+	printf("Conv-c2e Version %s\n", version());
+d29 1
+a29 1
+	printf("usage: conv-c2e [-v] src_prog\n");
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2d/RCS/main.c,v 1.1 2015/08/09 12:19:56 nakashim Exp nakashim $";
+d4 1
+a4 1
+/* EMAX5 Compiler                      */
+d11 1
+a11 1
+#include "conv-c2d.h"
+d26 1
+a26 1
+	printf("Conv-c2d Version %s\n", version());
+d29 1
+a29 1
+	printf("usage: conv-c2d [-v] src_prog\n");
+d44 1
+a44 1
+  strncpy(objprog = (char*)malloc(strlen(srcprog)+strlen(OBJSUFX)+1), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax5.c */
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+static char RcsHeader[] = "$Header: /usr/home/nakashim/proj-arm64/src/conv-c2d/RCS/main.c,v 1.2 2015/07/30 12:21:55 nakashim Exp $";
+a12 2
+char        *srcprog;
+char        *objprog;
+d44 1
+a44 1
+  strncpy(objprog = (char*)malloc(strlen(srcprog)+9), srcprog, strlen(srcprog)+1); /* xxx.x -> xxx-emax5.c */
+d47 1
+a47 9
+      objprog[i  ] = '-';
+      objprog[i+1] = 'e';
+      objprog[i+2] = 'm';
+      objprog[i+3] = 'a';
+      objprog[i+4] = 'x';
+      objprog[i+5] = '5';
+      objprog[i+6] = '.';
+      objprog[i+7] = 'c';
+      objprog[i+8] = '\0';
+@

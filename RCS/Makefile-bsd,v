@@ -1,0 +1,86 @@
+head	1.2;
+access;
+symbols;
+locks
+	nakashim:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2021.12.25.22.24.59;	author nakashim;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2021.12.23.11.46.45;	author nakashim;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@
+## EMAX6 Compiler                      ##
+##         Copyright (C) 2012 by NAIST ##
+##         Primary writer: Y.Nakashima ##
+##                nakashim@@is.naist.jp ##
+
+PROGRAM	      = conv-c2c-bsd
+ifeq ($(MACHTYPE),x86_64)
+CFLAGS        = -O2 -fsigned-char
+LDFLAGS       =
+else
+CFLAGS        = -O2 -m32 -fsigned-char
+LDFLAGS       = -m32
+endif
+LIBFLAGS      =
+
+OBJS	      = main.o \
+		y.tab.o \
+		emax6.o
+
+SRCS	      = main.c \
+		y.tab.c \
+		emax6.c
+
+all:	      $(PROGRAM)
+
+$(PROGRAM):     $(OBJS)
+		@@echo -n "Loading $(PROGRAM) ... "
+		@@cc $(OBJS) $(LDFLAGS) -o $(PROGRAM) $(LIBFLAGS)
+		@@echo "done"
+
+.c.o:;		cc -c $(CFLAGS) $<
+
+y.tab.c:	conv-c2c.y
+		yacc conv-c2c.y
+
+lex.yy.c:	conv-c2c.l
+		lex -l conv-c2c.l
+
+clean:;		@@rm -f $(OBJS) y.tab.c lex.yy.c core mon.out Make.log *~
+
+###
+
+main.o:		conv-c2c.h
+y.tab.o:	conv-c2c.h emax6.h lex.yy.c
+emax6.o:	conv-c2c.h emax6.h
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d8 1
+a8 1
+ifeq ($(MACHTYPE),aarch64)
+@

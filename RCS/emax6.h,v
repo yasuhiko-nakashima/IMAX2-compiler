@@ -1,0 +1,5758 @@
+head	1.154;
+access;
+symbols;
+locks
+	nakashim:1.154; strict;
+comment	@ * @;
+
+
+1.154
+date	2022.10.29.13.09.55;	author nakashim;	state Exp;
+branches;
+next	1.153;
+
+1.153
+date	2022.10.28.12.57.14;	author nakashim;	state Exp;
+branches;
+next	1.152;
+
+1.152
+date	2022.10.28.09.11.09;	author nakashim;	state Exp;
+branches;
+next	1.151;
+
+1.151
+date	2022.10.28.08.41.47;	author nakashim;	state Exp;
+branches;
+next	1.150;
+
+1.150
+date	2022.10.28.04.45.01;	author nakashim;	state Exp;
+branches;
+next	1.149;
+
+1.149
+date	2022.10.26.10.57.13;	author nakashim;	state Exp;
+branches;
+next	1.148;
+
+1.148
+date	2022.10.25.23.19.02;	author nakashim;	state Exp;
+branches;
+next	1.147;
+
+1.147
+date	2022.10.07.10.30.22;	author nakashim;	state Exp;
+branches;
+next	1.146;
+
+1.146
+date	2022.03.03.14.57.58;	author nakashim;	state Exp;
+branches;
+next	1.145;
+
+1.145
+date	2022.02.19.00.49.30;	author nakashim;	state Exp;
+branches;
+next	1.144;
+
+1.144
+date	2021.12.21.03.59.56;	author nakashim;	state Exp;
+branches;
+next	1.143;
+
+1.143
+date	2021.12.08.00.59.00;	author nakashim;	state Exp;
+branches;
+next	1.142;
+
+1.142
+date	2021.09.21.07.42.15;	author nakashim;	state Exp;
+branches;
+next	1.141;
+
+1.141
+date	2021.06.18.03.03.59;	author nakashim;	state Exp;
+branches;
+next	1.140;
+
+1.140
+date	2021.06.11.14.30.15;	author nakashim;	state Exp;
+branches;
+next	1.139;
+
+1.139
+date	2021.06.10.13.44.00;	author nakashim;	state Exp;
+branches;
+next	1.138;
+
+1.138
+date	2021.06.08.12.05.28;	author nakashim;	state Exp;
+branches;
+next	1.137;
+
+1.137
+date	2021.06.06.06.23.49;	author nakashim;	state Exp;
+branches;
+next	1.136;
+
+1.136
+date	2021.06.02.10.37.25;	author nakashim;	state Exp;
+branches;
+next	1.135;
+
+1.135
+date	2021.02.28.05.58.02;	author nakashim;	state Exp;
+branches;
+next	1.134;
+
+1.134
+date	2020.11.25.01.58.00;	author nakashim;	state Exp;
+branches;
+next	1.133;
+
+1.133
+date	2020.11.25.00.52.40;	author nakashim;	state Exp;
+branches;
+next	1.132;
+
+1.132
+date	2020.11.25.00.18.08;	author nakashim;	state Exp;
+branches;
+next	1.131;
+
+1.131
+date	2020.11.16.13.15.28;	author nakashim;	state Exp;
+branches;
+next	1.130;
+
+1.130
+date	2020.06.01.03.10.38;	author nakashim;	state Exp;
+branches;
+next	1.129;
+
+1.129
+date	2020.04.26.14.44.30;	author nakashim;	state Exp;
+branches;
+next	1.128;
+
+1.128
+date	2020.04.26.09.10.51;	author nakashim;	state Exp;
+branches;
+next	1.127;
+
+1.127
+date	2020.04.15.00.28.11;	author nakashim;	state Exp;
+branches;
+next	1.126;
+
+1.126
+date	2019.03.04.02.32.54;	author nakashim;	state Exp;
+branches;
+next	1.125;
+
+1.125
+date	2019.02.17.12.45.35;	author nakashim;	state Exp;
+branches;
+next	1.124;
+
+1.124
+date	2018.12.18.22.59.22;	author nakashim;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2018.12.08.00.37.57;	author nakashim;	state Exp;
+branches;
+next	1.122;
+
+1.122
+date	2018.12.02.02.47.56;	author nakashim;	state Exp;
+branches;
+next	1.121;
+
+1.121
+date	2018.10.18.12.43.00;	author nakashim;	state Exp;
+branches;
+next	1.120;
+
+1.120
+date	2018.10.16.13.26.30;	author nakashim;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2018.09.15.23.24.53;	author nakashim;	state Exp;
+branches;
+next	1.118;
+
+1.118
+date	2018.09.10.11.45.48;	author nakashim;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2018.09.09.10.41.00;	author nakashim;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2018.09.07.02.03.55;	author nakashim;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2018.09.04.02.02.47;	author nakashim;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2018.02.21.03.17.10;	author nakashim;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2018.02.20.01.12.36;	author nakashim;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2017.09.18.08.19.49;	author nakashim;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2017.08.18.12.27.17;	author nakashim;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2017.08.16.15.32.42;	author nakashim;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2017.08.14.13.19.05;	author nakashim;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2017.07.11.00.01.30;	author nakashim;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2017.06.19.05.49.06;	author nakashim;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2017.06.11.10.17.24;	author nakashim;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2017.06.10.08.10.36;	author nakashim;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2017.06.07.04.24.36;	author nakashim;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2017.06.04.09.12.29;	author nakashim;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2017.06.03.09.46.43;	author nakashim;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2017.06.03.08.07.40;	author nakashim;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2017.05.30.08.40.35;	author nakashim;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2017.05.29.06.17.45;	author nakashim;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2017.05.27.12.26.24;	author nakashim;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2017.04.21.03.30.17;	author nakashim;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2017.02.28.14.50.43;	author nakashim;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2017.02.28.14.50.26;	author nakashim;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2017.02.20.08.48.38;	author nakashim;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2016.12.18.03.18.19;	author nakashim;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2016.12.08.13.46.50;	author nakashim;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2016.12.04.15.05.22;	author nakashim;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2016.11.27.13.29.49;	author nakashim;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2016.11.26.12.18.54;	author nakashim;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2016.11.21.23.12.54;	author nakashim;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2016.11.15.12.58.10;	author nakashim;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2016.11.09.09.41.01;	author nakashim;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2016.11.06.08.37.35;	author nakashim;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2016.11.01.04.58.12;	author nakashim;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2016.10.23.09.11.34;	author nakashim;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2016.09.23.03.29.52;	author nakashim;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2016.06.19.09.31.09;	author nakashim;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2016.06.05.04.22.40;	author nakashim;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2016.06.02.06.35.06;	author nakashim;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2016.06.01.12.56.25;	author nakashim;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2016.05.16.05.16.32;	author nakashim;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2016.05.15.15.43.32;	author nakashim;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2016.05.15.10.13.10;	author nakashim;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2016.05.15.07.00.17;	author nakashim;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2016.05.12.04.41.44;	author nakashim;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2016.04.26.14.19.42;	author nakashim;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2016.04.24.05.29.22;	author nakashim;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2016.04.20.22.59.06;	author nakashim;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2016.04.18.13.07.27;	author nakashim;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2016.04.14.01.05.17;	author nakashim;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2016.04.11.02.30.35;	author nakashim;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2016.04.10.13.55.08;	author nakashim;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2016.04.10.10.31.57;	author nakashim;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2016.04.02.03.40.15;	author nakashim;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2016.03.31.14.07.47;	author nakashim;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2016.03.26.14.39.53;	author nakashim;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2016.03.12.14.30.57;	author nakashim;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2016.03.12.11.36.49;	author nakashim;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2016.03.12.11.31.45;	author nakashim;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2016.03.11.09.54.33;	author nakashim;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2016.03.11.09.38.55;	author nakashim;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2016.03.02.13.10.54;	author nakashim;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2016.03.02.10.48.14;	author nakashim;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2016.02.08.23.36.25;	author nakashim;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2016.02.07.14.34.44;	author nakashim;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2016.02.06.13.48.43;	author nakashim;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2016.02.05.09.24.23;	author nakashim;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2016.02.04.23.52.51;	author nakashim;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2016.02.02.23.11.02;	author nakashim;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2016.02.02.13.16.09;	author nakashim;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2016.02.02.08.02.13;	author nakashim;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2016.02.01.23.58.16;	author nakashim;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2016.02.01.14.47.44;	author nakashim;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2016.02.01.06.39.03;	author nakashim;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2016.01.31.15.28.35;	author nakashim;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2016.01.30.07.43.06;	author nakashim;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2016.01.29.15.14.28;	author nakashim;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2016.01.28.04.47.54;	author nakashim;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2016.01.28.02.34.44;	author nakashim;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2016.01.27.14.55.23;	author nakashim;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2016.01.26.16.40.31;	author nakashim;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2016.01.26.06.54.33;	author nakashim;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2016.01.22.16.10.45;	author nakashim;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2016.01.22.00.47.18;	author nakashim;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2016.01.21.14.10.01;	author nakashim;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2016.01.19.08.55.08;	author nakashim;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2016.01.19.03.04.04;	author nakashim;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2016.01.17.14.28.41;	author nakashim;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2016.01.16.14.39.47;	author nakashim;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2016.01.16.08.47.30;	author nakashim;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2016.01.15.04.06.43;	author nakashim;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2016.01.02.11.33.08;	author nakashim;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2015.12.12.12.37.34;	author nakashim;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2015.12.12.08.45.22;	author nakashim;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2015.12.05.08.43.38;	author nakashim;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2015.12.04.13.41.55;	author nakashim;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2015.12.04.05.03.33;	author nakashim;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2015.11.30.14.33.51;	author nakashim;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2015.11.30.09.08.58;	author nakashim;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2015.11.29.10.32.59;	author nakashim;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2015.11.29.02.53.22;	author nakashim;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2015.11.26.00.43.17;	author nakashim;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2015.11.23.14.03.36;	author nakashim;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2015.11.21.13.42.24;	author nakashim;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2015.11.16.23.56.46;	author nakashim;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.11.15.03.22.37;	author nakashim;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.11.14.10.25.47;	author nakashim;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.11.13.12.37.14;	author nakashim;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.11.12.13.06.54;	author nakashim;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.11.11.16.09.26;	author nakashim;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.11.08.07.15.45;	author nakashim;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.11.08.03.00.12;	author nakashim;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.10.20.03.05.11;	author nakashim;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.08.16.03.34.55;	author nakashim;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.08.09.12.58.39;	author nakashim;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.08.09.12.19.25;	author nakashim;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.27.23.16.19;	author nakashim;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.154
+log
+@*** empty log message ***
+@
+text
+@
+/* EMAX6 Compiler                      */
+/*         Copyright (C) 2012 by NAIST */
+/*         Primary writer: Y.Nakashima */
+/*                nakashim@@is.naist.jp */
+
+#ifndef UTYPEDEF
+#define UTYPEDEF
+typedef unsigned char      Uchar;
+typedef unsigned short     Ushort;
+typedef unsigned int       Uint;
+typedef unsigned long long Ull;
+typedef long long int      Sll;
+#if __AARCH64EL__ == 1
+typedef long double Dll;
+#else
+typedef struct {Ull u[2];} Dll;
+#endif
+#endif
+
+#if 1
+void /*__attribute__((always_inline))*/ cex(Uint, Ull*,    Ull, Ull, Ull, Ull, Ushort);
+void /*__attribute__((always_inline))*/ ex4(Uint, Ull*,    Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Uint, Ull*);
+Ull    __attribute__((always_inline))   exm(Ull,  Uchar);
+int  /*__attribute__((always_inline))*/ exe(Uint, Ull*,    Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Uint, Ull);
+void /*__attribute__((always_inline))*/ mex(Uint, Uchar**, Uchar*, Ull, Uint, Uchar**, Uchar*, Ull, Ull, Ull, Ull);
+void /*__attribute__((always_inline))*/ mo4(Uint, Ull,     Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+void /*__attribute__((always_inline))*/ mop(Uint, Ull,     Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+/* internal use only */
+Ull    __attribute__((always_inline))   eam(Ull,  Uchar);
+void /*__attribute__((always_inline))*/ eag(Ull*, Ull,     Ull);
+void /*__attribute__((always_inline))*/ mmp(Uint, Ull,     Ull*, Ull, Ull, Uint, Uint);
+#endif
+
+#ifndef EMAX6DEF
+#define EMAX6DEF
+
+/*******************************************/
+/* EMAX6A **********************************/
+/*******************************************/
+
+/* EMAX_NCHIP <= MAXCORE (in csim.h) */
+#define EMAX_NCHIP      4
+#define AMAP_DEPTH      64
+//#define EMAX_DEPTH    64
+int     EMAX_DEPTH;
+#define EMAX_WIDTH      4
+#define INSN_DEPTH      (EMAX_WIDTH*AMAP_DEPTH*4)
+#define LMEM_SIZE       131072
+#define LMEM_UMASK0     0
+#define LMEM_UMASK1     0
+#define LMEM_UMASK2     2
+#define LMEM_UMASK3     3
+#define LMEM_LMASK0     0x00000
+#define LMEM_LMASK1     0x1ffff
+#define LMEM_LMASK2     0x0ffff
+#define LMEM_LMASK3     0x07fff
+#define UNIT_WIDTH      4
+
+#define EXRNUM          10
+#define CC_N            0x8LL
+#define CC_Z            0x4LL
+#define CC_C            0x2LL
+#define CC_V            0x1LL
+
+#define OP_NOP          0x00
+#define OP_CEXE         0x01
+#define OP_WHILE        0x01
+#define OP_FOR          0x02
+
+#define OP_SFMA         0x08
+#define OP_CFMA         0x0a
+
+#define OP_FMA          0x10
+#define OP_FMS          0x11
+#define OP_FAD          0x12
+#define OP_FML          0x13
+#define OP_ADD3         0x14
+#define OP_SUB3         0x15
+#define OP_ADD          0x16
+#define OP_SUB          0x17
+#define OP_CMP_EQ       0x18
+#define OP_CMP_NE       0x19
+#define OP_CMP_LT       0x1a
+#define OP_CMP_LE       0x1b
+#define OP_CMP_GT       0x1c
+#define OP_CMP_GE       0x1d
+#define OP_CMOV         0x1e
+//#define OP_CCAT       0x1f
+#define OP_MAUH3        0x20
+#define OP_MAUH         0x21
+#define OP_MSUH3        0x22
+#define OP_MSUH         0x23
+#define OP_MLUH         0x24
+#define OP_MMRG         0x25
+#define OP_MSSAD        0x26
+#define OP_MSAD         0x27
+#define OP_MINL3        0x28
+#define OP_MINL         0x29
+#define OP_MH2BW        0x2a
+#define OP_MCAS         0x2b
+#define OP_MMID3        0x2c
+#define OP_MMAX3        0x2d
+#define OP_MMIN3        0x2e
+#define OP_MMAX         0x2f
+#define OP_MMIN         0x30
+#define OP_MAJ          0x31
+#define OP_CH           0x32
+
+#define OP_AND          0x01
+#define OP_OR           0x02
+#define OP_XOR          0x03
+#define OP_SUMHH        0x04
+#define OP_SUMHL        0x05
+//#define OP_WSWAP      0x06
+#define OP_ROTS         0x07
+
+#define OP_SLL          0x01
+#define OP_SRL          0x02
+#define OP_SRAA         0x03
+#define OP_SRAB         0x04
+//#define OP_SRAC       0x05
+//#define OP_SRAD       0x06
+#define OP_SRLM         0x07
+
+#define EXP_H3210       0
+#define EXP_H1010       1
+#define EXP_H3232       2
+#define EXP_B5410       3
+#define EXP_B7632       4
+
+#define OP_ALWAYS       1
+#define OP_CMPA_LE      2
+#define OP_CMPA_GE      3
+
+#define OP_LDR          0x01
+#define OP_LDWR         0x02
+//#define OP_LDHR       0x03
+#define OP_LDBR         0x04
+#define OP_LDRQ         0x08
+#define OP_IM_BUFRD     0x0e
+#define OP_IM_DRAIN     0x0f
+
+#define OP_STR          0x11
+#define OP_STWR         0x12
+//#define OP_STHR       0x13
+#define OP_STBR         0x14
+#define OP_STRQ         0x18
+#define OP_LDDMQ        0x19
+#define OP_TR           0x1a
+#define OP_IM_BUFWR     0x1e
+#define OP_IM_PREF      0x1f
+
+#define MSK_B0		0
+#define MSK_B1		1
+#define MSK_B2		2
+#define MSK_B3		3
+#define MSK_B4		4
+#define MSK_B5		5
+#define MSK_B6		6
+#define MSK_B7		7
+#define MSK_H0		8
+#define MSK_H1		9
+#define MSK_H2		10
+#define MSK_H3		11
+#define MSK_W0		12
+#define MSK_W1		13
+#define MSK_D0		14
+
+/* insn */
+int current_prefix;
+int current_mapdist;
+int current_nchip; /* 1:default, 1<=:CHIP specified */
+int current_lmmwb;
+int last_insn;
+
+#ifndef BUF_MAXLEN
+#define BUF_MAXLEN 1024
+#endif
+char forinit[2][EMAX_NCHIP][BUF_MAXLEN];
+char forinit_cidx[2]; /* CHIP?1:0 */
+
+struct insn { /* EMAX6 instruction format */
+  struct header {
+#define ITYPE_WHILE 1
+#define ITYPE_FOR   2
+#define ITYPE_CEX   3
+#define ITYPE_EX4   4
+#define ITYPE_EXE   5
+#define ITYPE_MEX   6
+#define ITYPE_MO4   7
+#define ITYPE_MOP   8
+    char type      ; /* type 0:none, 1:WHILE, 2:FOR, 3:CEX, 4:EX4, 5:EXE, 6:MEX, 7:MO4, 8:MOP */
+    char row       ; /* init=-1, programmed/fixed loc from dst-BR[][]/AR[] max 0-15 */
+    char col       ; /* init=-1, programmed/fixed loc from dst-BR[][]/AR[] max 0-3 */
+    char rdep      ; /* init=0,  allowed row by dependency */
+    char fixed     ; /* 0:not fixed, 1:temporally fixed according to dependency, 2:fixed by AR[]/BR[][] */
+  } iheader;
+  struct cex {
+    /* aluop¤Î¤¦¤Ácmov¤À¤±¤Ï,cond=0/1¤Ë¤è¤Ã¤Æ¥½¡¼¥¹¤òÀÚÂØ¤¨¤ë */
+    /* aluop¤Î¤¦¤Ácmov°Ê³°¤ÈmemopÁ´Éô¤Ï,cond=1¤Î»þ¤Î¤ßÆ°ºî */
+    char op        ; /* opcd */
+    char bit0v     ; /* id.type */
+    int  bit0h     ; /* imm/reg number hash for cond_bit0 */
+    char bit1v     ; /* id.type */
+    int  bit1h     ; /* imm/reg number hash for cond_bit1 */
+    char bit2v     ; /* id.type */
+    int  bit2h     ; /* imm/reg number hash for cond_bit2 */
+    char bit3v     ; /* id.type */
+    int  bit3h     ; /* imm/reg number hash for cond_bit3 */
+    Ull  table  :16; /* b3.b2.b1.b0¤ÎÁÈ¹ç¤» 1111,1110,1101,1100,....,0011,0010,0001,0000¤Î³Æ¡¹¤Ë0/1¤ò³ä¤êÅö¤Æ¤¿16bit¤ò»ØÄê */
+    char cexdv     ; /* id.type */
+    int  cexdh     ; /* destination hash for exrno */
+  } icex;
+  struct exe {
+    char op1       ; /* 0:none, 1:ex1 active */
+    char op2       ; /* 0:none, 1:ex2 active */
+    char op3       ; /* 0:none, 1:ex3 active */
+    Ull  updt   : 1; /* 0:none, 1:self_update */
+    Ull  init   : 2; /*         init.0=0:s1 from reg (!one_shot)                        */
+                     /*         init.0=1:s1 from reg if LOOP0=1                         */
+                     /*         init.1=0:s2 from reg (normal)                           */
+                     /*         init.1=1:s2 from reg if LOOP1=1                         */
+    char src1v     ; /* id.type */
+    int  src1h     ; /* hash val */
+    char src1s     ; /* suffix for var[s], bdr[][][s] */
+    char src1e     ; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    char src2v     ; /* id.type */
+    int  src2h     ; /* hash val */
+    char src2s     ; /* suffix for var[s], bdr[][][s] */
+    char src2e     ; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    char src3v     ; /* id.type */
+    int  src3h     ; /* hash val */
+    char src3s     ; /* suffix for var[s], bdr[][][s] */
+    char src3e     ; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    char src4v     ; /* id.type */
+    int  src4h     ; /* hash val */
+    char src4s     ; /* suffix for var[s], bdr[][][s] */
+    char src5v     ; /* id.type */
+    int  src5h     ; /* hash val */
+    char src5s     ; /* suffix for var[s], bdr[][][s] */
+    char exedv     ; /* id.type */
+    int  exedh     ; /* hash val */
+    char exeds     ; /* suffix for var[s], alr[][s], bdr[][][s] */
+  } iexe;
+  struct mex {
+    char op0       ; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+    char op1       ; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+    Ull  init   : 1; /* mex(sparse matrix) 0:none, 1:INIT0? */
+    char adr1v     ; /* id.type */
+    int  adr1h     ; /* hash val */
+    char adr1s     ; /* suffix for bdr[][][s] */
+    char adr2v     ; /* id.type */
+    int  adr2h     ; /* hash val */
+    char adr2s     ; /* suffix for bdr[][][s] */
+    char dist1v    ; /* id.type */
+    int  dist1h    ; /* hash val */
+    char adr3v     ; /* id.type */
+    int  adr3h     ; /* hash val */
+    char adr3s     ; /* suffix for bdr[][][s] */
+    char adr4v     ; /* id.type */
+    int  adr4h     ; /* hash val */
+    char adr4s     ; /* suffix for bdr[][][s] */
+    char dist2v    ; /* id.type */
+    int  dist2h    ; /* hash val */
+    char limitv    ; /* id.type */
+    int  limith    ; /* hash val */
+    char src1v     ; /* id.type */
+    int  src1h     ; /* hash val */
+    char src1s     ; /* suffix for var[s], bdr[][][s] */
+    char src2v     ; /* id.type */
+    int  src2h     ; /* hash val */
+    char src2s     ; /* suffix for var[s], bdr[][][s] */
+    char mexd0v    ; /* id.type */
+    int  mexd0h    ; /* hash val */
+    char mexd0s    ; /* suffix for var[s] */
+    char mexd1v    ; /* id.type */
+    int  mexd1h    ; /* hash val */
+    char mexd1s    ; /* suffix for var[s] */
+  } imex;
+  struct mop {
+    char op        ; /* mop1:load, mop0:store/tr/load2/lddmq */
+#define MTYPE_RLOAD  1
+#define MTYPE_DLOAD  2
+#define MTYPE_RSTORE 3
+#define MTYPE_TRANS  4
+#define RTYPE_DATA   1
+#define RTYPE_BASE   2
+#define RTYPE_OFFS   3
+#define RTYPE_TOP    4
+#define RTYPE_LEN    5
+#define RTYPE_FORCE  6
+#define RTYPE_PTOP   7
+    char mtype     ;
+    Ull  updt   : 1; /* 0:none, 1:self_update */
+    char exv       ; /* id.type */
+    int  exh       ; /* src exrno */
+    char mopdv     ; /* id.type */
+    int  mopdh     ;
+    char mopds     ; /* suffix for var[s], bdr[][][s] */
+    char basev     ; /* id.type */
+    int  baseh     ;
+    char bases     ; /* suffix for var[s], bdr[][][s] */
+    char offsv     ; /* id.type */
+    int  offsh     ;
+    char offss     ; /* suffix for var[s], bdr[][][s] */
+    char offsm     ; /* 0:B0, 1:B1, ... 7:B7, 8:H0, 9:H1, 10:H2, 11:H3, 12:W0, 13:W1, 14:D0, 15:-- */
+    char topv      ; /* id.type */
+    int  toph      ;
+    int  lenv      ; /* id.type */
+    int  lenh      ;
+    char blk       ; /* T_IMMEDIATE *//* 0:inf, 1:16, 2:32, 3:64 width*block=page(burst)_size(bytes) */
+    int  forcev    ; /* id.type */
+    int  forceh    ;
+    char ptopv     ; /* id.type */
+    int  ptoph     ;
+    int  plenv     ; /* id.type */
+    int  plenh     ;
+  } imop;
+} insn[INSN_DEPTH];
+
+/* decode */
+struct dec { /* EMAX6 instruction analysis */
+  struct cex dcex;
+  struct exu {
+    char op1       ; /* 0:none, 1:ex1 active */
+    char op2       ; /* 0:none, 1:ex2 active */
+    char op3       ; /* 0:none, 1:ex3 active */
+    Ull  updt   : 1; /* 0:none, 1:self_update */
+    Ull  init   : 2; /*         init.0=0:s1 from reg (!one_shot)                        */
+                     /*         init.0=1:s1 from reg if LOOP0=1                         */
+                     /*         init.1=0:s2 from reg (normal)                           */
+                     /*         init.1=1:s2 from reg if LOOP1=1                         */
+    Ull  fold   : 1; /* 0:normal, 1:load-exe-store folding assumed                      */
+    char ex1v      ; /* id.type */
+    int  ex1h      ; /* hash val */
+    char ex1s      ; /* suffix for var[s], bdr[][][s] */
+    char ex1e      ; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    char ex2v      ; /* id.type */
+    int  ex2h      ; /* hash val */
+    char ex2s      ; /* suffix for var[s], bdr[][][s] */
+    char ex2e      ; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    char ex3v      ; /* id.type */
+    int  ex3h      ; /* hash val */
+    char ex3s      ; /* suffix for var[s], bdr[][][s] */
+    char ex3e      ; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    char e2iv      ; /* id.type */
+    int  e2ih      ; /* hash val */
+    char e2is      ; /* selector 0:e2imm, 1:ex2, 2:ex3 */
+    char e3iv      ; /* id.type */
+    int  e3ih      ; /* hash val */
+    char e3is      ; /* selector 0:e3imm, 1:ex3 */
+    char exdv      ; /* id.type */
+    int  exdh      ; /* hash val */
+    char exds      ; /* suffix for var[s], bdr[][][s] */
+  } dexu;
+  struct mex dmex;  /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+  struct mop dmop0; /* mop0:store/load, load_single is assigned to BR[r][c][0] */
+  struct mop dmop1; /* mop1:load only,  load_single is assigned to BR[r][c][1] */
+} dec[AMAP_DEPTH][EMAX_WIDTH];
+
+/* regmap & busmap */
+struct bus {
+  /* CEX signal */
+  char cexdv  ; /* type=ex[0-9] */
+  int  cexdh  ; /* hash=ex[0-9] */
+  /* EXE regs */
+  char exdrv  ;
+  int  exdrh  ;
+  char exdrs  ;
+  /* EA0 regs */
+  char ea0brv  ;
+  int  ea0brh  ;
+  char ea0orv  ;
+  int  ea0orh  ;
+  char ea0drv  ;
+  int  ea0drh  ;
+  char ea0woofsv; //MEX+sort
+  int  ea0woofsh; //MEX+sort
+  /* EA1 regs */
+  char ea1brv  ;
+  int  ea1brh  ;
+  char ea1orv  ;
+  int  ea1orh  ;
+  char ea1drv  ;
+  int  ea1drh  ;
+  char ea1woofsv; //MEX+sort
+  int  ea1woofsh; //MEX+sort
+  /* axibusmap */
+  struct {
+    char v  ;
+    int  h  ; /* hash */
+    char s  ; /* suffix */
+  } lmwd[UNIT_WIDTH], lmrd[UNIT_WIDTH];
+  /* transmission regs */
+  struct {
+    char v  ;
+    int  h  ; /* hash */
+    char s  ; /* suffix */
+  } tr[UNIT_WIDTH];
+  /* lmm_write regs */
+  struct {
+    char v  ;
+    int  h  ; /* hash */
+    char s  ; /* suffix */
+  } mw[UNIT_WIDTH];
+  /* boundary regs */
+  struct {
+    char v  ;
+    int  h  ; /* hash */
+    char s  ; /* suffix */
+  } br[UNIT_WIDTH];
+} bus[AMAP_DEPTH][EMAX_WIDTH];
+
+/* conf */
+struct conf { /* final configuration info. for EMAX6-CGRA */
+  struct cdw0 { /* select EXE-in */
+    Ull  v      :  1; /* 0:inv, 1:insn mapped */
+    Ull  op1    :  6; /* alu_opcd */
+    Ull  op2    :  3; /* logical_opcd */
+    Ull  op3    :  3; /* sft_opcd */
+    Ull  ex1brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  ex1s   :  1; /* 0:ex1brs, 1:exdr(self-loop) */
+    Ull  ex1exp :  3; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    Ull  ex2brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  ex2exp :  3; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    Ull  ex3brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  ex3exp :  3; /* 0:H3210, 1:H1010, 2:H3232, 3:B5410, 4:B7632 */
+    Ull  e2is   :  2; /* 0:e2imm, 1:ex2, 2:ex3 */
+#define E3IMMBITS  6
+    Ull  e3imm  : E3IMMBITS;
+    Ull  e3is   :  1; /* 0:e3imm, 1:ex3 */
+    Ull  init   :  2; /* bit0:activate s1+INIT0 bit1:activate s2+INIT0 */
+    Ull  fold   :  1; /* 0:normal, 1:load-exe-store folding */
+    /* sparse matrix */
+    Ull  mex0op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:OP_CMPA_GE */
+    Ull  mex0init: 1; /* mex(sparse matrix) 0:none, 1:INIT0? */
+    Ull  mex0dist: 3; /* distance 0:0, 1:1, 2:2, 3:4, 4:8, 5:16, 6:32, 7:64byte */
+    Ull  mex1op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:OP_CMPA_GE */
+    Ull  mex1init: 1; /* mex(sparse matrix) 0:none, 1:INIT0? */
+    Ull  mex1dist: 3; /* distance 0:0, 1:1, 2:2, 3:4, 4:8, 5:16, 6:32, 7:64byte */
+    Ull  mexlimit: 4; /* limit 0:0, 1:8, 2:16, .... 10:4096, 11:8192, 12:16384, 13:32768 */
+    Ull  dmy00  :  1;
+  } cdw0;
+
+  struct cdw1 { /* select CEX-in and EAG-in */
+    Ull  cs0    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  cs1    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  cs2    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  cs3    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  cex_tab: 16; /* c3.c2.c1.c0¤ÎÁÈ¹ç¤» (cop=NOP¤Î¾ì¹ç,ffff) */
+                      /* 1111,1110,1101,1100,....,0001,0000 ¤Î³Æ¡¹¤Ë0/1¤ò³ä¤êÅö¤Æ¤¿16bit¤ò»ØÄê */
+    Ull  ea0op  :  5; /* mem_opcd */
+    Ull  ea0bs  :  2; /* 0:ea0br, 1:ea0dr(ea0br+self-loop), 2:eabbrs, 3:ea0dr(eabbrs+self-loop) */
+    Ull  ea0os  :  1; /* 0:ea0or, 1:eaobrs */
+    Ull  ea0msk :  4; /* 14:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+    Ull  ea1op  :  5; /* mem_opcd */
+    Ull  ea1bs  :  2; /* 0:ea1br, 1:ea1dr(ea1br+self-loop), 2:eabbrs, 3:ea1dr(eabbrs+self-loop) */
+    Ull  ea1os  :  1; /* 0:ea1or, 1:eaobrs */
+    Ull  ea1msk :  4; /* 14:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+    Ull  eabbrs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Ull  eaobrs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+  } cdw1;
+
+  struct cdw2 { /* select TR/BR-in */
+    Ull  ts0    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Ull  ts1    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Ull  ts2    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Ull  ts3    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Ull  trs0   :  2; /* 0:lmwd0, 1:exdr, 2:ts0 *//* 0:TR³°Éô½ñ¤­¹þ¤ßÍÑ, 1,2:EX/TS½ñ¤­¹þ¤ßÍÑ */
+    Ull  trs1   :  2; /* 0:lmwd1, 1:exdr, 2:ts1 */
+    Ull  trs2   :  2; /* 0:lmwd2. 1:exdr, 2:ts2 */
+    Ull  trs3   :  2; /* 0:lmwd3, 1:exdr, 2:ts3 */
+    Ull  mwsa   :  1; /* 0:lmwa,  1:ea0d        *//* 0:¾ï»þlmwd²ÄÇ½, 1,2:EXEC»þ°Ê³°¤Ï¶¯À©lmwd²ÄÇ½ */
+    Ull  mws0   :  2; /* 0:lmwd0, 1:exdr, 2:ts0 *//* 0:¾ï»þlmwd²ÄÇ½, 1,2:EXEC»þ°Ê³°¤Ï¶¯À©lmwd²ÄÇ½ */
+    Ull  mws1   :  2; /* 0:lmwd1, 1:exdr, 2:ts1 */
+    Ull  mws2   :  2; /* 0:lmwd2, 1:exdr, 2:ts2 */
+    Ull  mws3   :  2; /* 0:lmwd3, 1:exdr, 2:ts3 */
+    Ull  brs0   :  2; /* 0:off, 1:mr10, 2:tr0, 3:mr0  */
+    Ull  brs1   :  2; /* 0:off, 1:mr11, 2:tr1, 3:mr1  */
+    Ull  brs2   :  2; /* 0:off, 1:mr12, 2:tr2, 3:exdr(brs3=3¤Î¾ì¹ç,ea0woofs¤ËÀÜÂ³) */
+    Ull  brs3   :  2; /* 0:off, 1:mr13, 2:tr3  3:ea1woofs */
+    Ull  mapdist:  6; /* ÏÀÍýUNITËè¤Ë¤¢¤ë¤¬,ËÜÍè¤ÏÊªÍýUNIT¤Ë1¤Ä¤Ç¤è¤¤ */
+    Ull  lmm_mode: 2; /* ÏÀÍýLMMËè¤Ë¥»¥Ã¥È 0:Ìµ¸ú, 1:Ê¬³äÌµ, 2:2Ê¬³ä, 3:4Ê¬³ä */
+    Ull  lmm_axiw: 1; /* AXI->LMM writeÂÐ¾Ý(lmp/lmr/lmf/lmx¤Î¾ì¹ç1) */
+    Ull  lmm_axir: 1; /* AXI<-LMM read ÂÐ¾Ý(lmd/lmw/lmx    ¤Î¾ì¹ç1) */
+    Ull  dmy20  : 13;
+  } cdw2;
+
+  struct cdw3 { /* e2 immediate */
+    Ull  e2imm  : 64;
+  } cdw3;
+} conf[AMAP_DEPTH][EMAX_WIDTH]; /* 4dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+
+/* lmminfo */
+struct lmmi { /* final FSM configuration for EMAX6-CGRA */
+  Ull v    : 1; /* valid */
+  Ull rw   : 1; /* 0:load(mem->lmm), 1:store(lmm->mem) */
+  Ull f    : 1; /* load: 0:reuse LMM as possible, 1:force read */
+                /* store:0:none,                  1:force read */
+  Ull p    : 1; /* 0:normal, 1:prefetch/drain */
+  Ull bcas : 4; /* column-bitmap for lmm broadcasting: slave¤Îrow_lmm_en¤Ë»ÈÍÑ */
+  Ull hcopy: 1; /* lmmi´ûload¸¡ºº(horizontal)¤Ë»ÈÍÑ. bcas_master¤Ï»ÈÍÑ¤·¤Ê¤¤ */
+  Ull vcopy: 1; /* lmmi´ûload¸¡ºº(vertical)¤Ë»ÈÍÑ */
+  Ull blk  : 2; /* 0:inf, 1:16, 2:32, 3:64 width*block=page(burst)_size(bytes) */
+  Ull cidx : 1; /* 0:shared(default), 1:core by core(xxx[CHIP] is specified) (for "top" only) */
+  Ull dmy  : 3; /* dummy */
+  Ull len  :16; /* words of current stream (words) */
+  Ull ofs  :32; /* lmp/lmd offset for f=0,p=1,mapdist=0 */
+  Ull top  :64; /* top of current stream / TCU function() */
+} lmmi[AMAP_DEPTH][EMAX_WIDTH]; /* 2dwords/unit costs 0.5cycle/unit: 4-parallel conf costs 0.5cycle/stage */
+int   lmmi_first_loc;           /* ºÇ½é¤Îlmr/lmf°ÌÃÖ¤òµ­²±.+mapdist°ÌÃÖ¤Î¿·µìtop¤òÈæ³Ó¤·°Û¤Ê¤ì¤ÐSCONÄä»ß */
+Ull   lmmi_bitmap[EMAX_WIDTH];  /* based on lmmi[*][EMAX_WIDTH][2].v */
+Ull   range_bitmap[EMAX_WIDTH]; /* based on lmmi[*][EMAX_WIDTH][2].v */
+Uchar range_link[AMAP_DEPTH][EMAX_WIDTH]; /* valid depth# of vcopy!=0 */
+struct lmmx { 
+  int  forcev    ; /* id.type */
+  int  forceh    ;
+  int  lenv      ; /* id.type */
+  int  lenh      ;
+} lmmx[AMAP_DEPTH][EMAX_WIDTH]; /* 2dwords/unit costs 0.5cycle/unit: 4-parallel conf costs 0.5cycle/stage */
+
+/* regv template */
+struct {
+  struct {
+    int  v; /* id.type */
+    int  h;
+    int  s; /* suffix */
+  } br[UNIT_WIDTH];
+  int  ea0b_v; /* id.type */
+  int  ea0b_h;
+  int  ea0b_s; /* suffix */
+  int  ea0o_v; /* id.type */
+  int  ea0o_h;
+  int  ea0o_s; /* suffix */
+  int  ea1b_v; /* id.type */
+  int  ea1b_h;
+  int  ea1b_s; /* suffix */
+  int  ea1o_v; /* id.type */
+  int  ea1o_h;
+  int  ea1o_s; /* suffix */
+} regv[AMAP_DEPTH][EMAX_WIDTH];
+
+/*******************************************/
+/* EMAX6T **********************************/
+/*******************************************/
+#define TRANS_DEPTH    16
+int trans_pc;
+
+/* transaction */
+struct trans {
+  Ull  rw            : 1;  /* 0:read, 1:write     */
+  Ull  base_type     : 2;  /* 0:reg_val, 1:reg_adr, 2:mem_adr */
+  Ull  base_num      : 3;  /* reg_num */
+  char *base_symbol;       /* mem_adr */
+  Ull  offset_type   : 1;  /* 0:reg,  1:immediate */
+  Ull  offset        : 4;  /* reg_num, immediate  */
+  Ull  offset_suffix : 3;  /* 0:imm 1:SUFLO 2:SUFHI 3:SUFFL 4:SUFB0 5:SUFB1 6:SUFB2 7:SUFB3 */
+  Ull  offset_sll    : 3;  /* 0-7: shift left     */
+  Ull  op_type       : 3;  /* 0:none, 1:+, 2:?eq, 3:?ne, 4:?ge, */
+  Ull  op_val_type   : 2;  /* 0:reg,  1:immediate, 2:label */
+  Ull  op_val_num;         /* reg_num, immediate */
+  char *op_val_symbol;     /* mem_adr */
+  Ull  t_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Ull  t_action      : 4;  /* target trans_pc */
+  Ull  f_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Ull  f_action      : 4;  /* target trans_pc */
+  Ull  reg_type      : 1;  /* 0:reg,  1:label */
+  Ull  reg_num       : 3;  /* reg_num */
+  char *reg_symbol;        /* mem_adr */
+} trans[TRANS_DEPTH];
+
+/* conf */
+struct tconf {
+  Ull  rw            : 1;  /* 0:read, 1:write     */
+  Ull  base_type     : 2;  /* 0:reg_val, 1:reg_adr, 2:mem_adr */
+  Ull  offset_type   : 1;  /* 0:reg,  1:immediate */
+  Ull  offset        : 4;  /* reg_num, immediate  */
+  Ull  offset_suffix : 3;  /* 0:imm 1:SUFLO 2:SUFHI 3:SUFFL 4:SUFB0 5:SUFB1 6:SUFB2 7:SUFB3 */
+  Ull  offset_sll    : 3;  /* 0-7: shift left     */
+  Ull  op_type       : 3;  /* 0:none, 1:+, 2:?eq, 3:?ne, 4:?ge, */
+  Ull  op_val_type   : 1;  /* 0:reg,  1:immediate */
+  Ull  t_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Ull  t_action      : 4;  /* target trans_pc */
+  Ull  f_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Ull  f_action      : 4;  /* target trans_pc */
+  Ull  reg_type      : 1;  /* 0:reg,  1:immediate */
+  Ull  dmy           : 1;
+  Ull  base;               /* reg_num, immediate */
+  Ull  op_val;             /* reg_num, immediate */
+  Ull  reg;                /* reg_num, immediate */
+} tconf[TRANS_DEPTH]; /* 4 words */
+
+#endif
+
+/**/
+@
+
+
+1.153
+log
+@*** empty log message ***
+@
+text
+@d436 1
+a436 1
+    Ull  mex0op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LEGE */
+d439 1
+a439 1
+    Ull  mex1op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LEGE */
+@
+
+
+1.152
+log
+@*** empty log message ***
+@
+text
+@d274 3
+a279 3
+    char mexd2v    ; /* id.type */
+    int  mexd2h    ; /* hash val */
+    char mexd2s    ; /* suffix for var[s] */
+@
+
+
+1.151
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a26 1
+void /*__attribute__((always_inline))*/ mex(Uint, Uchar**, Uchar*, Uint, Uchar**, Uchar*, Ull, Ull, Ull, Ull);
+d256 2
+d264 2
+a267 2
+    char distv     ; /* id.type */
+    int  disth     ; /* hash val */
+@
+
+
+1.150
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a26 1
+void /*__attribute__((always_inline))*/ mex(Uint, Uchar**, Uchar*, Uchar**, Uchar*, Ull, Ull, Ull, Ull);
+d133 2
+a134 1
+#define OP_CMPA_LEGE    2
+d247 2
+a248 1
+    char op        ; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+d355 1
+a355 2
+  struct mex dmex0; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+  struct mex dmex1; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+@
+
+
+1.149
+log
+@*** empty log message ***
+@
+text
+@d478 2
+a479 2
+    Ull  brs2   :  2; /* 0:off, 1:mr12, 2:tr2, 3:exdr    (brs3=3¤Î¾ì¹ç,ea0woofs¤ËÀÜÂ³) */
+    Ull  brs3   :  2; /* 0:off, 1:mr13, 2:tr3  3:ea1woofs(brs2=3¤Î¾ì¹ç,ea1woofs¤ËÀÜÂ³) */
+@
+
+
+1.148
+log
+@*** empty log message ***
+@
+text
+@d375 2
+d384 2
+d478 2
+a479 2
+    Ull  brs2   :  2; /* 0:off, 1:mr12, 2:tr2, 3:exdr */
+    Ull  brs3   :  2; /* 0:off, 1:mr13, 2:tr3         */
+@
+
+
+1.147
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a26 1
+void /*__attribute__((always_inline))*/ mex(Uint, Uchar**, Uchar*, Ull, Ull, Ull);
+d133 1
+a133 2
+#define OP_CMPA_LE      2
+#define OP_CMPA_GE      3
+d248 16
+d266 1
+a266 1
+    char src1s     ; /* suffix for bdr[][][s] */
+d269 7
+a275 12
+    char src2s     ; /* suffix for bdr[][][s] */
+    char distv     ; /* id.type */
+    int  disth     ; /* hash val */
+    char src3v     ; /* id.type */
+    int  src3h     ; /* hash val */
+    char src3s     ; /* suffix for var[s], bdr[][][s] */
+    char src4v     ; /* id.type */
+    int  src4h     ; /* hash val */
+    char src4s     ; /* suffix for var[s], bdr[][][s] */
+    char mexdv     ; /* id.type */
+    int  mexdh     ; /* hash val */
+    char mexds     ; /* suffix for var[s] */
+d429 1
+a429 1
+    Ull  mex0op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+d432 1
+a432 1
+    Ull  mex1op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:AL, 2:OP_CMPA_LE, 3:GE */
+d435 2
+a436 1
+    Ull  dmy00  :  5;
+@
+
+
+1.146
+log
+@*** empty log message ***
+@
+text
+@d107 2
+d116 1
+@
+
+
+1.145
+log
+@*** empty log message ***
+@
+text
+@d45 2
+a46 1
+#define EMAX_DEPTH      64
+d48 1
+a48 1
+#define INSN_DEPTH      (EMAX_WIDTH*EMAX_DEPTH*4)
+d344 1
+a344 1
+} dec[EMAX_DEPTH][EMAX_WIDTH];
+d393 1
+a393 1
+} bus[EMAX_DEPTH][EMAX_WIDTH];
+d472 1
+a472 1
+} conf[EMAX_DEPTH][EMAX_WIDTH]; /* 4dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+d490 1
+a490 1
+} lmmi[EMAX_DEPTH][EMAX_WIDTH]; /* 2dwords/unit costs 0.5cycle/unit: 4-parallel conf costs 0.5cycle/stage */
+d494 1
+a494 1
+Uchar range_link[EMAX_DEPTH][EMAX_WIDTH]; /* valid depth# of vcopy!=0 */
+d500 1
+a500 1
+} lmmx[EMAX_DEPTH][EMAX_WIDTH]; /* 2dwords/unit costs 0.5cycle/unit: 4-parallel conf costs 0.5cycle/stage */
+d521 1
+a521 1
+} regv[EMAX_DEPTH][EMAX_WIDTH];
+@
+
+
+1.144
+log
+@*** empty log message ***
+@
+text
+@d128 3
+a130 3
+#define OP_CMPA_LE      1
+#define OP_CMPA_GE      2
+#define OP_ALWAYS       3
+d243 1
+a243 1
+    char op        ; /* mex(sparse matrix) conditional 0:NOP, 1:OP_CMPA_LE, 2:GE, 3:AL */
+d339 2
+a340 2
+  struct mex dmex0; /* mex(sparse matrix) conditional 0:NOP, 1:OP_CMPA_LE, 2:GE, 3:AL */
+  struct mex dmex1; /* mex(sparse matrix) conditional 0:NOP, 1:OP_CMPA_LE, 2:GE, 3:AL */
+d415 1
+a415 1
+    Ull  mex0op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:OP_CMPA_LE, 2:GE, 3:AL */
+d418 1
+a418 1
+    Ull  mex1op :  2; /* mex(sparse matrix) conditional 0:NOP, 1:OP_CMPA_LE, 2:GE, 3:AL */
+@
+
+
+1.143
+log
+@*** empty log message ***
+@
+text
+@d134 2
+a135 5
+#define OP_LDUWR        0x03
+//#define OP_LDHR       0x04
+//#define OP_LDUHR      0x05
+#define OP_LDBR         0x06
+#define OP_LDUBR        0x07
+d144 3
+a146 3
+#define OP_STRQ         0x15
+#define OP_LDDMQ        0x18
+#define OP_TR           0x19
+@
+
+
+1.142
+log
+@*** empty log message ***
+@
+text
+@d24 1
+d30 1
+a30 1
+void /*__attribute__((always_inline))*/ eam(Ull*, Ull,     Uchar);
+d122 5
+a126 3
+#define EXP_B5410       1
+#define EXP_B7632       2
+#define EXP_H3210       3
+d175 7
+d226 1
+a226 1
+    char src1e     ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d230 1
+a230 1
+    char src2e     ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d234 1
+a234 1
+    char src3e     ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d323 1
+a323 1
+    char ex1e      ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d327 1
+a327 1
+    char ex2e      ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d331 1
+a331 1
+    char ex3e      ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d406 1
+a406 1
+    Ull  ex1exp :  2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d408 1
+a408 1
+    Ull  ex2exp :  2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d410 1
+a410 1
+    Ull  ex3exp :  2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d424 1
+a424 1
+    Ull  dmy00  :  8;
+@
+
+
+1.141
+log
+@*** empty log message ***
+@
+text
+@d22 6
+a27 5
+void /*__attribute__((always_inline))*/ cex(Uint, Ull*, Ull, Ull, Ull, Ull, Ushort);
+void /*__attribute__((always_inline))*/ ex4(Uint, Ull*, Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Uint, Ull*);
+int  /*__attribute__((always_inline))*/ exe(Uint, Ull*, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Uint, Ull);
+void /*__attribute__((always_inline))*/ mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+void /*__attribute__((always_inline))*/ mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+d29 3
+a31 2
+void /*__attribute__((always_inline))*/ eag(Ull*, Ull, Ull, Uchar);
+void /*__attribute__((always_inline))*/ mmp(Uint, Ull, Ull*, Ull, Ull, Uint, Uint);
+d70 1
+d125 4
+d179 4
+a182 3
+#define ITYPE_MO4   6
+#define ITYPE_MOP   7
+    char type      ; /* type 0:none, 1:WHILE, 2:FOR, 3:CEX, 4:EX4, 5:EXE, 6:MO4, 7:MOP */
+d235 21
+d282 1
+a282 1
+    char offsm     ; /* 0:B0, 1:B1, ... 7:B7, 8:H0, 9:H1, 10:H2, 11:H3, 12:W0, 13:W1, 14:--, 15:D0 */
+d332 2
+d407 8
+a414 1
+    Ull  dmy00  : 20;
+d429 1
+a429 1
+    Ull  ea1bs  :  2; /* 0:ea1br, 1:ea1dr(ea1br+self-loop), 2:eabbrs, 3:ea1dr(self-loop) */
+@
+
+
+1.140
+log
+@*** empty log message ***
+@
+text
+@d389 1
+a389 1
+    Ull  ea0msk :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+d393 1
+a393 1
+    Ull  ea1msk :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+@
+
+
+1.139
+log
+@*** empty log message ***
+@
+text
+@d22 5
+a26 5
+void   __attribute__((always_inline))   cex(Uint, Ull*, Ull, Ull, Ull, Ull, Ushort);
+void   __attribute__((always_inline))   ex4(Uint, Ull*, Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Uint, Ull*);
+int    __attribute__((always_inline))   exe(Uint, Ull*, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Uint, Ull);
+void   __attribute__((always_inline))   mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+void   __attribute__((always_inline))   mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+d28 1
+a28 1
+void   __attribute__((always_inline))   eag(Ull*, Ull, Ull, Uchar);
+@
+
+
+1.138
+log
+@*** empty log message ***
+@
+text
+@d68 1
+a109 1
+#define OP_SFMAMAG      0x01
+@
+
+
+1.137
+log
+@*** empty log message ***
+@
+text
+@a67 1
+
+d109 1
+@
+
+
+1.136
+log
+@*** empty log message ***
+@
+text
+@d67 2
+@
+
+
+1.135
+log
+@*** empty log message ***
+@
+text
+@d22 5
+a26 5
+void __attribute__((always_inline)) cex(Uint, Ull*, Ull, Ull, Ull, Ull, Ushort);
+void __attribute__((always_inline)) ex4(Uint, Ull*, Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Uint, Ull*);
+int  __attribute__((always_inline)) exe(Uint, Ull*, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Uint, Ull);
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint);
+d28 2
+a29 2
+void __attribute__((always_inline)) eag(Ull*, Ull, Ull, Uchar);
+void __attribute__((always_inline)) mmp(Uint, Ull, Ull*, Ull, Ull, Uint, Uint);
+@
+
+
+1.134
+log
+@*** empty log message ***
+@
+text
+@d439 1
+a439 1
+  Ull len  :16; /* dwords of current stream (dwords) */
+@
+
+
+1.133
+log
+@*** empty log message ***
+@
+text
+@d82 1
+a82 3
+#if 0
+#define OP_CCAT         0x1f
+#endif
+@
+
+
+1.132
+log
+@*** empty log message ***
+@
+text
+@d108 1
+a108 1
+#define OP_WSWAP        0x06
+d114 2
+a115 4
+#if 0
+#define OP_SRAC         0x05
+#define OP_SRAD         0x06
+#endif
+d125 2
+a126 4
+#if 0
+#define OP_LDHR         0x04
+#define OP_LDUHR        0x05
+#endif
+d135 1
+a135 3
+#if 0
+#define OP_STHR         0x13
+#endif
+@
+
+
+1.131
+log
+@*** empty log message ***
+@
+text
+@d82 1
+d84 1
+@
+
+
+1.130
+log
+@*** empty log message ***
+@
+text
+@d112 1
+d115 1
+d125 1
+d128 1
+d137 1
+d139 1
+@
+
+
+1.129
+log
+@*** empty log message ***
+@
+text
+@d257 2
+a258 1
+    char force     ; /* T_IMMEDIATE */
+d448 2
+@
+
+
+1.128
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+#if __SIZEOF_LONG_DOUBLE__ == 16
+@
+
+
+1.127
+log
+@*** empty log message ***
+@
+text
+@d14 3
+d19 1
+@
+
+
+1.126
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+typedef long double        Dll;
+@
+
+
+1.125
+log
+@*** empty log message ***
+@
+text
+@d37 1
+@
+
+
+1.124
+log
+@*** empty log message ***
+@
+text
+@d63 15
+a77 14
+#define OP_FAD          0x11
+#define OP_FML          0x12
+#define OP_ADD3         0x13
+#define OP_SUB3         0x14
+#define OP_ADD          0x15
+#define OP_SUB          0x16
+#define OP_CMP_EQ       0x17
+#define OP_CMP_NE       0x18
+#define OP_CMP_LT       0x19
+#define OP_CMP_LE       0x1a
+#define OP_CMP_GT       0x1b
+#define OP_CMP_GE       0x1c
+#define OP_CMOV         0x1d
+#define OP_CCAT         0x1e
+@
+
+
+1.123
+log
+@*** empty log message ***
+@
+text
+@d436 1
+@
+
+
+1.122
+log
+@*** empty log message ***
+@
+text
+@d436 2
+a437 2
+Ull   lmmi_bitmap[EMAX_WIDTH];  /* based on lmmi[2][*][EMAX_WIDTH].v */
+Ull   range_bitmap[EMAX_WIDTH]; /* based on lmmi[2][*][EMAX_WIDTH].v */
+@
+
+
+1.121
+log
+@*** empty log message ***
+@
+text
+@d35 1
+@
+
+
+1.120
+log
+@*** empty log message ***
+@
+text
+@d429 1
+a429 1
+  Ull chip : 1; /* 0:shared(default), 1:core by core(CHIP is specified) (for "top" only) */
+@
+
+
+1.119
+log
+@*** empty log message ***
+@
+text
+@d35 1
+d153 1
+d429 2
+a430 1
+  Ull dmy  : 4; /* dummy */
+@
+
+
+1.118
+log
+@*** empty log message ***
+@
+text
+@d190 4
+a193 6
+    Ull  init   : 2; /* case of updt=0: bit0:activate s2+INIT0 bit1:activate s3+INIT1   */
+                     /* case of updt=1: first/LOOP0:s1 from reg, other/LOOP0:s1 from ar */
+                     /*         init.0=0:s2 from reg(normal)                            */
+                     /*         init.0=1:ignore first/LOOP* and s2 from reg if LOOP0=1  */
+                     /*         init.1=0:s3 from reg(normal)                            */
+                     /*         init.1=1:ignore first/LOOP* and s3 from reg if LOOP1=1  */
+d264 4
+a267 6
+    Ull  init   : 2; /* case of updt=0: bit0:activate s2+INIT0 bit1:activate s3+INIT1   */
+                     /* case of updt=1: first/LOOP0:s1 from reg, other/LOOP0:s1 from ar */
+                     /*         init.0=0:s2 from reg(normal)                            */
+                     /*         init.0=1:ignore first/LOOP* and s2 from reg if LOOP0=1  */
+                     /*         init.1=0:s3 from reg(normal)                            */
+                     /*         init.1=1:ignore first/LOOP* and s3 from reg if LOOP1=1  */
+d362 1
+a362 1
+    Ull  init   :  2; /* case of updt=0: bit0:activate s2+INIT0 bit1:activate s3+INIT1 */
+@
+
+
+1.117
+log
+@*** empty log message ***
+@
+text
+@d190 1
+a190 1
+    Ull  init   : 2; /* case of updt=0: 0:exe,  1:exe if INIT0, 2:exe if INIT1, 3:undef */
+d266 1
+a266 1
+    Ull  init   : 2; /* case of updt=0: 0:exe,  1:exe if INIT0, 2:exe if INIT1, 3:undef */
+d366 1
+d368 1
+a368 1
+    Ull  dmy00  : 22;
+@
+
+
+1.116
+log
+@*** empty log message ***
+@
+text
+@d366 2
+a367 1
+    Ull  dmy00  : 23;
+@
+
+
+1.115
+log
+@*** empty log message ***
+@
+text
+@d272 1
+@
+
+
+1.114
+log
+@*** empty log message ***
+@
+text
+@d58 1
+d157 7
+a163 6
+#define ITYPE_CEX   2
+#define ITYPE_EX4   3
+#define ITYPE_EXE   4
+#define ITYPE_MO4   5
+#define ITYPE_MOP   6
+    char type      ; /* type 0:none, 1:WHILE, 2:CEX, 3:EX4, 4:EXE, 5:MO4, 6:MOP */
+d190 6
+d266 6
+@
+
+
+1.113
+log
+@*** empty log message ***
+@
+text
+@d411 2
+a412 1
+  Ull copy : 1; /* lmmi´ûload¸¡ºº¤Ë»ÈÍÑ. bcas_master¤Ï»ÈÍÑ¤·¤Ê¤¤ */
+d414 1
+a414 1
+  Ull dmy  : 5; /* dummy */
+d419 3
+a421 2
+Ull lmmi_bitmap[EMAX_WIDTH];  /* based on lmmi[2][*][EMAX_WIDTH].v */
+Ull range_bitmap[EMAX_WIDTH]; /* based on lmmi[2][*][EMAX_WIDTH].v */
+@
+
+
+1.112
+log
+@*** empty log message ***
+@
+text
+@d418 2
+a419 1
+Ull lmmi_bitmap[EMAX_WIDTH]; /* copy of lmmi[*][EMAX_WIDTH].v */
+@
+
+
+1.111
+log
+@*** empty log message ***
+@
+text
+@d146 1
+a146 1
+#define MSK_D0		15
+@
+
+
+1.110
+log
+@*** empty log message ***
+@
+text
+@d393 3
+a395 1
+    Ull  dmy20  : 15;
+@
+
+
+1.109
+log
+@*** empty log message ***
+@
+text
+@d14 1
+@
+
+
+1.108
+log
+@*** empty log message ***
+@
+text
+@d335 1
+d350 1
+a350 1
+    Ull  dmy00  : 24;
+@
+
+
+1.107
+log
+@*** empty log message ***
+@
+text
+@d38 8
+@
+
+
+1.106
+log
+@*** empty log message ***
+@
+text
+@a32 1
+enum { STATUS_IDLE, STATUS_CONF, STATUS_SCON, STATUS_REGV, STATUS_RANGE, STATUS_DRAIN, STATUS_LOAD, STATUS_START, STATUS_EXEC, STATUS_TERM };
+a432 140
+/* dma_ctrl_space */
+/* regmap of zynq ultrascale+ */
+/* https://japan.xilinx.com/html_docs/registers/ug1087/ug1087-zynq-ultrascale-registers.html#_module_summary.html */
+struct dma_ctrl {
+  /*   Register Name		   Address	Width	Type	Reset Value	Description */
+  Uint ZDMA_ERR_CTRL;    	/* 0x00000000	32	mixed	0x00000001	Enable/Disable a error response */
+  Uint dmy0[63];
+  Uint ZDMA_CH_ISR;      	/* 0x00000100	32	mixed	0x00000000	Interrupt Status Register for intrN. This is a sticky register that holds the value of the interrupt until cleared by a value of 1. */
+  Uint ZDMA_CH_IMR;      	/* 0x00000104	32	mixed	0x00000FFF	Interrupt Mask Register for intrN. This is a read-only location and can be atomically altered by either the IDR or the IER. */
+  Uint ZDMA_CH_IEN;      	/* 0x00000108	32	mixed	0x00000000	Interrupt Enable Register. A write of to this location will unmask the interrupt. (IMR: 0) */
+  Uint ZDMA_CH_IDS;      	/* 0x0000010C	32	mixed	0x00000000	Interrupt Disable Register. A write of one to this location will mask the interrupt. (IMR: 1) */
+  Uint ZDMA_CH_CTRL0;    	/* 0x00000110¡ú	32	mixed	0x00000080	Channel Control Register 0 */
+	/*   Field Name  Bits  Type Reset Value  Description            */
+	/*   Reserved	 31:8  raz  0x0	         Reseved for future use */
+	/*   OVR_FETCH	    7  rw   0x1	         0: DMA channel is not allowed to over-fetch on SRC */
+	/*                                       1: DMA channel is allowed to over-fetch */
+	/*                                       This field must remain stable while DMA Channel is enabled */
+	/*   POINT_TYPE	    6  rw   0x0	       ¡ú0: Simple mode DMA. Descriptor (DMA command) from APB register space. */
+	/*                                       1: Scatter-gather mode DMA. Descriptor are stored in Memory. */
+	/*                                       This field must remain stable while DMA Channel is enabled */
+	/*   MODE	  5:4  rw   0x0	         00: Normal read & write DMA (default) */
+	/*                                       01: Write only */
+	/*                                       (uses data from WR_DMA_DATA*) */
+	/*                                       10: Read only */
+	/*                                       11: Reseved for future use */
+	/*                                       This field must remain stable while DMA Channel is enabled */
+	/*   RATE_CTRL	    3  rw   0x0	         Enable/Disable rate control */
+	/*                                       0: rate control is disabled */
+	/*                                       1: rate control is enabled, use rate control count to schedule AXI transaction (Read) */
+	/*                                       This field must remain stable while DMA Channel is enabled */
+	/*   CONT_ADDR	    2  rw   0x0	         Coming out of pause */
+	/*                                       0: use continuous address(calculated from previous DSCR Addr) to fetch next descriptor */
+	/*                                       1: use address specified in Start Address Register to fetch next descriptor on both SRC & DST side */
+	/*   CONT	    1  wo   0x0	         Setting to 1 unpause (restarts from current position) the pauseed DMA */
+	/*                                       SW sets this 1 to trigger. When DMA is unpaused , then hardware clears this bit. SW clear has no effect on it */
+	/*   Reserved	    0  raz  0x0	         Reseved for future use */
+
+  Uint ZDMA_CH_CTRL1;    	/* 0x00000114	32	mixed	0x000003FF	Channel Flow Control Register */
+  Uint ZDMA_CH_FCI;      	/* 0x00000118	32	mixed 	0x00000000	Channel Control Register 1 */
+  Uint ZDMA_CH_STATUS;   	/* 0x0000011C¡ú	32	mixed	0x00000000	Channel Status Register */
+	/*   Field Name  Bits  Type Reset Value  Description            */
+	/*   Reserved    31:2  raz  0x0          Reseved for future use */
+	/*   STATE        1:0  ro   0x0        ¡ú00: Done with no error (as a result Enable bit is cleared by HW) */
+	/*                                       01: paused with no error (as a result Enable bit remains set). */
+	/*                                       10: DMA is busy transferring */
+	/*                                     ¡ú11: DMA done with error (error condition captured in otherregisters) */
+	/*                                       This bit is cleared by HW when Enable or Unpause is set to 1. */
+
+  Uint ZDMA_CH_DATA_ATTR;	/* 0x00000120	32	mixed	0x0483D20F	Channel DATA AXI parameter Register */
+  Uint ZDMA_CH_DSCR_ATTR;	/* 0x00000124	32	mixed	0x00000000	Channel DSCR AXI parameter Register */
+  Uint ZDMA_CH_SRC_DSCR_WORD0;	/* 0x00000128¡ú	32	rw	0x00000000	SRC DSCR Word 0 */
+  Uint ZDMA_CH_SRC_DSCR_WORD1;  /* 0x0000012C¡ú	32	mixed	0x00000000	SRC DSCR Word 1 */
+  Uint ZDMA_CH_SRC_DSCR_WORD2;  /* 0x00000130¡ú	32	mixed	0x00000000	SRC DSCR Word 2 */
+	/*   Field Name  Bits  Type Reset Value  Description            */
+	/*   Reserved	 31:30 raz  0x0	         Reserved for furure use */
+	/*   SIZE	 29:0  rw   0x0	         Buffer size in bytes (1G=2^30) */
+
+  Uint ZDMA_CH_SRC_DSCR_WORD3;  /* 0x00000134	32	mixed	0x00000000	SRC DSCR Word 3 */
+  Uint ZDMA_CH_DST_DSCR_WORD0;  /* 0x00000138¡ú	32	rw	0x00000000	DST DSCR Word 0 */
+  Uint ZDMA_CH_DST_DSCR_WORD1;  /* 0x0000013C¡ú	32	mixed	0x00000000	DST DSCR Word 1 */
+  Uint ZDMA_CH_DST_DSCR_WORD2;  /* 0x00000140¡ú	32	mixed	0x00000000	DST DSCR Word 2 */
+	/*   Field Name  Bits  Type Reset Value  Description            */
+	/*   Reserved	 31:30 raz  0x0	         Reserved for furure use */
+	/*   SIZE	 29:0  rw   0x0	         Buffer size in bytes (1G=2^30) */
+
+  Uint ZDMA_CH_DST_DSCR_WORD3;  /* 0x00000144	32	mixed	0x00000000	DST DSCR Word 3 */
+  Uint ZDMA_CH_WR_ONLY_WORD0;   /* 0x00000148	32	rw	0x00000000	Write Only Data Word 0 */
+  Uint ZDMA_CH_WR_ONLY_WORD1;   /* 0x0000014C	32	rw	0x00000000	Write Only Data Word 1 */
+  Uint ZDMA_CH_WR_ONLY_WORD2;   /* 0x00000150	32	rw	0x00000000	Write Only Data Word 2 */
+  Uint ZDMA_CH_WR_ONLY_WORD3;   /* 0x00000154	32	rw	0x00000000	Write Only Data Word 3 */
+  Uint ZDMA_CH_SRC_START_LSB;   /* 0x00000158	32	rw	0x00000000	SRC DSCR Start Address LSB Regiser */
+  Uint ZDMA_CH_SRC_START_MSB;   /* 0x0000015C	32	mixed	0x00000000	SRC DSCR Start Address MSB Regiser */
+  Uint ZDMA_CH_DST_START_LSB;   /* 0x00000160	32	rw	0x00000000	DST DSCR Start Address LSB Regiser */
+  Uint ZDMA_CH_DST_START_MSB;   /* 0x00000164	32	mixed	0x00000000	DST DSCR Start Address MSB Regiser */
+  Uint dmy1[9];
+  Uint ZDMA_CH_RATE_CTRL;       /* 0x0000018C	32	mixed	0x00000000	Rate Control Count Register */
+  Uint ZDMA_CH_IRQ_SRC_ACCT;    /* 0x00000190	32	mixed	0x00000000	SRC Interrupt Account Count Register */
+  Uint ZDMA_CH_IRQ_DST_ACCT;    /* 0x00000194	32	mixed	0x00000000	DST Interrupt Account Count Register */
+  Uint dmy2[26];
+  Uint ZDMA_CH_CTRL2;  		/* 0x00000200¡ú	32	mixed	0x00000000	zDMA Control Register 2 */
+	/*   Field Name  Bits  Type Reset Value  Description            */
+	/*   Reserved	 31:1  raz  0x0	         Reseved for future use */
+	/*   EN	            0  rw   0x0	         Channel is enabled */
+	/*                                       SW sets this 1 to trigger. If DMA channel is in pause and this bit is cleared by software */
+	/*                                       then DMA channel goes to disable state when SW set CONT bit. */
+	/*                                       HW clears this flag after finishing DMA opertion. */
+
+  /* Simple Mode */
+  /* 1. ZDMA_CH_STATUS ¥ì¥¸¥¹¥¿¤òÆÉ¤ß½Ð¤·¡¢STATE¤¬00¤Þ¤¿¤Ï11(DMA¤¬IDLE¥¹¥Æ¡¼¥È) ¤Ë¤Ê¤ë¤Þ¤ÇÂÔ¤Ä. */
+  /*    DMA¤¬PAUSE¥¹¥Æ¡¼¥È¤Î¾ì¹ç¡¢¡Ö¥Á¥ã¥Í¥ë°ì»þÄä»ß¡×¤ÇÀâÌÀ¤¹¤ë¼ê½ç¤Ë½¾¤Ã¤Æ PAUSE ¥¹¥Æ¡¼¥È¤ò½ªÎ». */
+  /* 2. ZDMA_CH_CTRL0¥ì¥¸¥¹¥¿¤Î POINT_TYPE (¥Ó¥Ã¥È 6) ¤ò 0 ¤ËÀßÄê */
+  /*    ¥Ç¡¼¥¿¥½¡¼¥¹¥Ð¥Ã¥Õ¥¡¤Î¥¢¥É¥ì¥¹¤Î LSB ¤ò ZDMA_CH_SRC_DSCR_WORD0¥ì¥¸¥¹¥¿¤Ë½ñ¤­¹þ¤à */
+  /*    ¥Ç¡¼¥¿¥½¡¼¥¹¥Ð¥Ã¥Õ¥¡¤Î¥¢¥É¥ì¥¹¤Î MSB ¤ò ZDMA_CH_SRC_DSCR_WORD1¥ì¥¸¥¹¥¿¤Ë½ñ¤­¹þ¤à */
+  /* 3. ¥Ç¡¼¥¿¥Ç¥¹¥Æ¥£¥Í¡¼¥·¥ç¥ó¥Ð¥Ã¥Õ¥¡¤Î¥¢¥É¥ì¥¹¤Î LSB ¤ò ZDMA_CH_DST_DSCR_WORD0¥ì¥¸¥¹¥¿¤Ë½ñ¤­¹þ¤à */
+  /*    ¥Ç¡¼¥¿¥Ç¥¹¥Æ¥£¥Í¡¼¥·¥ç¥ó¥Ð¥Ã¥Õ¥¡¤Î¥¢¥É¥ì¥¹¤Î MSB ¤ò ZDMA_CH_DST_DSCR_WORD1¥ì¥¸¥¹¥¿¤Ë½ñ¤­¹þ¤à */
+  /* 4. Simple Mode¤Ç¤Ï¡¢SRC¥È¥é¥ó¥¶¥¯¥·¥ç¥ó¥µ¥¤¥º¤ÈDST¥È¥é¥ó¥¶¥¯¥·¥ç¥ó¥µ¥¤¥º¤ÎÎ¾Êý¤òÀßÄê¤¹¤ëÉ¬Í×¤¬¤¢¤ë */
+  /*    DMA ¤Ï SRC¥È¥é¥ó¥¶¥¯¥·¥ç¥ó¥µ¥¤¥º¤ò»ÈÍÑ¤·¤Þ¤¹¤¬¡¢Î¾Êý¤Î¥ì¥¸¥¹¥¿¤òÀßÄê¤·¤Æ¤ª¤¯É¬Í×¤¬¤¢¤ë */
+  /*    ZDMA_CH_SRC_DSCR_WORD2 ¥ì¥¸¥¹¥¿¤Ë¥½¡¼¥¹¥Ç¡¼¥¿¥µ¥¤¥º¤ò½ñ¤­¹þ¤à */
+  /*    ZDMA_CH_DST_DSCR_WORD2 ¥ì¥¸¥¹¥¿¤Ë¥Ç¥¹¥Æ¥£¥Í¡¼¥·¥ç¥ó¥È¥é¥ó¥¶¥¯¥·¥ç¥ó¥µ¥¤¥º¤ò½ñ¤­¹þ¤à */
+  /*    SRC¥È¥é¥ó¥¶¥¯¥·¥ç¥ó¥µ¥¤¥º¤ÈDST¥È¥é¥ó¥¶¥¯¥·¥ç¥ó¥µ¥¤¥º¤ÏÉ¬¤ºÆ±¤¸ */
+  /* 5. É¬Í×¤Ë±þ¤¸,ZDMA_CH_DST_DSCR_WORD3¤ª¤è¤ÓZDMA_CH_SRC_DSCR_WORD3¥ì¥¸¥¹¥¿¤ÇINTR¤ò1¤Ë¥»¥Ã¥È¤·³ä¤ê¹þ¤ß¤òÍ­¸ú¤Ë¤¹¤ë */
+  /* 6. ¥½¡¼¥¹¤ª¤è¤Ó¥Ç¥¹¥Æ¥£¥Í¡¼¥·¥ç¥ó¥Ð¥Ã¥Õ¥¡¤¬¥­¥ã¥Ã¥·¥å¥³¥Ò¡¼¥ì¥ó¥È¤È¤·¤Æ³ä¤êÅö¤Æ¤é¤ì¤Æ¤¤¤ë¤«¥Õ¥é¥Ã¥·¥å¤µ¤ì¤Æ¤¤¤ë¾ì¹ç, */
+  /*    COHRNT¤ò¥»¥Ã¥È¤¹¤ëÉ¬Í×¤Ï¤Ê¤¤. ¤½¤ì°Ê³°¤Î¾ì¹ç,¥½¡¼¥¹¤ª¤è¤Ó¥Ç¥¹¥Æ¥£¥Í¡¼¥·¥ç¥ó¥Ð¥Ã¥Õ¥¡¤¬¥­¥ã¥Ã¥·¥å¥³¥Ò¡¼¥ì¥ó¥È¤È¤·¤Æ */
+  /*    ³ä¤êÅö¤Æ¤é¤ì¤Æ¤¤¤Ê¤¤¡¢¤Þ¤¿¤Ï¥Õ¥é¥Ã¥·¥å¤µ¤ì¤Æ¤¤¤Ê¤¤¾ì¹ç¡¢ZDMA_CH_SRC_DSCR_WORD3¤ª¤è¤ÓZDMA_CH_DST_DSCR_WORD3¥ì¥¸¥¹¥¿¤Ç */
+  /*    ¤½¤ì¤¾¤ì COHRNT¤ò¥»¥Ã¥È¤¹¤ë. COHRNT¥Ó¥Ã¥È¤Ï LPD-DMA ¤Î¾ì¹ç¤Î¤ßÍ­¸ú. FPD-DMA¤Ï¥³¥Ò¡¼¥ì¥ó¥·¤ò¥µ¥Ý¡¼¥È¤·¤Ê¤¤. */
+  /* 7. ZDMA_CH_CTRL2¥ì¥¸¥¹¥¿¤ÎEN¥Ó¥Ã¥È¤ò¥»¥Ã¥È¤·¤Æ,DMAÅ¾Á÷¤Ë»ÈÍÑ¤¹¤ëDMA¥Á¥ã¥Í¥ë¤òÍ­¸ú¤Ë¤¹¤ë. */
+  /*    DMA¤òÍ­¸ú¤Ë¤·¤¿¸å¡¢¡Ö¥¨¥é¡¼¾ò·ï¡×¤Ë¼¨¤¹¥¨¥é¡¼¾ò·ï¤ò¥Á¥§¥Ã¥¯¤¹¤ë. */
+};
+
+enum { EXRING_IDLE, EXRING_BUSY};
+enum { LMRING_IDLE, LMRING_BUSY};
+enum { CMD_NOP, CMD_RESET, CMD_SCON, CMD_EXEC};
+
+/* reg_ctrl */
+struct reg_ctrl {
+  Ull stat; /* +0000 *//* bit7-4:LMRING, bit3-0:EXRING */
+  Ull dmy0;
+  Ull cmd;  /* +0010 */
+  Ull dmy1;
+  Ull adtr; /* +0020 */
+  Ull dmy2;
+  Ull dmy3[1018];
+  struct conf                   conf[EMAX_DEPTH][EMAX_WIDTH];  /* +2000 */
+  struct {Ull br[UNIT_WIDTH];}  breg[EMAX_DEPTH][EMAX_WIDTH];  /* +4000 *//* unit[cid][EMAX_DEPTH].breg[x][EMAX_WIDTH].br[UNIT_WIDTH] is used */
+  struct {Ull ea0b :18; /* ea0 base   */
+          Ull dmy0 :14;
+          Ull ea0o :18; /* ea0 offset */
+          Ull dmy1 :14;
+          Ull ea1b :18; /* ea1 base   */
+          Ull dmy2 :14;
+          Ull ea1o :18; /* ea1 offset */
+          Ull dmy3 :14;
+          Ull top  :31; /* LMM-top virtual-address */
+          Ull dmy4 : 1;
+          Ull bot  :31; /* LMM-bot virtual-address */
+          Ull dmy5 : 1;
+          Ull dmy6 :64;}        addr[EMAX_DEPTH][EMAX_WIDTH];  /* +6000 */
+  struct {Ull reg[UNIT_WIDTH];} lddmrw[EMAX_DEPTH][EMAX_WIDTH];/* +8000 *//* lddmq/trans-r,lddmq-w */
+}; /* 0000-9fff */
+
+@
+
+
+1.105
+log
+@*** empty log message ***
+@
+text
+@d557 1
+a557 1
+  struct {Ull br[UNIT_WIDTH];}  breg[EMAX_DEPTH][EMAX_WIDTH];  /* +4000 */
+@
+
+
+1.104
+log
+@y
+@
+text
+@d543 4
+d549 1
+a549 1
+  Ull stat; /* +0000 */
+@
+
+
+1.103
+log
+@*** empty log message ***
+@
+text
+@d414 1
+a414 1
+struct regv {
+d552 2
+a553 2
+  struct conf            conf[EMAX_DEPTH][EMAX_WIDTH];  /* +2000 */
+  struct {Ull br[4];}    breg[EMAX_DEPTH][EMAX_WIDTH];  /* +4000 */
+d566 2
+a567 2
+          Ull dmy6 :64;} addr[EMAX_DEPTH][EMAX_WIDTH];  /* +6000 */
+  struct {Ull reg[4];}   lddmrw[EMAX_DEPTH][EMAX_WIDTH];/* +8000 *//* lddmq/trans-r,lddmq-w */
+@
+
+
+1.102
+log
+@*** empty log message ***
+@
+text
+@d434 1
+a434 41
+/* regv_br */
+struct reg_breg {
+  struct {
+    Ull br[4]; /* BR */
+  } breg[EMAX_DEPTH][EMAX_WIDTH];
+};
+
+/* vaddr_range/regv_ear */
+struct reg_addr {
+  struct {
+    Ull ea0b :18; /* ea0 base   */
+    Ull dmy0 :14;
+    Ull ea0o :18; /* ea0 offset */
+    Ull dmy1 :14;
+    Ull ea1b :18; /* ea1 base   */
+    Ull dmy2 :14;
+    Ull ea1o :18; /* ea1 offset */
+    Ull dmy3 :14;
+    Ull top  :31; /* LMM-top virtual-address */
+    Ull dmy4 : 1;
+    Ull bot  :31; /* LMM-bot virtual-address */
+    Ull dmy5 : 1;
+    Ull dmy6 :64;
+  } addr[EMAX_DEPTH][EMAX_WIDTH];
+};
+
+/* lddmq/trans-r */
+struct lddmr {
+  struct {
+    Ull lmm[4]; /* LMM */
+  } lddmr[EMAX_DEPTH][EMAX_WIDTH];
+};
+
+/* lddmq-w */
+struct lddmw {
+  struct {
+    Ull tr[4]; /* TR */
+  } lddmw[EMAX_DEPTH][EMAX_WIDTH];
+};
+
+/* dma_ctrl */
+d543 27
+@
+
+
+1.101
+log
+@*** empty log message ***
+@
+text
+@d480 1
+a480 1
+  Uint dmy1[63];
+d548 1
+a548 1
+  Uint dmy2[9];
+d627 1
+a627 1
+  Ull  _dmy          : 1;
+@
+
+
+1.100
+log
+@*** empty log message ***
+@
+text
+@d475 2
+d478 103
+a580 8
+  Ull ddr_addr :31; /* ddr addr */
+  Ull dmy0     : 1;
+  Ull lmm_addr :31; /* lmm addr */
+  Ull dmy1     : 1;
+  Ull len      :16; /* dwords of current stream (dwords) */
+  Ull dwords   :16; /* ea1 base   */
+  Ull status   :16; /* 0:idle, 1:busy */
+  Ull cmd      :16; /* 0:nop, 1:ddr->lmm, 2:lmm->ddr */
+@
+
+
+1.99
+log
+@*** empty log message ***
+@
+text
+@d435 2
+a436 1
+struct regv_breg {
+d438 1
+d442 2
+a443 1
+struct regv_addr {
+d457 1
+d462 3
+a464 1
+  Ull lmm[4]; /* LMM */
+d469 15
+a483 1
+  Ull tr[4]; /* TR */
+@
+
+
+1.98
+log
+@*** empty log message ***
+@
+text
+@d33 1
+a33 1
+enum { STATUS_IDLE, STATUS_CONF, STATUS_SCON, STATUS_RANGE, STATUS_DRAIN, STATUS_LOAD, STATUS_REGV, STATUS_START, STATUS_EXEC, STATUS_TERM };
+d415 5
+a422 1
+  Ull  ea0b;   /* ea0 base   */
+a425 1
+  Ull  ea0o;   /* ea0 offset */
+a428 1
+  Ull  ea1b;   /* ea1 base   */
+a431 6
+  Ull  ea1o;   /* ea1 offset */
+  struct {
+    int  v; /* id.type */
+    int  h;
+    int  s; /* suffix */
+  } br[UNIT_WIDTH];
+d434 3
+a436 16
+/* vaddr_range/regv_ear */
+struct addr {
+  Ull top  :31; /* LMM-top virtual-address */
+  Ull dmy0 : 1;
+  Ull dmy1 : 3;
+  Ull dword:15; /* LMM-len dwords */
+  Ull dmy2 :14;
+  Ull dmy3 :64;
+  Ull ea0b :18; /* ea0 base   */
+  Ull dmy4 :14;
+  Ull ea0o :18; /* ea0 offset */
+  Ull dmy5 :14;
+  Ull ea1b :18; /* ea1 base   */
+  Ull dmy6 :14;
+  Ull ea1o :18; /* ea1 offset */
+  Ull dmy7 :14;
+d439 15
+a453 3
+/* regv_br */
+struct breg {
+  Ull br[4]; /* BR */
+@
+
+
+1.97
+log
+@*** empty log message ***
+@
+text
+@d33 1
+a33 1
+enum { STATUS_IDLE, STATUS_CONF, STATUS_SCON, STATUS_LMMI, STATUS_DRAIN, STATUS_LOAD, STATUS_REGV, STATUS_START, STATUS_EXEC, STATUS_TERM };
+a304 6
+  /* broadcasting bus */
+  struct {
+    char v  ;
+    int  h  ; /* hash */
+    char s  ; /* suffix */
+  } lmli[UNIT_WIDTH], lmlo[UNIT_WIDTH], lmri[UNIT_WIDTH], lmro[UNIT_WIDTH];
+a325 1
+#define ACP_CONF_MAX 256
+a364 2
+    Ull  lmls   :  1; /* 0:lmwad, 1:lmri */
+    Ull  lmrs   :  1; /* 0:lmwad, 1:lmli */
+d369 9
+a377 9
+    Ull  trs0   :  2; /* 0:exdr0, 1:lmwd0, 2:ts0 */
+    Ull  trs1   :  2; /* 0:exdr1, 1:lmwd1, 2:ts1 */
+    Ull  trs2   :  2; /* 0:exdr2, 1:lmwd2, 2:ts2 */
+    Ull  trs3   :  2; /* 0:exdr3, 1:lmwd3, 2:ts3 */
+    Ull  mwsa   :  2; /* 0:off, 1:lmlia,2:lmwa,3:lmria  *//* for STATUS_EXEC+lmp */
+    Ull  mws0   :  3; /* 0:exdr,1:exdr0,2:ts0, 3:lmli0, 4:lmwd0, 5:lmri0 */
+    Ull  mws1   :  3; /* 0:exdr,1:exdr1,2:ts1, 3:lmli1, 4:lmwd1, 5:lmri1 */
+    Ull  mws2   :  3; /* 0:exdr,1:exdr2,2:ts2, 3:lmli2, 4:lmwd2, 5:lmri2 */
+    Ull  mws3   :  3; /* 0:exdr,1:exdr3,2:ts3, 3:lmli3, 4:lmwd3, 5:lmri3 */
+d382 3
+a384 3
+    Ull  xmws   :  2; /* 0:off, 1:lmli, 2:lmwd,3:lmri *//* for STATUS_LOAD */
+    Ull  mapdist:  6;
+    Ull  dmy20  :  8;
+d390 1
+a390 1
+} conf[EMAX_WIDTH][EMAX_DEPTH]; /* 4dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+d406 2
+a407 1
+} lmmi[EMAX_WIDTH][EMAX_DEPTH]; /* 2dwords/unit costs 0.5cycle/unit: 4-parallel conf costs 0.5cycle/stage */
+d411 26
+a436 1
+} lmmx[EMAX_WIDTH][EMAX_DEPTH]; /* 2dwords/unit costs 0.5cycle/unit: 4-parallel conf costs 0.5cycle/stage */
+d438 32
+a469 8
+/* regv */
+struct regv { /* final register values for EMAX6-CGRA */
+  Ull ea0br;
+  Ull ea0or;
+  Ull ea1br;
+  Ull ea1or;
+  Ull br[UNIT_WIDTH];
+}; /* 8dwords/unit costs 2cycle/unit: 4-parallel conf costs 2cycle/stage */
+@
+
+
+1.96
+log
+@*** empty log message ***
+@
+text
+@d2 1
+a2 1
+/* EMAX5 Compiler                      */
+d27 2
+a28 2
+#ifndef EMAX5DEF
+#define EMAX5DEF
+d31 1
+a31 1
+/* EMAX5A **********************************/
+d145 1
+a145 1
+struct insn { /* EMAX5 instruction format */
+d243 1
+a243 1
+struct dec { /* EMAX5 instruction analysis */
+d333 1
+a333 1
+struct conf { /* final configuration info. for EMAX5-CGRA */
+d402 1
+a402 1
+struct lmmi { /* final FSM configuration for EMAX5-CGRA */
+d422 1
+a422 1
+struct regv { /* final register values for EMAX5-CGRA */
+d431 1
+a431 1
+/* EMAX5T **********************************/
+@
+
+
+1.95
+log
+@*** empty log message ***
+@
+text
+@d35 1
+a35 1
+#define EMAX_DEPTH      8
+@
+
+
+1.94
+log
+@*** empty log message ***
+@
+text
+@d35 1
+a35 1
+#define EMAX_DEPTH      64
+d143 1
+@
+
+
+1.93
+log
+@*** empty log message ***
+@
+text
+@d38 1
+a38 1
+#define LMEM_SIZE       65536
+@
+
+
+1.92
+log
+@*** empty log message ***
+@
+text
+@a110 1
+#define OP_LDDMQ        0x09
+d119 2
+a120 1
+#define OP_TR           0x16
+@
+
+
+1.91
+log
+@*** empty log message ***
+@
+text
+@d377 4
+d392 1
+a392 1
+    Ull  dmy20  : 16;
+@
+
+
+1.90
+log
+@*** empty log message ***
+@
+text
+@d112 1
+d121 1
+@
+
+
+1.89
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+void __attribute__((always_inline)) mmp(Uint, Ull, Ull*, Ull, Ull);
+@
+
+
+1.88
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+void __attribute__((always_inline)) mmp(Uint, Ull, Ull*, Ull);
+@
+
+
+1.87
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull);
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull);
+d228 2
+a230 1
+    int  len       ; /* T_IMMEDIATE */
+d234 2
+a400 2
+  Ull blk  : 2; /* 0:inf, 1:16, 2:32, 3:64 width*block=page(burst)_size(bytes) */
+  Ull len  :21; /* dwords of current stream (dwords) */
+d403 3
+d409 4
+@
+
+
+1.86
+log
+@*** empty log message ***
+@
+text
+@d311 6
+d372 5
+a376 5
+    Ull  trsa   :  2; /* 0:off, 1:lmlia, 2:lmwa, 3:lmria *//* for STATUS_EXEC+lmp */
+    Ull  trs0   :  3; /* 0:exdr, 1:exdr0, 2:ts0, 3:lmli0, 4:lmwd0, 5:lmri0 */
+    Ull  trs1   :  3; /* 0:exdr, 1:exdr1, 2:ts1, 3:lmli1, 4:lmwd1, 5:lmri1 */
+    Ull  trs2   :  3; /* 0:exdr, 1:exdr2, 2:ts2, 3:lmli2, 4:lmwd2, 5:lmri2 */
+    Ull  trs3   :  3; /* 0:exdr, 1:exdr3, 2:ts3, 3:lmli3, 4:lmwd3, 5:lmri3 */
+d381 1
+a381 1
+    Ull  xtrs   :  2; /* 0:off, 1:lmli,  2:lmwd, 3:lmri  *//* for STATUS_LOAD */
+@
+
+
+1.85
+log
+@*** empty log message ***
+@
+text
+@d47 1
+a48 1
+
+a102 1
+#define OP_NOP          0x00
+@
+
+
+1.84
+log
+@*** empty log message ***
+@
+text
+@d111 2
+a112 4
+#define OP_LDBF         0x08
+#define OP_LDRQ         0x09
+#define OP_LDBFQ        0x0a
+#define OP_LDDMQ        0x0b
+d119 2
+a120 4
+#define OP_STBF         0x15
+#define OP_STRQ         0x16
+#define OP_STBFQ        0x17
+#define OP_TR           0x18
+d203 3
+a205 5
+#define MTYPE_BLOAD  2
+#define MTYPE_DLOAD  3
+#define MTYPE_RSTORE 4
+#define MTYPE_BSTORE 5
+#define MTYPE_TRANS  6
+d397 1
+a397 1
+  Ull dmy  :32;
+@
+
+
+1.83
+log
+@*** empty log message ***
+@
+text
+@d404 1
+a404 1
+  Ull top  :64; /* top of current stream */
+@
+
+
+1.82
+log
+@*** empty log message ***
+@
+text
+@d33 2
+@
+
+
+1.81
+log
+@*** empty log message ***
+@
+text
+@d325 1
+@
+
+
+1.80
+log
+@*** empty log message ***
+@
+text
+@d33 1
+a33 1
+#define EMAX_DEPTH      32
+d398 3
+a400 2
+  Ull bcas  :4; /* column-bitmap for lmm broadcasting */
+  Ull dmy  :33;
+@
+
+
+1.79
+log
+@*** empty log message ***
+@
+text
+@d70 11
+a80 10
+#define OP_MSAD         0x26
+#define OP_MINL3        0x27
+#define OP_MINL         0x28
+#define OP_MH2BW        0x29
+#define OP_MCAS         0x2a
+#define OP_MMID3        0x2b
+#define OP_MMAX3        0x2c
+#define OP_MMIN3        0x2d
+#define OP_MMAX         0x2e
+#define OP_MMIN         0x2f
+@
+
+
+1.78
+log
+@*** empty log message ***
+@
+text
+@d86 1
+@
+
+
+1.77
+log
+@*** empty log message ***
+@
+text
+@d17 3
+a19 3
+void __attribute__((always_inline)) cex(Uint, Ull, Ull, Ull, Ull, Ushort, Ull*);
+void __attribute__((always_inline)) ex4(Uint, Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Uint, Ull*, Ull*);
+int  __attribute__((always_inline)) exe(Uint, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Uint, Ull, Ull*);
+@
+
+
+1.76
+log
+@*** empty log message ***
+@
+text
+@a38 3
+#define E2SIMM          4095 /* signed  13bits */
+#define E3UIMM          63   /* unsigned 6bits */
+
+a334 2
+#define E2IMMBITS 12
+    Ull  e2imm  : E2IMMBITS;
+d339 1
+a339 1
+    Ull  dmy00  : 12;
+d378 2
+a379 1
+    Ull  dmy20  : 22;
+d382 2
+a383 3
+  struct cdw3 { /* reserved */
+    Ull  mapdist:  6;
+    Ull  dmy20  : 58;
+@
+
+
+1.75
+log
+@*** empty log message ***
+@
+text
+@d367 2
+a368 10
+    Ull  lmlsa  :  1; /* 0:lmwa,  1:lmria */
+    Ull  lmrsa  :  1; /* 0:lmwa,  1:lmlia */
+    Ull  lmls0  :  1; /* 0:lmwd0, 1:lmri0 */
+    Ull  lmrs0  :  1; /* 0:lmwd0, 1:lmli0 */
+    Ull  lmls1  :  1; /* 0:lmwd1, 1:lmri1 */
+    Ull  lmrs1  :  1; /* 0:lmwd1, 1:lmli1 */
+    Ull  lmls2  :  1; /* 0:lmwd2, 1:lmri2 */
+    Ull  lmrs2  :  1; /* 0:lmwd2, 1:lmli2 */
+    Ull  lmls3  :  1; /* 0:lmwd3, 1:lmri3 */
+    Ull  lmrs3  :  1; /* 0:lmwd3, 1:lmli3 */
+d373 1
+d382 2
+a383 5
+    Ull  xtrs0  :  2; /* 0:off, 1:lmli0, 2:lmwd0, 3:lmri0 *//* for STATUS_LOAD */
+    Ull  xtrs1  :  2; /* 0:off, 1:lmli1, 2:lmwd1, 3:lmri1 *//* for STATUS_LOAD */
+    Ull  xtrs2  :  2; /* 0:off, 1:lmli2, 2:lmwd2, 3:lmri2 *//* for STATUS_LOAD */
+    Ull  xtrs3  :  2; /* 0:off, 1:lmli3, 2:lmwd3, 3:lmri3 *//* for STATUS_LOAD */
+    Ull  dmy20  : 10;
+@
+
+
+1.74
+log
+@*** empty log message ***
+@
+text
+@d411 2
+a412 1
+  Ull dmy  :37;
+@
+
+
+1.73
+log
+@*** empty log message ***
+@
+text
+@d389 5
+a393 1
+    Ull  dmy20  : 18;
+@
+
+
+1.72
+log
+@*** empty log message ***
+@
+text
+@d355 2
+a356 2
+    Ull  ea0bs  :  2; /* 0:eabbrs, 1:ea0dr(self-loop), 2:ea0br, 3:ea0dr(ea0br+self-loop) */
+    Ull  ea0os  :  1; /* 0:eaobrs, 1:ea0or */
+d359 2
+a360 2
+    Ull  ea1bs  :  2; /* 0:eabbrs, 1:ea1dr(self-loop), 2:ea1br, 3:ea1dr(ea1br+self-loop) */
+    Ull  ea1os  :  1; /* 0:eaobrs, 1:ea1or, */
+@
+
+
+1.71
+log
+@*** empty log message ***
+@
+text
+@d355 1
+a355 1
+    Ull  ea0bs  :  2; /* 0:eabbrs, 1:ea0dr(self-loop), 2:ea0br, 3:-- */
+d359 1
+a359 1
+    Ull  ea1bs  :  2; /* 0:eabbrs, 1:ea1dr(self-loop), 2:ea1br, 3:-- */
+@
+
+
+1.70
+log
+@*** empty log message ***
+@
+text
+@d172 1
+a172 1
+    Uint table  :16; /* b3.b2.b1.b0¤ÎÁÈ¹ç¤» 1111,1110,1101,1100,....,0011,0010,0001,0000¤Î³Æ¡¹¤Ë0/1¤ò³ä¤êÅö¤Æ¤¿16bit¤ò»ØÄê */
+d180 1
+a180 1
+    Uint updt   : 1; /* 0:none, 1:self_update */
+d219 1
+a219 1
+    Uint updt   : 1; /* 0:none, 1:self_update */
+d249 1
+a249 1
+    Uint updt   : 1; /* 0:none, 1:self_update */
+d328 10
+a337 10
+    Uint op1    :  6; /* alu_opcd */
+    Uint op2    :  3; /* logical_opcd */
+    Uint op3    :  3; /* sft_opcd */
+    Uint ex1brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint ex1s   :  1; /* 0:ex1brs, 1:exdr(self-loop) */
+    Uint ex1exp :  2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    Uint ex2brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint ex2exp :  2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    Uint ex3brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint ex3exp :  2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+d339 2
+a340 2
+    Uint e2imm  : E2IMMBITS;
+    Uint e2is   :  2; /* 0:e2imm, 1:ex2, 2:ex3 */
+d342 3
+a344 3
+    Uint e3imm  : E3IMMBITS;
+    Uint e3is   :  1; /* 0:e3imm, 1:ex3 */
+    Uint dmy00  : 12;
+d348 5
+a352 6
+    Uint cop    :  1; /* 0:NOP, 1:CEXE */
+    Uint cs0    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint cs1    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint cs2    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint cs3    :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint cex_tab: 16; /* c3.c2.c1.c0¤ÎÁÈ¹ç¤» */
+d354 10
+a363 11
+    Uint ea0op  :  5; /* mem_opcd */
+    Uint ea0bs  :  1; /* 0:eabbrs, 1:ea0br(self-loop) */
+    Uint ea0os  :  1; /* 0:eaobrs, 1:ea0or */
+    Uint ea0msk :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+    Uint ea1op  :  5; /* mem_opcd */
+    Uint ea1bs  :  1; /* 0:eabbrs, 1:ea1br(self-loop) */
+    Uint ea1os  :  1; /* 0:eaobrs, 1:ea1or, */
+    Uint ea1msk :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+    Uint eabbrs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint eaobrs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint dmy10  :  1;
+d367 23
+a389 23
+    Uint lmlsa  :  1; /* 0:lmwa,  1:lmria */
+    Uint lmrsa  :  1; /* 0:lmwa,  1:lmlia */
+    Uint lmls0  :  1; /* 0:lmwd0, 1:lmri0 */
+    Uint lmrs0  :  1; /* 0:lmwd0, 1:lmli0 */
+    Uint lmls1  :  1; /* 0:lmwd1, 1:lmri1 */
+    Uint lmrs1  :  1; /* 0:lmwd1, 1:lmli1 */
+    Uint lmls2  :  1; /* 0:lmwd2, 1:lmri2 */
+    Uint lmrs2  :  1; /* 0:lmwd2, 1:lmli2 */
+    Uint lmls3  :  1; /* 0:lmwd3, 1:lmri3 */
+    Uint lmrs3  :  1; /* 0:lmwd3, 1:lmli3 */
+    Uint ts0    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Uint ts1    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Uint ts2    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Uint ts3    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Uint trs0   :  3; /* 0:exdr, 1:exdr0, 2:ts0, 3:lmli0, 4:lmwd0, 5:lmri0 */
+    Uint trs1   :  3; /* 0:exdr, 1:exdr1, 2:ts1, 3:lmli1, 4:lmwd1, 5:lmri1 */
+    Uint trs2   :  3; /* 0:exdr, 1:exdr2, 2:ts2, 3:lmli2, 4:lmwd2, 5:lmri2 */
+    Uint trs3   :  3; /* 0:exdr, 1:exdr3, 2:ts3, 3:lmli3, 4:lmwd3, 5:lmri3 */
+    Uint brs0   :  2; /* 0:off, 1:mr10, 2:tr0, 3:mr0  */
+    Uint brs1   :  2; /* 0:off, 1:mr11, 2:tr1, 3:mr1  */
+    Uint brs2   :  2; /* 0:off, 1:mr12, 2:tr2, 3:exdr */
+    Uint brs3   :  2; /* 0:off, 1:mr13, 2:tr3         */
+    Uint dmy20  : 18;
+d428 3
+a430 3
+  Uint rw            : 1;  /* 0:read, 1:write     */
+  Uint base_type     : 2;  /* 0:reg_val, 1:reg_adr, 2:mem_adr */
+  Uint base_num      : 3;  /* reg_num */
+d432 7
+a438 7
+  Uint offset_type   : 1;  /* 0:reg,  1:immediate */
+  Uint offset        : 4;  /* reg_num, immediate  */
+  Uint offset_suffix : 3;  /* 0:imm 1:SUFLO 2:SUFHI 3:SUFFL 4:SUFB0 5:SUFB1 6:SUFB2 7:SUFB3 */
+  Uint offset_sll    : 3;  /* 0-7: shift left     */
+  Uint op_type       : 3;  /* 0:none, 1:+, 2:?eq, 3:?ne, 4:?ge, */
+  Uint op_val_type   : 2;  /* 0:reg,  1:immediate, 2:label */
+  Uint op_val_num;         /* reg_num, immediate */
+d440 6
+a445 6
+  Uint t_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Uint t_action      : 4;  /* target trans_pc */
+  Uint f_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Uint f_action      : 4;  /* target trans_pc */
+  Uint reg_type      : 1;  /* 0:reg,  1:label */
+  Uint reg_num       : 3;  /* reg_num */
+d451 17
+a467 17
+  Uint rw            : 1;  /* 0:read, 1:write     */
+  Uint base_type     : 2;  /* 0:reg_val, 1:reg_adr, 2:mem_adr */
+  Uint offset_type   : 1;  /* 0:reg,  1:immediate */
+  Uint offset        : 4;  /* reg_num, immediate  */
+  Uint offset_suffix : 3;  /* 0:imm 1:SUFLO 2:SUFHI 3:SUFFL 4:SUFB0 5:SUFB1 6:SUFB2 7:SUFB3 */
+  Uint offset_sll    : 3;  /* 0-7: shift left     */
+  Uint op_type       : 3;  /* 0:none, 1:+, 2:?eq, 3:?ne, 4:?ge, */
+  Uint op_val_type   : 1;  /* 0:reg,  1:immediate */
+  Uint t_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Uint t_action      : 4;  /* target trans_pc */
+  Uint f_action_type : 2;  /* 0:none, 1:term, 2:error, 3:goto */
+  Uint f_action      : 4;  /* target trans_pc */
+  Uint reg_type      : 1;  /* 0:reg,  1:immediate */
+  Uint _dmy          : 1;
+  Uint base;               /* reg_num, immediate */
+  Uint op_val;             /* reg_num, immediate */
+  Uint reg;                /* reg_num, immediate */
+@
+
+
+1.69
+log
+@*** empty log message ***
+@
+text
+@d19 1
+a19 1
+void __attribute__((always_inline)) exe(Uint, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Uint, Ull, Ull*);
+@
+
+
+1.68
+log
+@*** empty log message ***
+@
+text
+@a399 9
+/* regv */
+struct regv { /* final register values for EMAX5-CGRA */
+  Ull ea0br;
+  Ull ea0or;
+  Ull ea1br;
+  Ull ea1or;
+  Ull br[UNIT_WIDTH];
+}; /* 8dwords/unit costs 2cycle/unit: 4-parallel conf costs 2cycle/stage */
+
+d413 9
+@
+
+
+1.67
+log
+@*** empty log message ***
+@
+text
+@a23 1
+void __attribute__((always_inline)) mm4(Uint, Ull, Ull*, Ull);
+d114 1
+a114 1
+#define OP_IMLD_PREF    0x0f
+d124 1
+a124 1
+#define OP_IMST_DRAIN   0x1f
+@
+
+
+1.66
+log
+@*** empty log message ***
+@
+text
+@d20 3
+a23 1
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull);
+a24 1
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull);
+a181 1
+    Uint adjust : 1; /* 0:none, 1:pre_adjust for implementing a-- w/ --a */
+a220 1
+    Uint adjust : 1; /* 0:none, 1:pre_adjust for implementing a++ w/ ++a */
+a250 1
+    Uint adjust : 1; /* 0:none, 1:pre_adjust for implementing a-- w/ --a */
+@
+
+
+1.65
+log
+@*** empty log message ***
+@
+text
+@d20 1
+d22 1
+d24 1
+@
+
+
+1.64
+log
+@*** empty log message ***
+@
+text
+@a47 7
+#define OP_FMAQ         0x02
+#define OP_FADQ         0x03
+#define OP_FMLQ         0x04
+#define OP_ADD3Q        0x05
+#define OP_SUB3Q        0x06
+#define OP_ADDQ         0x07
+#define OP_SUBQ         0x08
+@
+
+
+1.63
+log
+@*** empty log message ***
+@
+text
+@d376 2
+d398 1
+a398 1
+    Uint dmy20  : 20;
+d427 1
+a427 1
+}; /* 2dwords/unit costs 0.5cycle/unit: 4-parallel conf costs 0.5cycle/stage */
+@
+
+
+1.62
+log
+@*** empty log message ***
+@
+text
+@d311 1
+a311 1
+  } axrd[UNIT_WIDTH], axwd[UNIT_WIDTH];
+d317 1
+a317 1
+  } axli[UNIT_WIDTH], axlo[UNIT_WIDTH], axri[UNIT_WIDTH], axro[UNIT_WIDTH];
+d376 8
+a383 8
+    Uint axls0  :  1; /* 0:axrd0, 1:axri0 */
+    Uint axrs0  :  1; /* 0:axrd0, 1:axli0 */
+    Uint axls1  :  1; /* 0:axrd1, 1:axri1 */
+    Uint axrs1  :  1; /* 0:axrd1, 1:axli1 */
+    Uint axls2  :  1; /* 0:axrd2, 1:axri2 */
+    Uint axrs2  :  1; /* 0:axrd2, 1:axli2 */
+    Uint axls3  :  1; /* 0:axrd3, 1:axri3 */
+    Uint axrs3  :  1; /* 0:axrd3, 1:axli3 */
+d388 4
+a391 4
+    Uint trs0   :  3; /* 0:exdr, 1:exdr0, 2:ts0, 3:axli0, 4:axrd0, 5:axri0 */
+    Uint trs1   :  3; /* 0:exdr, 1:exdr1, 2:ts1, 3:axli1, 4:axrd1, 5:axri1 */
+    Uint trs2   :  3; /* 0:exdr, 1:exdr2, 2:ts2, 3:axli2, 4:axrd2, 5:axri2 */
+    Uint trs3   :  3; /* 0:exdr, 1:exdr3, 2:ts3, 3:axli3, 4:axrd3, 5:axri3 */
+d422 1
+a422 1
+  Ull len  :21; /* dwords of current stream */
+@
+
+
+1.61
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uint, Uchar, Ull);
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uint, Uchar, Ull);
+d220 3
+a222 4
+#define RTYPE_DIST   5
+#define RTYPE_LEN    6
+#define RTYPE_FORCE  7
+#define RTYPE_PTOP   8
+a240 1
+    int  dist      ; /* T_IMMEDIATE *//* distance of current stream */
+d416 1
+a416 5
+  Ull v     :1; /* valid */
+  Ull top  :63; /* top of current stream */
+  Ull blk  : 2; /* 0:inf, 1:16, 2:32, 3:64 width*block=page(burst)_size(bytes) */
+  Ull dist : 9; /* distance of current stream */
+  Ull len  :21; /* length of current stream */
+d421 4
+a424 1
+  Ull dmy  :29;
+@
+
+
+1.60
+log
+@*** empty log message ***
+@
+text
+@d426 2
+a427 1
+  Ull dmy  :30;
+@
+
+
+1.59
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull);
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull);
+@
+
+
+1.58
+log
+@*** empty log message ***
+@
+text
+@d241 2
+a242 1
+    int  dist      ; /* T_IMMEDIATE */
+d420 1
+a425 1
+  Ull blk  : 2; /* 0:inf, 1:16, 2:32, 3:64 width*block=page(burst)_size(bytes) */
+@
+
+
+1.57
+log
+@*** empty log message ***
+@
+text
+@d417 7
+a423 6
+  Ull v     :1;
+  Ull top  :63;
+  Ull dist : 9;
+  Ull len  :21;
+  Ull rw   : 1; /* 0:load, 1:store */
+  Ull f    : 1; /* 0:normal, 1:force */
+@
+
+
+1.56
+log
+@*** empty log message ***
+@
+text
+@d421 2
+a422 2
+  Ull rw   : 1;
+  Ull f    : 1;
+@
+
+
+1.55
+log
+@*** empty log message ***
+@
+text
+@d401 2
+a402 2
+    Ull  mapdist:  8;
+    Ull  dmy20  : 56;
+@
+
+
+1.54
+log
+@*** empty log message ***
+@
+text
+@d401 2
+a402 1
+    Ull  dmy20  : 64;
+@
+
+
+1.53
+log
+@*** empty log message ***
+@
+text
+@d422 2
+a423 1
+  Ull dmy  :32;
+@
+
+
+1.52
+log
+@*** empty log message ***
+@
+text
+@d312 1
+a312 1
+  } lmwd[UNIT_WIDTH], lmrd[UNIT_WIDTH];
+d377 8
+a384 8
+    Uint axls0  :  1; /* 0:lmwd0, 1:axri0 */
+    Uint axrs0  :  1; /* 0:lmwd0, 1:axli0 */
+    Uint axls1  :  1; /* 0:lmwd1, 1:axri1 */
+    Uint axrs1  :  1; /* 0:lmwd1, 1:axli1 */
+    Uint axls2  :  1; /* 0:lmwd2, 1:axri2 */
+    Uint axrs2  :  1; /* 0:lmwd2, 1:axli2 */
+    Uint axls3  :  1; /* 0:lmwd3, 1:axri3 */
+    Uint axrs3  :  1; /* 0:lmwd3, 1:axli3 */
+d389 4
+a392 4
+    Uint trs0   :  3; /* 0:exdr, 1:exdr0, 2:ts0, 3:axli0, 4:lmwd0, 5:axri0 */
+    Uint trs1   :  3; /* 0:exdr, 1:exdr1, 2:ts1, 3:axli1, 4:lmwd1, 5:axri1 */
+    Uint trs2   :  3; /* 0:exdr, 1:exdr2, 2:ts2, 3:axli2, 4:lmwd2, 5:axri2 */
+    Uint trs3   :  3; /* 0:exdr, 1:exdr3, 2:ts3, 3:axli3, 4:lmwd3, 5:axri3 */
+@
+
+
+1.51
+log
+@*** empty log message ***
+@
+text
+@d406 1
+a406 1
+struct regv { /* final information for EMAX4 hardware */
+d415 1
+a415 1
+struct lmmi {
+@
+
+
+1.50
+log
+@*** empty log message ***
+@
+text
+@a406 1
+  /* inputs are connected to ex1.d*_r */
+@
+
+
+1.49
+log
+@*** empty log message ***
+@
+text
+@d405 21
+@
+
+
+1.48
+log
+@*** empty log message ***
+@
+text
+@d40 4
+a43 4
+#define CC_N            0x8
+#define CC_Z            0x4
+#define CC_V            0x2
+#define CC_C            0x1
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d393 4
+a396 4
+    Uint brs0   :  2; /* 0:mr10, 1:tr0, 2:mr0  */
+    Uint brs1   :  2; /* 0:mr11, 1:tr1, 2:mr1  */
+    Uint brs2   :  2; /* 0:mr12, 1:tr2, 2:exdr */
+    Uint brs3   :  2; /* 0:mr13, 1:tr3         */
+@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@d308 1
+a308 1
+  struct lmwd {
+d312 3
+a314 2
+  } lmwd[UNIT_WIDTH];
+  struct lmrd {
+d318 1
+a318 1
+  } lmrd[UNIT_WIDTH];
+d320 1
+a320 1
+  struct tr {
+d326 1
+a326 1
+  struct br {
+a376 4
+    Uint ts0    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Uint ts1    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Uint ts2    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+    Uint ts3    :  4; /* 0:br0_0, 1:br0_1, ... 15:br3_3 */
+d385 8
+a392 4
+    Uint trs0   :  3; /* 0:exdr, 1:exdr0, 2:ts0, 3:axli, 4:lmwd0, 5:axri */
+    Uint trs1   :  3; /* 0:exdr, 1:exdr1, 2:ts1, 3:axli, 4:lmwd1, 5:axri */
+    Uint trs2   :  3; /* 0:exdr, 1:exdr2, 2:ts2, 3:axli, 4:lmwd2, 5:axri */
+    Uint trs3   :  3; /* 0:exdr, 1:exdr3, 2:ts3, 3:axli, 4:lmwd3, 5:axri */
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d250 1
+a250 1
+struct decode { /* EMAX5 instruction analysis */
+d282 1
+a282 1
+} decode[EMAX_DEPTH][EMAX_WIDTH];
+d284 2
+a285 2
+/* busmap */
+struct busmap {
+d307 11
+d330 1
+a330 1
+} busmap[EMAX_DEPTH][EMAX_WIDTH];
+d334 1
+a334 1
+  struct cdword0 { /* select EXE-in */
+d352 1
+a352 1
+  } cdword0;
+d354 1
+a354 1
+  struct cdword1 { /* select CEX-in and EAG-in */
+d373 1
+a373 1
+  } cdword1;
+d375 1
+a375 1
+  struct cdword2 { /* select TR/BR-in */
+d397 1
+a397 1
+  } cdword2;
+d399 1
+a399 1
+  struct cdword3 { /* reserved */
+d401 1
+a401 1
+  } cdword3;
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d118 1
+d128 1
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@a290 7
+  /* EA0/1 common */
+  char eabv   ;
+  int  eabh   ;
+  char eabs   ;
+  char eaov   ;
+  int  eaoh   ;
+  char eaos   ;
+a293 1
+  char ea0brs  ;
+a295 1
+  char ea0ors  ;
+a300 1
+  char ea1brs  ;
+a302 1
+  char ea1ors  ;
+d322 3
+a331 3
+    Uint op1    :  6; /* alu_opcd */
+    Uint op2    :  3; /* logical_opcd */
+    Uint op3    :  3; /* sft_opcd */
+d342 1
+a348 2
+    Uint eabbrs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint eaobrs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+d350 1
+a350 1
+    Uint ea0bs  :  2; /* 0:eabbrs, 1:ea0br, 2:ea0dr(self-loop) */
+d354 1
+a354 1
+    Uint ea1bs  :  2; /* 0:eabbrs, 1:ea1br, 2:ea1dr(self-loop) */
+d357 3
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d270 1
+d273 1
+a284 4
+  struct c {
+    char v  ;
+    int  h  ; /* hash */
+  } c[UNIT_WIDTH];
+a321 6
+  /* memory regs */
+  struct mr {
+    char v  ;
+    int  h  ; /* hash */
+    char s  ; /* suffix */
+  } md[UNIT_WIDTH], mr0[UNIT_WIDTH], mr1[UNIT_WIDTH];
+d335 1
+a335 1
+    Uint ex1fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:SUFFL */
+d337 1
+a337 1
+    Uint ex2fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:SUFFL */
+d339 1
+a339 5
+    Uint ex3fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:SUFFL */
+    Uint ex4brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint ex4fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:SUFFL */
+    Uint ex5brs :  4; /* 0:br0_0, 1:br0_1, ... 15:3_3 */
+    Uint ex5fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:SUFFL */
+a341 2
+    Uint e2imm  : 12;
+    Uint lo2s   :  2; /* 0:e2imm, 1:ex2, 2:ex3 */
+d343 7
+a349 2
+    Uint e3imm  :  6;
+    Uint so3s   :  1; /* 0:e3imm, 1:ex3 */
+d359 2
+d362 3
+a364 3
+    Uint ea0bs  :  2; /* 0:ex4brs, 1:ea0br, 2:ea0dr(self-loop) */
+    Uint ea0os  :  1; /* 0:ex5brs, 1:ea0or */
+    Uint ea0fhl :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+d366 3
+a368 4
+    Uint ea1bs  :  2; /* 0:ex4brs, 1:ea1br, 2:ea1dr(self-loop) */
+    Uint ea1os  :  1; /* 0:ex5brs, 1:ea1or, */
+    Uint ea1fhl :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+    Uint dmy10  :  8;
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint);
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint);
+a221 2
+#define RTYPE_PDIST  9
+#define RTYPE_PLEN   10
+a243 2
+    int  pdist     ; /* T_IMMEDIATE */
+    int  plen      ; /* T_IMMEDIATE */
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint, Uint);
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint, Uint);
+a223 1
+#define RTYPE_PFORCE 11
+a247 1
+    char pforce    ; /* T_IMMEDIATE */
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+void __attribute__((always_inline)) mo4(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint);
+void __attribute__((always_inline)) mop(Uint, Ull, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint);
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@d149 1
+a155 4
+#define RTYPE_DATA  1
+#define RTYPE_BASE  2
+#define RTYPE_OFFS  3
+  struct header {
+d214 11
+d242 8
+a249 7
+    int  dist      ;
+    int  len       ;    
+    char force     ;    
+    char preftopv  ; /* id.type */
+    int  preftoph  ;
+    int  prefdist  ;
+    int  preflen   ;    
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d298 8
+a305 8
+  char eab0rv  ;
+  int  eab0rh  ;
+  char eab0rs  ;
+  char eao0rv  ;
+  int  eao0rh  ;
+  char eao0rs  ;
+  char ead0rv  ;
+  int  ead0rh  ;
+d307 8
+a314 8
+  char eab1rv  ;
+  int  eab1rh  ;
+  char eab1rs  ;
+  char eao1rv  ;
+  int  eao1rh  ;
+  char eao1rs  ;
+  char ead1rv  ;
+  int  ead1rh  ;
+d337 15
+a351 15
+  struct cdword0 { /* select EX1-in */
+    Uint ex1brs :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint ex1s   :  1; /* 0:ex1brs, 1:AR(self-loop) */
+    Uint ex1fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:ri/SUFFL */
+    Uint ex2brs :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint ex2fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:ri/SUFFL */
+    Uint ex3brs :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint ex3fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:ri/SUFFL */
+    Uint ex4brs :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint ex4fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:ri/SUFFL */
+    Uint ex5brs :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint ex5fhl :  2; /* 0:off, 1:SUFLO(b5,4,1,0->16bit[4]) 2:SUFHI(b7,6,3,2->16bit[4]) 3:ri/SUFFL */
+    Uint alopc  :  6; /* alu_opcd */
+    Uint lopc   :  3; /* logical_opcd */
+    Uint lo1s   :  1; /* 0:alu.d, 1:ex1        */
+d353 2
+a354 2
+    Uint e2imm  : 13;
+    Uint sopc   :  3; /* sft_opcd */
+a355 1
+    Uint e3imm  :  6;
+d358 16
+a373 16
+  struct cdword1 { /* select EAG-in */
+    Uint eawop  :  8; /* mem_opcd */
+    Uint eawbs  :  2; /* 0:ex4brs, 1:eawb, 2:eawd(self-loop) */
+    Uint eawos  :  1; /* 0:ex5brs, 1:eawo */
+    Uint eawfhl :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+    Uint earop  :  8; /* mem_opcd */
+    Uint earbs  :  2; /* 0:ex4brs, 1:earb, 2:eard(self-loop) */
+    Uint earos  :  1; /* 0:ex5brs, 1:earo, */
+    Uint earfhl :  4; /* 15:64bit, 13:word1, 12:word0, 11-8:half3-0, 7-0:byte7-0 of offset */
+    Uint dmy10  :  2;
+    Uint trs0   :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint trs1   :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint trs2   :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint trs3   :  4; /* 0:erb0_0, 1:erb0_1, ... 15:erb3_3 */
+    Uint cexe_table : 16; /* ex3.ex2.ex1.ex0¤ÎÁÈ¹ç¤» */
+                          /* 1111,1110,1101,1100,....,0001,0000 ¤Î³Æ¡¹¤Ë0/1¤ò³ä¤êÅö¤Æ¤¿16bit¤ò»ØÄê */
+d376 22
+a397 17
+  struct cdword2 { /* select LMM-in */
+    Uint axs0   :  2; /* 0:exb0, 1:exb1, 2:exb2, 3:exb3 */
+    Uint axs1   :  2; /* 0:exb0, 1:exb1, 2:exb2, 3:exb3 */
+    Uint axs2   :  2; /* 0:exb0, 1:exb1, 2:exb2, 3:exb3 */
+    Uint axs3   :  2; /* 0:exb0, 1:exb1, 2:exb2, 3:exb3 */
+    Uint mds0   :  1; /* 0:tr0,  1:axs0 */
+    Uint mds1   :  1; /* 0:tr1,  1:axs1 */
+    Uint mds2   :  1; /* 0:tr2,  1:axs2 */
+    Uint mds3   :  1; /* 0:tr3,  1:axs3 */
+    Uint mbs0   :  2; /* 0:lmm0, 1:lmm1, 2:lmm2, 3:lmm3  */
+    Uint mbs1   :  2; /* 0:lmm0, 1:lmm1, 2:lmm2, 3:lmm3  */
+    Uint brs0   :  2; /* 0:tr0,  1:lmm0, 2:mbs0, 3:axrd0 */
+    Uint brs1   :  2; /* 0:tr1,  1:lmm1, 2:mbs1, 3:axrd1 */
+    Uint brs2   :  2; /* 0:tr2,  1:lmm2, 2:AR,   3:axrd2 */
+    Uint brs3   :  2; /* 0:tr3,  1:lmm3, 2:----, 3:axrd3 */
+    Uint dmy20  :  8;
+    Uint dmy21  : 32;
+d400 2
+a401 3
+  struct cdword3 {
+    Uint dmy30  : 32;
+    Uint dmy31  : 32;
+a404 26
+/* regv */
+struct regv { /* final register info. for EMAX5-CGRA */
+  struct rdword {
+    Ull eawb; /* EA for write Base   addr */
+    Ull eawo; /* EA for write Offset addr */
+    Ull earb; /* EA for read  Base   addr */
+    Ull earo; /* EA for read  Offset addr */
+    Ull br0;  /* output of unit */
+    Ull br1;  /* output of unit */
+    Ull br2;  /* output of unit */
+    Ull br3;  /* output of unit */
+  } rdword;
+} regv[EMAX_WIDTH][EMAX_DEPTH]; /* 8dwords/unit costs 2cycle/unit: 4-parallel conf costs 2cycle/stage */
+
+/* mem_info */
+struct lmmi {
+  struct e2ctl {
+    Uint v     :  1; /* 0:nop, 1:valid */
+    Uint f     :  1; /* 0:nop, 1:force-read-before-exec */
+    Uint dist  :  9;
+    Uint len   : 21;
+    Uint dmyl0 : 31;
+    Ull  top;
+  } e2ctl; /* 2dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+} lmmi[EMAX_WIDTH][EMAX_DEPTH]; /* 2dwords/unit */
+
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d357 1
+a357 1
+  } cdword0[EMAX_DEPTH];
+d375 1
+a375 1
+  } cdword1[EMAX_DEPTH];
+d394 1
+a394 1
+  } cdword2[EMAX_DEPTH];
+d399 2
+a400 2
+  } cdword3[EMAX_DEPTH];
+} conf[EMAX_WIDTH]; /* 4dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+d413 2
+a414 2
+  } rdword[EMAX_DEPTH];
+} regv[EMAX_WIDTH]; /* 8dwords/unit costs 2cycle/unit: 4-parallel conf costs 2cycle/stage */
+d425 2
+a426 2
+  } e2ctl[EMAX_DEPTH]; /* 2dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+} lmmi[EMAX_WIDTH]; /* 2dwords/unit */
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@a148 1
+  struct header {
+d155 4
+d217 1
+a217 1
+    char op_type   ;
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@d115 3
+a117 2
+#define OP_LDBFQ        0x09
+#define OP_LDDMQ        0x0a
+d124 3
+a126 2
+#define OP_STBFQ        0x16
+#define OP_TR           0x17
+d175 2
+a176 2
+    char dstev     ; /* id.type */
+    int  dsteh     ; /* destination hash for exrno */
+d202 3
+a204 3
+    char dstdv     ; /* id.type */
+    int  dstdh     ; /* hash val */
+    char dstds     ; /* suffix for var[s], alr[][s], bdr[][][s] */
+d207 7
+a213 7
+    char op        ; /* mop1:load, mop0:store/load */
+#define MOPTYPE_SLOAD  0
+#define MOPTYPE_BLOAD  1
+#define MOPTYPE_QLOAD  2
+#define MOPTYPE_SSTORE 4
+#define MOPTYPE_BSTORE 5
+#define MOPTYPE_QSTORE 6
+d219 3
+a221 3
+    char dstv      ; /* id.type */
+    char dsts      ; /* suffix for var[s], bdr[][][s] */
+    int  dsth      ;
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@a202 2
+    char dstcv     ; /* id.type */
+    int  dstch     ; /* hash val */
+a266 2
+    char excv      ; /* id.type */
+    int  exch      ; /* hash val */
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@a38 1
+#define GPRNUM          100
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d280 4
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d17 5
+a21 5
+void __attribute__((always_inline)) cex(Uint, Uchar, Uchar, Uchar, Uchar, Ushort, Uchar*);
+void __attribute__((always_inline)) ex4(Uint, Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Uint, Ull*, Ull*, Uchar*);
+void __attribute__((always_inline)) exe(Uint, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Uint, Ull, Ull*, Uchar*);
+void __attribute__((always_inline)) mo4(Uint, Uchar, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint);
+void __attribute__((always_inline)) mop(Uint, Uchar, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar, Ull, Uint, Uint);
+a39 1
+#define CCRNUM          10
+d166 1
+a166 1
+    int  bit0h     ; /* imm/ccr number(c0-9) hash for cond_bit0 */
+d168 1
+a168 1
+    int  bit1h     ; /* imm/ccr number(c0-9) hash for cond_bit1 */
+d170 1
+a170 1
+    int  bit2h     ; /* imm/ccr number(c0-9) hash for cond_bit2 */
+d172 1
+a172 1
+    int  bit3h     ; /* imm/ccr number(c0-9) hash for cond_bit3 */
+a285 2
+  char excrv  ;
+  int  excrh  ;
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d30 4
+a33 1
+#define UNIT_DEPTH      32
+a34 2
+#define INSN_DEPTH      (UNIT_WIDTH*UNIT_DEPTH*4)
+#define LMEM_SIZE       65536
+d276 1
+a276 1
+} decode[UNIT_DEPTH][UNIT_WIDTH];
+a282 6
+  /* EXE signal */
+  char exdv   ;
+  int  exdh   ;
+  char exds   ;
+  char excv   ;
+  int  exch   ;
+d315 1
+a315 1
+  struct t {
+d319 1
+a319 1
+  } t[4], tr[4];
+d321 1
+a321 1
+  struct m {
+d325 1
+a325 1
+  } md[4], mr0[4], mr1[4];
+d331 2
+a332 2
+  } br[4];
+} busmap[UNIT_DEPTH][UNIT_WIDTH];
+d356 1
+a356 1
+  } cdword0[UNIT_DEPTH];
+d374 1
+a374 1
+  } cdword1[UNIT_DEPTH];
+d393 1
+a393 1
+  } cdword2[UNIT_DEPTH];
+d398 2
+a399 2
+  } cdword3[UNIT_DEPTH];
+} conf[UNIT_WIDTH]; /* 4dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+d412 2
+a413 2
+  } rdword[UNIT_DEPTH];
+} regv[UNIT_WIDTH]; /* 8dwords/unit costs 2cycle/unit: 4-parallel conf costs 2cycle/stage */
+d424 2
+a425 2
+  } e2ctl[UNIT_DEPTH]; /* 2dwords/unit costs 1cycle/unit: 4-parallel conf costs 1cycle/stage */
+} lmmi[UNIT_WIDTH]; /* 2dwords/unit */
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d279 15
+a293 9
+  /* CEXE signal */
+  char cexerv  ;
+  int  cexerh  ;
+  /* AR regs */
+  char exdrv   ;
+  int  exdrh   ;
+  char exdrs   ;
+  char excrv   ;
+  int  excrh   ;
+d295 6
+a300 6
+  char eab_v   ;
+  int  eab_h   ;
+  char eab_s   ;
+  char eao_v   ;
+  int  eao_h   ;
+  char eao_s   ;
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d30 1
+a30 1
+#define UNIT_DEPTH      16
+d71 1
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d20 2
+a21 2
+void __attribute__((always_inline)) mo4(Uint, Uchar, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar);
+void __attribute__((always_inline)) mop(Uint, Uchar, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar);
+d229 2
+a230 2
+    char strmv     ; /* id.type */
+    int  strmh     ;
+d234 4
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d173 2
+a174 1
+    int  dstex     ; /* destination hash for exrno */
+d274 3
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d306 3
+a308 3
+    char v     ;
+    int  hash  ;
+    char suff  ;
+d312 3
+a314 3
+    char v     ;
+    int  hash  ;
+    char suff  ;
+d318 3
+a320 3
+    char v     ;
+    int  hash  ;
+    char suff  ;
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d271 2
+a272 23
+/* regmap */
+struct regmap {
+  char ex1v    ;
+  int  ex1h    ;
+  char ex1s    ;
+  char ex1e    ;
+  char ex2v    ;
+  int  ex2h    ;
+  char ex2s    ;
+  char ex2e    ;
+  char ex3v    ;
+  int  ex3h    ;
+  char ex3s    ;
+  char ex3e    ;
+  char e2iv    ;
+  int  e2ih    ;
+  char e3iv    ;
+  int  e3ih    ;
+  char exdv    ;
+  int  exdh    ;
+  char exds    ;
+  char excv    ;
+  int  exch    ;
+d279 1
+a279 1
+
+d286 1
+a286 1
+  /* EA regs0 */
+d293 3
+a295 1
+  /* EA regs1 */
+d302 3
+a304 15
+  /* EA alu0 */
+  char eab0v   ;
+  int  eab0h   ;
+  char eab0s   ;
+  char eao0v   ;
+  int  eao0h   ;
+  char eao0s   ;
+  /* EA alu1 */
+  char eab1v   ;
+  int  eab1h   ;
+  char eab1s   ;
+  char eao1v   ;
+  int  eao1h   ;
+  char eao1s   ;
+
+d310 1
+a310 1
+
+d316 1
+a316 1
+
+d322 1
+a322 1
+} regmap[UNIT_DEPTH][UNIT_WIDTH];
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d154 5
+a158 5
+    char type   ; /* type 0:none, 1:WHILE, 2:CEX, 3:EX4, 4:EXE, 5:MO4, 6:MOP */
+    char row    ; /* init=-1, programmed/fixed loc from dst-BR[][]/AR[] max 0-15 */
+    char col    ; /* init=-1, programmed/fixed loc from dst-BR[][]/AR[] max 0-3 */
+    char rdep   ; /* init=0,  allowed row by dependency */
+    char fixed  ; /* 0:not fixed, 1:temporally fixed according to dependency, 2:fixed by AR[]/BR[][] */
+a229 1
+    char strms     ; /* suffix for var[s], bdr[][][s] */
+d245 21
+a265 21
+    char ex1v    ; /* id.type */
+    int  ex1h    ; /* hash val */
+    char ex1s    ; /* suffix for var[s], bdr[][][s] */
+    char ex1e    ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    char ex2v    ; /* id.type */
+    int  ex2h    ; /* hash val */
+    char ex2s    ; /* suffix for var[s], bdr[][][s] */
+    char ex2e    ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    char ex3v    ; /* id.type */
+    int  ex3h    ; /* hash val */
+    char ex3s    ; /* suffix for var[s], bdr[][][s] */
+    char ex3e    ; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    char e2iv    ; /* id.type */
+    int  e2ih    ; /* hash val */
+    char e3iv    ; /* id.type */
+    int  e3ih    ; /* hash val */
+    char ardv    ; /* id.type */
+    int  ardh    ; /* hash val */
+    char ards    ; /* suffix for var[s], bdr[][][s] */
+    char arcv    ; /* id.type */
+    int  arch    ; /* hash val */
+d273 74
+a346 58
+  struct alu {
+    char ex1_v      ;
+    int  ex1_hash   ;
+    char ex1_suff   ;
+    char ex2_v      ;
+    int  ex2_hash   ;
+    char ex2_suff   ;
+    char ex3_v      ;
+    int  ex3_hash   ;
+    char ex3_suff   ;
+    char e2i_v      ;
+    int  e2i_hash   ;
+    char e3i_v      ;
+    int  e3i_hash   ;
+    char ard_v      ;
+    int  ard_hash   ;
+    char ard_suff   ;
+    char arc_v      ;
+    int  arc_hash   ;
+  } alu;
+
+  struct ear {
+    char earb_v     ;
+    int  earb_hash  ;
+    char earb_suff  ;
+    char earo_v     ;
+    int  earo_hash  ;
+    char earo_suff  ;
+    char eard_v     ;
+    int  eard_hash  ;
+    char mral_v     ;
+    int  mral_hash  ;
+  } ear;
+
+  struct eaw {
+    char eawb_v     ;
+    int  eawb_hash  ;
+    char eawb_suff  ;
+    char eawo_v     ;
+    int  eawo_hash  ;
+    char eawo_suff  ;
+    char eawd_v     ;
+    int  eawd_hash  ;
+    char mwal_v     ;
+    int  mwal_hash  ;
+  } eaw;
+
+  struct tr {
+    char v        ;
+    int  hash     ;
+    char suff     ;
+  } tr[4];
+
+  struct mdl {
+    char v        ;
+    int  hash     ;
+    char suff     ;
+  } mdl[4];
+d349 3
+a351 3
+    char v        ;
+    int  hash     ;
+    char suff     ;
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d249 1
+d253 1
+d257 1
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d199 3
+a201 3
+    char dstrv     ; /* id.type */
+    int  dstrh     ; /* hash val */
+    char dstrs     ; /* suffix for var[s], alr[][s], bdr[][][s] */
+d240 25
+a264 1
+  struct exe dexe;
+d272 9
+a289 1
+    char arc_suff   ;
+d295 1
+d298 1
+d308 1
+d311 1
+d321 1
+d327 1
+d333 1
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d254 1
+a254 1
+    char ard_suffix ;
+d257 1
+a257 1
+    char arc_suffix ;
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d16 1
+a16 1
+#if 0
+d20 1
+a244 6
+/* prop_skip */
+struct prop_skp {
+  Uchar gr[GPRNUM]; /* 0:none 1:temporaly assigned 2:assigned */
+} prop_skp[UNIT_DEPTH];
+
+#if 0
+d246 50
+a295 109
+struct regmap { /* working table (not necessary for EMAX4 hardware) */
+  struct ixbm { /* select any portion in the same unit */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srcpos: 4; /* 0:off 1:prev_ex2.p1 2:prev_ex2.p2 3:prev_ex2.p3 4:prev_mem.p1 5:prev_mem.p2 6:prev_mem.p3 8:prev_ex2.d 9:prev_mem.d */
+  } ixbm[INT_XBR_BUS_NUM];
+
+  struct edbm { /* select dst portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srccol: 4;
+    Uint srcpos: 2; /* 0:off 1:prev_ex2.d 2:prev_mem.d */
+  } edbm[EXT_DST_BUS_NUM];
+
+  struct edcm { /* select dst portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 2; /* 0-3:regno */
+    Uint srccol: 4;
+    Uint srcpos: 1; /* 0:off 1:prev_ex2.c */
+  } edcm[EXT_DST_CCR_NUM];
+
+  struct ex1m {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint c_v      : 1;
+    Uint c_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint c_regno  : 2; /* 0-3:regno */
+    Uint dx1_v    : 1;
+    Uint dx1_rtype: 2; /* 0:immediate 1:regno 2:propagation */
+    Uint dx1_regno: 5; /* 0-31:regno */
+    Uint dx2_v    : 1;
+    Uint dx2_rtype: 2; /* 0:immediate 1:regno 2:propagation */
+    Uint dx2_regno: 5; /* 0-31:regno */
+    Uint t1_v     : 1;
+    Uint t1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t1_regno : 5; /* 0-31:regno */
+    Uint t2_v     : 1;
+    Uint t2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t2_regno : 5; /* 0-31:regno */
+    Uint t3_v     : 1;
+    Uint t3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t3_regno : 5; /* 0-31:regno */
+  } ex1m;
+
+  struct ex2m {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint c_v      : 1;
+    Uint c_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint c_regno  : 2; /* 0-3:regno */
+    Uint p1_v     : 1;
+    Uint p1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p1_regno : 5; /* 0-31:regno */
+    Uint p2_v     : 1;
+    Uint p2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p2_regno : 5; /* 0-31:regno */
+    Uint p3_v     : 1;
+    Uint p3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p3_regno : 5; /* 0-31:regno */
+  } ex2m;
+
+  struct eagm {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint t1_v     : 1;
+    Uint t1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t1_regno : 5; /* 0-31:regno */
+    Uint t2_v     : 1;
+    Uint t2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t2_regno : 5; /* 0-31:regno */
+    Uint t3_v     : 1;
+    Uint t3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t3_regno : 5; /* 0-31:regno */
+  } eagm;
+
+  struct memm {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint p1_v     : 1;
+    Uint p1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p1_regno : 5; /* 0-31:regno */
+    Uint p2_v     : 1;
+    Uint p2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p2_regno : 5; /* 0-31:regno */
+    Uint p3_v     : 1;
+    Uint p3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p3_regno : 5; /* 0-31:regno */
+  } memm;
+
+  struct embm { /* select memory portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srccol: 4;
+  } embm[EXT_MEM_BUS_NUM];
+
+  struct etbm { /* select same portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srccol: 4;
+  } etbm[EXT_TMP_BUS_NUM];
+a296 1
+#endif
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d147 6
+d206 6
+a211 6
+#define MOP_OPTYPE_SLOAD  0
+#define MOP_OPTYPE_BLOAD  1
+#define MOP_OPTYPE_QLOAD  2
+#define MOP_OPTYPE_SSTORE 4
+#define MOP_OPTYPE_BSTORE 5
+#define MOP_OPTYPE_QSTORE 6
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d200 7
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d34 3
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d45 38
+a82 37
+#define OP_FMA          0x02
+#define OP_FAD          0x03
+#define OP_FML          0x04
+#define OP_ADD3         0x05
+#define OP_SUB3         0x06
+#define OP_ADD          0x07
+#define OP_SUB          0x08
+#define OP_CMP_EQ       0x09
+#define OP_CMP_NE       0x0a
+#define OP_CMP_LT       0x0b
+#define OP_CMP_LE       0x0c
+#define OP_CMP_GT       0x0d
+#define OP_CMP_GE       0x0e
+#define OP_CMOV         0x0f
+#define OP_MAUH3        0x10
+#define OP_MAUH         0x11
+#define OP_MSUH3        0x12
+#define OP_MSUH         0x13
+#define OP_MLUH         0x14
+#define OP_MMRG         0x15
+#define OP_MSAD         0x16
+#define OP_MINL3        0x17
+#define OP_MINL         0x18
+#define OP_MH2BW        0x19
+#define OP_MCAS         0x1a
+#define OP_MMID3        0x1b
+#define OP_MMAX3        0x1c
+#define OP_MMIN3        0x1d
+#define OP_MMAX         0x1e
+#define OP_MMIN         0x1f
+#define OP_FMAQ         0x20
+#define OP_FADQ         0x21
+#define OP_FMLQ         0x22
+#define OP_ADD3Q        0x23
+#define OP_SUB3Q        0x24
+#define OP_ADDQ         0x25
+#define OP_SUBQ         0x26
+d98 2
+a100 2
+#define EXP_B7632       2
+#define EXP_B5410       1
+d113 1
+d144 5
+a148 5
+    int  type   : 8; /* type 0:none, 1:WHILE, 2:CEX, 3:EX4, 4:EXE, 5:MO4, 6:MOP */
+    int  row    : 8; /* init=-1, programmed/fixed loc from dst-BR[][]/AR[] max 0-15 */
+    int  col    : 8; /* init=-1, programmed/fixed loc from dst-BR[][]/AR[] max 0-3 */
+    int  rowmin : 8; /* init=0,  minimum location from dependency */
+    int  fixed  : 8; /* 0:not fixed, 1:temporally fixed according to dependency, 2:fixed by AR[]/BR[][] */
+d153 9
+a161 9
+    Uint op     : 1; /* 0:none, 1:active */
+    Uint bit0v  : 3; /* id.type */
+    Uint bit0n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit0 */
+    Uint bit1v  : 3; /* id.type */
+    Uint bit1n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit1 */
+    Uint bit2v  : 3; /* id.type */
+    Uint bit2n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit2 */
+    Uint bit3v  : 3; /* id.type */
+    Uint bit3n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit3 */
+d163 1
+a163 1
+    Uint dstex  : 4; /* destination exrno */
+d166 3
+a168 3
+    Uint op1    : 6; /* 0:none, 1:ex1 active */
+    Uint op2    : 3; /* 0:none, 1:ex2 active */
+    Uint op3    : 3; /* 0:none, 1:ex3 active */
+d171 23
+a193 23
+    Uint src1v  : 3; /* id.type */
+    Uint src1e  : 2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    int  src1s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src1n     ;
+    Uint src2v  : 3; /* id.type */
+    Uint src2e  : 2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    int  src2s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src2n     ;
+    Uint src3v  : 3; /* id.type */
+    Uint src3e  : 2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    int  src3s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src3n     ;
+    Uint src4v  : 3; /* id.type */
+    int  src4s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src4n     ;
+    Uint src5v  : 3; /* id.type */
+    int  src5s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src5n     ;
+    Uint dstrv  : 3; /* id.type */
+    int  dstrs  : 8; /* suffix for var[s], alr[][s], bdr[][][s] */
+    Uint dstrn  :12;
+    Uint dstcv  : 3; /* id.type */
+    Uint dstcn  :12;
+d196 1
+a196 1
+    Uint op     : 6; /* mop1:load, mop0:store/load */
+d199 18
+a216 18
+    Uint exv    : 3; /* id.type */
+    Uint exn    : 4; /* src exrno */
+    Uint dstv   : 3; /* id.type */
+    int  dsts   : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  dstn      ;
+    Uint basev  : 3; /* id.type */
+    int  bases  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  basen     ;
+    Uint offsv  : 3; /* id.type */
+    Uint offsm  : 4; /* 0:B0, 1:B1, ... 7:B7, 8:H0, 9:H1, 10:H2, 11:H3, 12:W0, 13:W1, 14:--, 15:D0 */
+    int  offss  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  offsn     ;
+    Uint strmv  : 3; /* id.type */
+    int  strms  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  strmn     ;
+    Uint dist      ;
+    Uint len       ;    
+    Uint force     ;    
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d142 5
+a146 4
+    int  type   : 8; /* type 1:WHILE, 2:CEX, 3:EX4, 4:EXE, 5:MO4, 6:MOP */
+    int  row    : 8; /* hint from dst-BR[][]/AR[] max 0-15 */
+    int  col    : 8; /* hint from dst-BR[][]/AR[] max 0-3 */
+    int  fixed  : 8; /* 0:not copied to decode[][] yet, 1:copied */
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d141 7
+a147 6
+  struct {
+    Uint  type  : 8; /* type 1:WHILE, 2:CEX, 3:EX4, 4:EXE, 5:MO4, 6:MOP */
+    char  row   : 8; /* hint from dst-BR[][]/AR[] max 0-15 */
+    char  col   : 8; /* hint from dst-BR[][]/AR[] max 0-3 */
+  } header;
+  struct {
+d161 2
+a162 2
+  } cex;
+  struct {
+d191 2
+a192 2
+  } exe;
+  struct {
+d214 1
+a214 1
+  } mop;
+d219 4
+a222 92
+  Uint type;
+  struct {
+    /* aluop¤Î¤¦¤Ácmov¤À¤±¤Ï,cond=0/1¤Ë¤è¤Ã¤Æ¥½¡¼¥¹¤òÀÚÂØ¤¨¤ë */
+    /* aluop¤Î¤¦¤Ácmov°Ê³°¤ÈmemopÁ´Éô¤Ï,cond=1¤Î»þ¤Î¤ßÆ°ºî */
+    Uint op     : 1; /* 0:none, 1:active */
+    Uint bit0v  : 3; /* id.type */
+    Uint bit0n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit0 */
+    Uint bit1v  : 3; /* id.type */
+    Uint bit1n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit1 */
+    Uint bit2v  : 3; /* id.type */
+    Uint bit2n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit2 */
+    Uint bit3v  : 3; /* id.type */
+    Uint bit3n  : 4; /* imm/ccr number(c0-9) assiged to cond_bit3 */
+    Uint table  :16; /* b3.b2.b1.b0¤ÎÁÈ¹ç¤» 1111,1110,1101,1100,....,0011,0010,0001,0000¤Î³Æ¡¹¤Ë0/1¤ò³ä¤êÅö¤Æ¤¿16bit¤ò»ØÄê */
+    Uint dstex  : 4; /* destination exrno */
+  } cex;
+  struct {
+    Uint op1    : 6; /* 0:none, 1:ex1 active */
+    Uint op2    : 3; /* 0:none, 1:ex2 active */
+    Uint op3    : 3; /* 0:none, 1:ex3 active */
+    Uint updt   : 1; /* 0:none, 1:self_update */
+    Uint adjust : 1; /* 0:none, 1:pre_adjust for implementing a-- w/ --a */
+    Uint src1v  : 3; /* id.type */
+    Uint src1e  : 2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    int  src1s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src1n     ;
+    Uint src2v  : 3; /* id.type */
+    Uint src2e  : 2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    int  src2s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src2n     ;
+    Uint src3v  : 3; /* id.type */
+    Uint src3e  : 2; /* 0:--, 1:B5410, 2:B7632, 3:H3210 */
+    int  src3s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src3n     ;
+    Uint src4v  : 3; /* id.type */
+    int  src4s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src4n     ;
+    Uint src5v  : 3; /* id.type */
+    int  src5s  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  src5n     ;
+    Uint dstrv  : 3; /* id.type */
+    int  dstrs  : 8; /* suffix for var[s], alr[][s], bdr[][][s] */
+    Uint dstrn  :12;
+    Uint dstcv  : 3; /* id.type */
+    Uint dstcn  :12;
+  } exe;
+  struct {
+    Uint op     : 6; /* mop0:store/load */
+    Uint updt   : 1; /* 0:none, 1:self_update */
+    Uint adjust : 1; /* 0:none, 1:pre_adjust for implementing a++ w/ ++a */
+    Uint exv    : 3; /* id.type */
+    Uint exn    : 4; /* src exrno */
+    Uint dstv   : 3; /* id.type */
+    int  dsts   : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  dstn      ;
+    Uint basev  : 3; /* id.type */
+    int  bases  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  basen     ;
+    Uint offsv  : 3; /* id.type */
+    Uint offsm  : 4; /* 0:B0, 1:B1, ... 7:B7, 8:H0, 9:H1, 10:H2, 11:H3, 12:W0, 13:W1, 14:--, 15:D0 */
+    int  offss  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  offsn     ;
+    Uint strmv  : 3; /* id.type */
+    int  strms  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  strmn     ;
+    Uint dist      ;
+    Uint len       ;    
+    Uint force     ;    
+  } mop0; /* load_single is assigned to BR[r][c][0] */
+  struct {
+    Uint op     : 6; /* mop1:load only */
+    Uint updt   : 1; /* 0:none, 1:self_update */
+    Uint adjust : 1; /* 0:none, 1:pre_adjust for implementing a++ w/ ++a */
+    Uint exv    : 3; /* id.type */
+    Uint exn    : 4; /* src exrno */
+    Uint dstv   : 3; /* id.type */
+    int  dsts   : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  dstn      ;
+    Uint basev  : 3; /* id.type */
+    int  bases  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  basen     ;
+    Uint offsv  : 3; /* id.type */
+    Uint offsm  : 4; /* 0:B0, 1:B1, ... 7:B7, 8:H0, 9:H1, 10:H2, 11:H3, 12:W0, 13:W1, 14:--, 15:D0 */
+    int  offss  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  offsn     ;
+    Uint strmv  : 3; /* id.type */
+    int  strms  : 8; /* suffix for var[s], bdr[][][s] */
+    Ull  strmn     ;
+    Uint dist      ;
+    Uint len       ;    
+    Uint force     ;    
+  } mop1; /* load_single is assigned to BR[r][c][1] */
+@
+
+
+1.11
+log
+@y
+@
+text
+@d31 1
+a31 1
+#define INSN_DEPTH      (UNIT_WIDTH*UNIT_DEPTH*2)
+d141 1
+a141 1
+  struct header {
+d146 1
+a146 2
+
+  struct cex {
+d161 1
+a161 2
+
+  struct exe {
+d191 1
+a191 2
+
+  struct mop {
+d218 92
+a309 25
+  struct alud {
+    Uint X_v     : 2; /* 0:not used 1:ri       2:ex1_src1 3:ex2_src1 */
+    Uint X_n     : 5; /* architecture register number (X_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Y_v     : 2; /* 0:not used 1:ri/imm   2:ex1_src2 3:ex2_src2 */
+    Uint Y_n     : 5; /* architecture register number (Y_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Z_v     : 2; /* 0:not used            1:ex1_src3 2:ex2_src2 3:sft_src1 */
+    Uint Z_n     : 5; /* architecture register number (Z_v>=1¤Î»þ¤ËÍ­¸ú) */
+    Uint simmS_v : 1; /* 0:not used                       1:ex2_src2 */
+    Uint immT_v  : 1; /* 0:not used                                  1:sft_src1 */
+    Uint Dw_v    : 1; /* 0:not used 1:used */
+    Uint Dw_n    : 5; /* architecture register number (D_v>=1¤Î»þ¤ËÍ­¸ú) */
+    Uint Cw_v    : 1; /* 0:not used 1:used */
+    Uint Cw_n    : 2; /* architecture register number (C_v>=1¤Î»þ¤ËÍ­¸ú) */
+  } alud;
+
+  struct memd {
+    Uint X_v     : 2; /* 0:not used 1:ri       2:eag_src1 3:--- */
+    Uint X_n     : 5; /* architecture register number (X_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Y_v     : 2; /* 0:not used 1:ri/imm   2:eag_src2 3:--- */
+    Uint Y_n     : 5; /* architecture register number (Y_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Z_v     : 2; /* 0:not used            1:eag_src3 2:---      3:--- */
+    Uint Z_n     : 5; /* architecture register number (Z_v>=1¤Î»þ¤ËÍ­¸ú) */
+    Uint Dw_v    : 1; /* 0:not used 1:used */
+    Uint Dw_n    : 5; /* architecture register number (D_v>=1¤Î»þ¤ËÍ­¸ú) */
+  } memd;
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d168 1
+d197 1
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d142 1
+a142 1
+    Uint  type  : 8; /* type 1:WHILE, 2:CEX, 3:EX4, 4:EXE, 5:MOP */
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@a214 17
+
+  struct ctl {
+    Uint v    : 4; /* 0:nop, 1:LMR, 2:LMW, 3:LMX, 4:LMP, 5:LMF(force read), 6:LMD */
+                   /* 8:MMR  9:MMTR */
+    Uint bank : 3; /* memory bank 0..7 */
+    Uint width: 2; /* 0:4bytes, 1:8bytes, 2:16bytes 3:undef */
+    Uint block: 2; /* 0:inf, 1:16, 2:32, 3:64 width*block=page(burst)_size(bytes) */
+    Uint dist : 2; /* 0:dist=width, 1:dist=width*2, 2:dist=width*4 3:dist=width*8 */
+    char *lmm_top_symbol;
+    Uint lmm_top;
+    char *mem_top_symbol;
+    Uint mem_top;
+    char *len_symbol;
+    Uint len;
+    char *tran_start;
+    char *tran_end;
+  } ctl;
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d17 3
+a20 2
+void __attribute__((always_inline)) cex(Uint, Uchar, Uchar, Uchar, Uchar, Ushort, Uchar*);
+void __attribute__((always_inline)) exe(Uint, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Ull, Uint, Ull, Ull*, Uchar*);
+a41 35
+#define OP_NOP          0x00
+#define OP_LDR          0x01
+#define OP_LDWR         0x02
+#define OP_LDUWR        0x03
+#define OP_LDHR         0x04
+#define OP_LDUHR        0x05
+#define OP_LDBR         0x06
+#define OP_LDUBR        0x07
+#define OP_LDBF         0x08
+#define OP_LDBFQ        0x09
+#define OP_LDDMQ        0x0a
+#define OP_STR          0x11
+#define OP_STWR         0x12
+#define OP_STHR         0x13
+#define OP_STBR         0x14
+#define OP_STBF         0x15
+#define OP_STBFQ        0x16
+#define OP_TR           0x17
+
+#define MSK_D0		15
+#define MSK_W1		13
+#define MSK_W0		12
+#define MSK_H3		11
+#define MSK_H2		10
+#define MSK_H1		9
+#define MSK_H0		8
+#define MSK_B7		7
+#define MSK_B6		6
+#define MSK_B5		5
+#define MSK_B4		4
+#define MSK_B3		3
+#define MSK_B2		2
+#define MSK_B1		1
+#define MSK_B0		0
+
+d101 35
+d142 3
+a144 3
+    Uint type    : 8;  /* type 1:MOP, 2:EX4, 3:EXE, 4:CEX */
+    Uint row     : 8;  /* hint from BR[][] max 64 */
+    Uint col     : 8;  /* hint from BR[][] max 8  */
+d147 1
+a147 1
+  struct cond {
+d150 65
+a214 56
+    Uint use_bit0 : 1;
+    Uint use_bit1 : 1;
+    Uint use_bit2 : 1;
+    Uint use_bit3 : 1;
+    Uint bit0: 2; /* ccr number(c0-3) assiged to cond_bit0 */
+    Uint bit1: 2; /* ccr number(c0-3) assiged to cond_bit1 */
+    Uint bit2: 2; /* ccr number(c0-3) assiged to cond_bit2 */
+    Uint bit3: 2; /* ccr number(c0-3) assiged to cond_bit3 */
+    Uint table: 16; /* b3.b2.b1.b0¤ÎÁÈ¹ç¤» 1111,1110,1101,1100,....,0011,0010,0001,0000¤Î³Æ¡¹¤Ë0/1¤ò³ä¤êÅö¤Æ¤¿16bit¤ò»ØÄê */
+  } cond;
+
+  struct alu {
+    Uint ex1_use_regZ : 1;
+    Uint ex1_op : 6; /* 0:ex2_op use regX others:ex2_op use (-) */
+    Uint ex2_op : 3;
+    Uint sft_op : 3;
+    Uint upd    : 1;
+    Uint Xini   : 1; /* 0:noinit 1:ri/imm */
+    Uint Xfhl   : 2; /*       1:SUFLO 2:SUFHI 3:ri/SUFFL */
+    Uint Xr     : 5;
+    Uint Yini   : 1; /* 0:noinit 1:ri/imm */
+    Uint Yfhl   : 2; /* 0:imm 1:SUFLO 2:SUFHI 3:ri/SUFFL */
+    Uint Yr     : 5;
+    Uint Zfhl   : 2; /*       1:SUFLO 2:SUFHI 3:SUFFL */
+    Uint Zr     : 5;
+    Uint simmS_v: 1; /* 0:simmS is not used */
+    Uint simmS  : 13;
+    Uint immT_v : 1; /* 0:immT is not used */
+    Uint immT   : 6;
+    Uint Dw_v   : 1; /* 0:Dr is not used */
+    Uint Dw     : 5;
+    Uint Cw_v   : 1; /* 0:CC is not used */
+    Uint Cw     : 2;
+    char *initX_symbol;
+    Uint initX;
+    char *initY_symbol;
+    Uint initY;
+  } alu;
+
+  struct mem {
+    Uint op     : 10;
+    Uint upd    : 1;
+    Uint X_v    : 1;
+    Uint Xini   : 1; /* 0:noinit 1:ri/imm */
+    Uint Xr     : 5;
+    Uint Y_v    : 1;
+    Uint Yini   : 1; /* 0:noinit 1:ri/imm */
+    Uint Ysuffix: 3; /* 0:imm 1:SUFLO 2:SUFHI 3:SUFFL 4:SUFB0 5:SUFB1 6:SUFB2 7:SUFB3 */
+    Uint Yr     : 5;
+    Uint Zthru  : 1; /* for EX1->store or LD->discard */
+    Uint Zr     : 5;
+    char *initX_symbol;
+    Uint initX;
+    char *initY_symbol;
+    Uint initY;
+  } mem;
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d141 1
+a141 1
+    Uint type    : 8;  /* type 1:MOP, 2:EXE, 3:CEX */
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d17 3
+a19 4
+void __attribute__((always_inline)) cx(Uint, Uchar, Uchar, Uchar, Uchar, Ushort, Uchar*);
+void __attribute__((always_inline)) ex(Uint, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Ull, Uint, Ull, Ull*, Uchar*);
+void __attribute__((always_inline)) ex4(Uint, Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Ull*, Uint, Ull*, Ull*, Uchar*);
+void __attribute__((always_inline)) mm(Uint, Uchar, Ull*, Ull, Ull, Uchar, Ull, Uint, Uint, Uchar);
+d24 1
+a27 1
+/* insn */
+d30 6
+a35 2
+#define REGNUM          32
+#define CCRNUM          4
+d41 93
+a133 93
+#define         OP_NOP          0x00
+#define         OP_CEXE         0x01
+
+#define         OP_WHILE        0x01
+#define         OP_FMA          0x02
+#define         OP_FAD          0x03
+#define         OP_FML          0x04
+#define         OP_ADD3         0x05
+#define         OP_SUB3         0x06
+#define         OP_ADD          0x07
+#define         OP_SUB          0x08
+#define         OP_CMP_EQ       0x09
+#define         OP_CMP_NE       0x0a
+#define         OP_CMP_LT       0x0b
+#define         OP_CMP_LE       0x0c
+#define         OP_CMP_GT       0x0d
+#define         OP_CMP_GE       0x0e
+#define         OP_CMOV         0x0f
+#define         OP_MAUH3        0x10
+#define         OP_MAUH         0x11
+#define         OP_MSUH3        0x12
+#define         OP_MSUH         0x13
+#define         OP_MLUH         0x14
+#define         OP_MMRG         0x15
+#define         OP_MSAD         0x16
+#define         OP_MINL3        0x17
+#define         OP_MINL         0x18
+#define         OP_MH2BW        0x19
+#define         OP_MCAS         0x1a
+#define         OP_MMID3        0x1b
+#define         OP_MMAX3        0x1c
+#define         OP_MMIN3        0x1d
+#define         OP_MMAX         0x1e
+#define         OP_MMIN         0x1f
+#define         OP_FMAQ         0x20
+#define         OP_FADQ         0x21
+#define         OP_FMLQ         0x22
+#define         OP_ADD3Q        0x23
+#define         OP_SUB3Q        0x24
+#define         OP_ADDQ         0x25
+#define         OP_SUBQ         0x26
+
+#define         OP_AND          0x01
+#define         OP_OR           0x02
+#define         OP_XOR          0x03
+#define         OP_SUMHH        0x04
+#define         OP_SUMHL        0x05
+
+#define         OP_SLL          0x01
+#define         OP_SRL          0x02
+#define         OP_SRAA         0x03
+#define         OP_SRAB         0x04
+#define         OP_SRAC         0x05
+#define         OP_SRAD         0x06
+#define         OP_SRLM         0x07
+
+#define         OP_LDR          0x01
+#define         OP_LDWR         0x02
+#define         OP_LDUWR        0x03
+#define         OP_LDHR         0x04
+#define         OP_LDUHR        0x05
+#define         OP_LDBR         0x06
+#define         OP_LDUBR        0x07
+#define         OP_LDBF         0x08
+#define         OP_LDBFQ        0x09
+#define         OP_LDDMQ        0x0a
+#define         OP_STR          0x11
+#define         OP_STWR         0x12
+#define         OP_STHR         0x13
+#define         OP_STBR         0x14
+#define         OP_STBF         0x15
+#define         OP_STBFQ        0x16
+#define         OP_TR           0x17
+
+#define         EXP_H3210       3
+#define         EXP_B7632       2
+#define         EXP_B5410       1
+
+#define         MSK_D0		15
+#define         MSK_W1		13
+#define         MSK_W0		12
+#define         MSK_H3		11
+#define         MSK_H2		10
+#define         MSK_H1		9
+#define         MSK_H0		8
+#define         MSK_B7		7
+#define         MSK_B6		6
+#define         MSK_B5		5
+#define         MSK_B4		4
+#define         MSK_B3		3
+#define         MSK_B2		2
+#define         MSK_B1		1
+#define         MSK_B0		0
+d135 4
+d141 3
+a143 4
+    Uint v            : 1;  /* insn on */
+    Uint insn_row     : 6;  /* max 64 */
+    Uint insn_col     : 3;  /* max  8 */
+    Uint map_dist     : 4;  /* max 16 */
+d177 1
+a177 1
+    Uint immT   : 5;
+d222 30
+a251 1
+} insn[UNIT_WIDTH][UNIT_DEPTH];
+d255 1
+a255 1
+  Uchar gr[REGNUM]; /* 0:none 1:temporaly assigned 2:assigned */
+d258 114
+d390 1
+a390 1
+    Uint e2imm  : 11;
+a467 1
+/* encode */
+d469 1
+d471 1
+a471 2
+Uint trans_pc;
+
+d494 1
+a516 3
+#include <stdio.h>
+#include "emax5lib.c"
+
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d92 1
+a92 1
+#define         OP_SRAM         0x07
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d45 34
+a78 34
+#define         OP_MAUH3        0x05
+#define         OP_MAUH         0x06
+#define         OP_MSUH3        0x07
+#define         OP_MSUH         0x08
+#define         OP_MLUH         0x09
+#define         OP_MMRG         0x0a
+#define         OP_MSAD         0x0b
+#define         OP_MINL3        0x0c
+#define         OP_MINL         0x0d
+#define         OP_MH2BW        0x0e
+#define         OP_MCAS         0x0f
+#define         OP_MMID3        0x10
+#define         OP_MMAX3        0x11
+#define         OP_MMIN3        0x12
+#define         OP_MMAX         0x13
+#define         OP_MMIN         0x14
+#define         OP_ADD3         0x15
+#define         OP_SUB3         0x16
+#define         OP_ADD          0x17
+#define         OP_SUB          0x18
+#define         OP_CMP_EQ       0x19
+#define         OP_CMP_NE       0x1a
+#define         OP_CMP_LT       0x1b
+#define         OP_CMP_LE       0x1c
+#define         OP_CMP_GT       0x1d
+#define         OP_CMP_GE       0x1e
+#define         OP_CMOV         0x1f
+#define         OP_FMA_4        0x20
+#define         OP_FAD_4        0x21
+#define         OP_FML_4        0x22
+#define         OP_ADD3_4       0x23
+#define         OP_SUB3_4       0x24
+#define         OP_ADD_4        0x25
+#define         OP_SUB_4        0x26
+a84 2
+#define         OP_SUMWH        0x06
+#define         OP_SUMWL        0x07
+d88 23
+a110 23
+#define         OP_SRAM         0x03
+#define         OP_SRAA         0x04
+#define         OP_SRAB         0x05
+#define         OP_SRAC         0x06
+#define         OP_SRAD         0x07
+
+#define         OP_LDB          0x01
+#define         OP_LDR          0x02
+#define         OP_LDWR         0x03
+#define         OP_LDUWR        0x04
+#define         OP_LDHR         0x05
+#define         OP_LDUHR        0x06
+#define         OP_LDBR         0x07
+#define         OP_LDUBR        0x08
+#define         OP_STB          0x09
+#define         OP_STR          0x0a
+#define         OP_STWR         0x0b
+#define         OP_STHR         0x0c
+#define         OP_STBR         0x0d
+#define         OP_LDB_4        0x0e
+#define         OP_LDM_4        0x0f
+#define         OP_STB_4        0x10
+#define         OP_TR           0x11
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d18 2
+a19 2
+void __attribute__((always_inline)) ex(Uint, Uchar, Ull, Uint, Ull, Uint, Ull, Uint, Uint, Ull, Ull, Uint, Ull, Ull*, Uchar*);
+void __attribute__((always_inline)) ex4(Uint, Uchar, Ull*, Uint, Ull*, Uint, Ull*, Uint, Uint, Ull*, Ull*, Uint, Ull*, Ull*, Uchar*);
+d43 36
+a78 48
+#define         OP_FMAA         0x03
+#define         OP_FAD          0x04
+#define         OP_FADA         0x05
+#define         OP_FML          0x06
+#define         OP_MAUH3        0x07
+#define         OP_MAUH         0x08
+#define         OP_MSUH3        0x09
+#define         OP_MSUH         0x0a
+#define         OP_MLUH         0x0b
+#define         OP_MMRG         0x0c
+#define         OP_MSAD         0x0d
+#define         OP_MINL3        0x0e
+#define         OP_MINL         0x0f
+#define         OP_MH2BW        0x10
+#define         OP_MCAS         0x11
+#define         OP_MMID3        0x12
+#define         OP_MMAX3        0x13
+#define         OP_MMIN3        0x14
+#define         OP_MMAX         0x15
+#define         OP_MMIN         0x16
+#define         OP_ADD3         0x17
+#define         OP_ADDA3        0x18
+#define         OP_SUB3         0x19
+#define         OP_SUBA3        0x1a
+#define         OP_ADD          0x1b
+#define         OP_ADDA         0x1c
+#define         OP_SUB          0x1d
+#define         OP_SUBA         0x1e
+#define         OP_CMP_EQ       0x1f
+#define         OP_CMP_NE       0x20
+#define         OP_CMP_LT       0x21
+#define         OP_CMP_LE       0x22
+#define         OP_CMP_GT       0x23
+#define         OP_CMP_GE       0x24
+#define         OP_CMOV         0x25
+#define         OP_FMA_4        0x30
+#define         OP_FMAA_4       0x31
+#define         OP_FAD_4        0x32
+#define         OP_FADA_4       0x33
+#define         OP_FML_4        0x34
+#define         OP_ADD3_4       0x35
+#define         OP_ADDA3_4      0x36
+#define         OP_SUB3_4       0x37
+#define         OP_SUBA3_4      0x38
+#define         OP_ADD_4        0x39
+#define         OP_ADDA_4       0x3a
+#define         OP_SUB_4        0x3b
+#define         OP_SUBA_4       0x3c
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d16 9
+a27 30
+/* encode */
+#define         ALU_USE_REGX    4
+#define         ALU_USE_REGY    2
+#define         ALU_USE_REGZ    1
+#define         MAX_REGSPEC     8
+#define         MAX_CCRSPEC     8
+
+struct encode {
+  Uint insn_row;
+  Uint insn_col;
+  Uint map_dist;
+  Uint reg_inuse; /* if regX is used in ex1, ex2 should use (-) */
+  Uint regspec_top;
+  struct regspec {
+    Uint type;   /* 0:not-used */
+                 /* 1:connected to RI(predefined_value) */
+                 /* 2:connected to EX1-output */
+                 /* 3:connected to arch-register */
+    Uint suffix; /* 1:SUFLO 2:SUFHI 3:SUFFL 4:SUFB0 5:SUFB1 6:SUFB2 7:SUFB3 */
+    Uint num;    /* regno */
+    Uint post;   /* 0:none, 1:increment */
+  } regspec[MAX_REGSPEC];
+  Uint ccrspec_top;
+  struct ccrspec {
+    Uint type;   /* 0:not-used */
+                 /* 3:connected to arch-register */
+    Uint num;    /* ccno */
+  } ccrspec[MAX_CCRSPEC];
+} encode;
+
+d29 2
+a30 2
+#define INSN_DEPTH      16
+#define INSN_WIDTH      4
+d37 108
+a144 2
+#define MEM_RD          0x1
+#define MEM_WR          0x2
+d230 1
+a230 151
+} insn[INSN_DEPTH][INSN_WIDTH];
+
+#define         OP_NOP          0x0000
+#define         OP_LDB          0x0001
+#define         OP_LDUB         0x0002
+#define         OP_LDH          0x0003
+#define         OP_LDUH         0x0004
+#define         OP_LD           0x0005
+#define         OP_STB          0x0006
+#define         OP_STH          0x0007
+#define         OP_ST           0x0008
+
+#define         OP_WHILE        0x000F
+#define         OP_ADD          0x0010
+#define         OP_ADD3         0x0010
+#define         OP_SUB          0x0011
+#define         OP_SUB3         0x0011
+#define         OP_MAUH         0x0012
+#define         OP_MAUH3        0x0012
+#define         OP_MSUH         0x0013
+#define         OP_MSUH3        0x0013
+#define         OP_MLUH         0x0014
+#define         OP_MMRG3        0x0014
+#define         OP_MSAD         0x0015
+#define         OP_MINL         0x0016
+#define         OP_MINL3        0x0016
+
+#define         OP_MH2BW        0x0017
+#define         OP_MCAS         0x0018
+#define         OP_MMID3        0x0018
+#define         OP_MMAX         0x0019
+#define         OP_MMAX3        0x0019
+#define         OP_MMIN         0x001A
+#define         OP_MMIN3        0x001A
+#define         OP_FMUL         0x001B
+#define         OP_FMA3         0x001B
+#define         OP_FADD         0x001C
+
+#define         OP_CMPEQ        0x0020
+#define         OP_CMPNE        0x0021
+#define         OP_CMPLT        0x0022
+#define         OP_CMPLE        0x0023
+#define         OP_CMPGT        0x0024
+#define         OP_CMPGE        0x0025
+#define         OP_CMOV         0x0026
+
+#define         OP_AND          0x0001
+#define         OP_OR           0x0002
+#define         OP_XOR          0x0003
+#define         OP_SUMH         0x0005
+#define         OP_SUML         0x0006
+
+#define         OP_SLL          0x0001
+#define         OP_SRL          0x0002
+#define         OP_MSRL         0x0003
+#define         OP_SRA31        0x0004
+#define         OP_SRA23        0x0005
+#define         OP_SRA15        0x0006
+#define         OP_SRA07        0x0007
+
+/* decode */
+struct decode { /* EMAX5 instruction analysis */
+  struct alud {
+    Uint X_v     : 2; /* 0:not used 1:ri       2:ex1_src1 3:ex2_src1 */
+    Uint X_n     : 5; /* architecture register number (X_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Y_v     : 2; /* 0:not used 1:ri/imm   2:ex1_src2 3:ex2_src2 */
+    Uint Y_n     : 5; /* architecture register number (Y_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Z_v     : 2; /* 0:not used            1:ex1_src3 2:ex2_src2 3:sft_src1 */
+    Uint Z_n     : 5; /* architecture register number (Z_v>=1¤Î»þ¤ËÍ­¸ú) */
+    Uint simmS_v : 1; /* 0:not used                       1:ex2_src2 */
+    Uint immT_v  : 1; /* 0:not used                                  1:sft_src1 */
+    Uint Dw_v    : 1; /* 0:not used 1:used */
+    Uint Dw_n    : 5; /* architecture register number (D_v>=1¤Î»þ¤ËÍ­¸ú) */
+    Uint Cw_v    : 1; /* 0:not used 1:used */
+    Uint Cw_n    : 2; /* architecture register number (C_v>=1¤Î»þ¤ËÍ­¸ú) */
+  } alud;
+
+  struct memd {
+    Uint X_v     : 2; /* 0:not used 1:ri       2:eag_src1 3:--- */
+    Uint X_n     : 5; /* architecture register number (X_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Y_v     : 2; /* 0:not used 1:ri/imm   2:eag_src2 3:--- */
+    Uint Y_n     : 5; /* architecture register number (Y_v>=2¤Î»þ¤ËÍ­¸ú) */
+    Uint Z_v     : 2; /* 0:not used            1:eag_src3 2:---      3:--- */
+    Uint Z_n     : 5; /* architecture register number (Z_v>=1¤Î»þ¤ËÍ­¸ú) */
+    Uint Dw_v    : 1; /* 0:not used 1:used */
+    Uint Dw_n    : 5; /* architecture register number (D_v>=1¤Î»þ¤ËÍ­¸ú) */
+  } memd;
+} decode[INSN_DEPTH][INSN_WIDTH];
+
+/*   ¢£:tri-inout ¡þ:input ¢¡:tri/output                                                    ¡¡                                                                                               */
+/*                      U[I-4].EX2.P1       U[I-4].EX2.P2     U[I-4].EX2.D  U[I-4].EX2.P3¡¡      U[I-4].LM.P3        U[I-4].LM.P1  U[I-4].LM.D   U[I-4].LM.P2                                */
+/*        ¡¡                    ¨¢¨¢                ¨¢¨¢          ¨¢ EX2.C    ¨¢¨¢                    ¨¢¨¢                ¨¢¨¢          ¨¢          ¨¢¨¢                                     */
+/*        ¡¡            ¡þ¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¡þ¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¢¡¡þ¨¡¨¡¨¡¨¡¨¡¡þ¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¡þ¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨¡¨¡¨¡¨¡¨¡¨«¢¡¡þ¨¡¨¡¨¡IXB0                         */
+/*        ¡¡  ¡¡¡¡¡¡¡¡¡¡¨«¡þ¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¡þ¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¢¡¨«¡þ¨¡¨¡¨¡¨¡¨«¡þ¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¡þ¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨¡¨¡¨¡¨¡¨¡¨«¢¡¨«¡þ¨¡¨¡IXB1                         */
+/*        ¡¡  ¡¡¡¡¡¡¡¡¡¡¨«¨«¡þ¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¨«¡þ¨¡¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¢¡¨«¨«¡þ¨¡¨¡¨¡¨«¨«¡þ¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¨«¡þ¨¡¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨¡¨¡¨¡¨¡¨¡¨«¢¡¨«¨«¡þ¨¡IXB2                         */
+/*        ¡¡  ¡¡¡¡¡¡¡¡¡¡¨«¨«¨«¡þ¢¡¨«¨¡¨¡¨¡¨¡¨«¨«¨«¡þ¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨«¨¡¨¡¨¡¨¡¨«¢¡¨«¨«¨«¡þ¨¡¨¡¨«¨«¨«¡þ¢¡¨«¨¡¨¡¨¡¨¡¨«¨«¨«¡þ¢¡¨«¨¡¨¡¨¡¨¡¨¡¢¡¨¡¨¡¨¡¨¡¨¡¨«¢¡¨«¨«¨«¡þIXB3                         */
+/*        ¡¡            ¨¢¨¢¨¢¨¢¨¢¨¢¡¡    ¡¡¨¢¨¢¨¢¨¢¨¢¨¢          ¨¢¨¢        ¨¢¨¢¨¢¨¢¨¢¨¢    ¨¢¨¢¨¢¨¢¨¢¨¢        ¨¢¨¢¨¢¨¢¨¢¨¢          ¨¢          ¨¢¨¢¨¢¨¢¨¢¨¢                             */
+/*        ¡¡  ¡¡¡¡¡¡¡¡¡¡¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨¡¨¡¢¡¨«¡þ¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨¡¨¡¨«¨¡¡þ¨¡¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨¢EX2.D   32bit ¨¤unit3        */
+/*        ¡¡  ¡¡¡¡¡¡¡¡¡¡¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨¡¨«¨«¨«¡þ¨¡¨¡¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¨¡¢¡¨¡¨«¡þ¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨¢LMM.D   32bit ¨©unit2        */
+/*      1bit¡þ¨¡¨¡¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨¡¨«¢¡¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨¡¨«¨¡¨«¨«¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨¢EX2.C   32bit ¨©unit1        */
+/*        ¡¡¨¢          ¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢  ¡¡¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢      ¨¢¨¢¨¢¨¢    ¨¢¨¢¨¢¨¢¨¢¨¢¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢    ¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢      ¨¢  ¨¢¨¢  ¡¡¨¢¨¢¨¢¨¢¨¢¨¢              ¨¢             */
+/*EDB[0]¢£¨¡¨«¨¡¨¡¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¢¡¨«¨«¨«¡þ¨¡¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¨¡¢¡¨¡¨«¨«¡þ¨¡¨«¨«¨«¨«¨«¨«¢«LMM-a 32bit ¨¢      MEM-a¢ª*/
+/*EDB[1]¢£¨¡¨«¨¡¨¡¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨«¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¢¡¨«¨«¨«¨«¡þ¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨«¨«¨«¨«¨«¨«¨«¨«¨«¡þ¨¡¢¡¨¡¨«¨«¨«¡þ¨«¨«¨«¨«¨«¨«¢«LMM-d 32bit ¢¡128bitMEM-d¢«*/
+/*EDC[0]¢£¨¡¨«¡þ¨¡¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¢¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡1bit                       */
+/*EDC[1]¢£¨¡¨«¨«¡þ¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¢¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡1bit                       */
+/*EDC[2]¢£¨¡¨«¨«¨«¡þ¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¢¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡¨¡¨¡¨«¨«¨«¨«¨«¨«¨«¨«¨«¨«¨¡1bit                       */
+/*        ¡¡¨¢¨¢¨¢¨¢¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨º¨º¨º¨º¨º¨¬¨¸  ¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢      ¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢¨¢                             */
+/*        ¡¡¨»¨»¨»¨»¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨º¨º¨º¨º¨º¨»¨»¨»¨»¨»¨¬¨¬¨¬¨¬¨¸  ¨¢  ¨»¨º¨º¨º¨º¨¢¨¢¨¢¨¢¨¢¡¡¡¡¨¢¨¢¨¢¨¢¨¢¨º¨º¨»¨º¨º¨¢¨¢¨¢¨¢¨¢¨º¨º¨º¨º¨»      ¨»¨º¨º¨º¨º¨¢¨¢¨¢¨¢¨¢                             */
+/* COND.C3-0¨¢¨¢¨¢¨¢¡¡  ¨¢¨¢¨¢¨¢¨¢¡¡¡¡¡¡¡¡¡¡¨¢¨¢¨¢¨¢¨¢¡¡EX1.S1¨¢  ¨¢S2¨¢EX1.S3¡¡¨¢¨¢¨¢¨¢¨¢    ¨¢¨¢¨¢¨¢¨¢EAG.¨¢S3¡¡¨¢¨¢¨¢¨¢¨¢  EAG.S1¨¢      ¨¢EAG.S2¡¡¨¢¨¢¨¢¨¢¨¢                             */
+/*  ¡¡¡¡¡¡¨£¨ª¨ª¨ª¨ª¨¤¨£¨ª¨ª¨ª¨ª¨ª¨¤      ¨£¨ª¨ª¨ª¨ª¨ª¨¤¢¬  ¨£¨ª¨¡¨ª¨¡¨ª¨¤    ¨£¨ª¨ª¨ª¨ª¨ª¨¤¨£¨ª¨ª¨ª¨ª¨ª¨¤¡¡¨¢¡¡¨£¨ª¨ª¨ª¨ª¨ª¨¤¢¬  ¨£¨ª¨¡¨¡¨¡¨ª¨¤    ¨£¨ª¨ª¨ª¨ª¨ª¨¤                           */
+/*    ¡¡¡¡¨¢b3b2b1b0¨¢¨¢    X1    ¨¢      ¨¢    X2    ¨¢¨¢  ¨¢   EX1    ¨¢    ¨¢    X3    ¨¢¨¢    X3    ¨¢¡¡¨¢¡¡¨¢    X1    ¨¢¨¢  ¨¢   EAG    ¨¢    ¨¢    X2    ¨¢                           */
+/*  ¡¡¡¡¡¡¨¦¨¡¨¡¨¡¨¡¨¥¨¦¨¡¨¡¨¨¨¡¨¡¨¥      ¨¦¨¡¨¡¨¨¨¡¨¡¨¥¨¢  ¨¦¨¡¨¡¨¨¨¨¨¡¨¥    ¨¦¨¡¨¡¨¨¨¡¨¡¨¥¨¦¨¡¨¡¨¨¨¡¨¡¨¥¡¡¨¢¡¡¨¦¨¡¨¡¨¨¨¡¨¡¨¥¨¢  ¨¦¨¡¨¡¨¨¨¨¨¡¨¥    ¨¦¨¡¨¡¨¨¨¡¨¡¨¥                           */
+/*      ¡¡¡¡ c-exec ¡¡¨£¨¡¨¡¨ª¨¡¨¡¨¤      ¨£¨¡¨¡¨ª¨¡¨¡¨¤¨¢  ¨£¨¡¨¡¨ª¨«¨¡¨¤    ¨£¨¡¨¡¨ª¨¡¨¡¨¤¨£¨¡¨¡¨ª¨¡¨¡¨¤¡¡¨¢¡¡¨£¨¡¨¡¨ª¨¡¨¡¨¤¨¢  ¨£¨¡¨¡¨ª¨«¨¡¨¤    ¨£¨¡¨¡¨ª¨¡¨¡¨¤                           */
+/*      ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¦¨¡¨¡¨¡¨¨¨¡¨¥      ¨¦¨¡¨¡¨¡¨¨¨¡¨¥¨¢  ¨¦¨¡¨¡¨¨¨«¨¡¨¥    ¨¦¨¡¨¡¨¡¨¨¨¡¨¥¨¦¨¡¨¡¨¡¨¨¨¡¨¥¡¡¨¢¡¡¨¦¨¡¨¡¨¡¨¨¨¡¨¥¨¢  ¨¦¨¡¨¡¨¨¨«¨¡¨¥    ¨¦¨¡¨¡¨¡¨¨¨¡¨¥                           */
+/*      ¡¡¡¡¡¡¡¡¡¡¡¡¡¡  U[I].EX1.T1¡¡¡¡¡¡ ¡¡U[I].EX1.T2 ¨¢    U[I]¨¢EX1.D/C     U[I].EX1.T3   U[I].EAG.T3   ¨¢  ¡¡U[I].EAG.T1 ¨¢    U[I]¨¢¨¢EAG.D     U[I].EAG.T2                   ¢ªdirect */
+/*        ¡¡¡¡          ¡¡¡¡¡¡¨¢¡¡¡¡      ¡¡¡¡¡¡¡¡¨¢¡¡¡¡¨§¨¡¨¡¨¡¨¡¨©¨¦¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¢ª¨¤¢­  ¡¡¡¡¡¡¡¡¨¢¡¡¡¡¨§¨¡¨¡¨¡¨¡¨ª¨¢¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¢¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¢ª      MEM-a¢ª*/
+/*                      ¡¡¡¡¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¡¡¨¢¡¡¡¡¡¡¡¡¨¢¡¡¡¡¡¡    ¡¡¡¡¡¡¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¡¡¨º¨» U[I].LM.S¨¢ ¡¡ ¨¢          ¨¢U[I].LM.A     ¡¡¨¢                               */
+/*        ¡¡¡¡¡¡¡¡¡¡¡¡      ¡¡¨¢                ¡¡¨¢    ¨¢  ¨£¨¡¨¡¨ª¨¡¨¡¨¤          ¡¡¨¢  ¨£¨¡¨¡¨¡¨¡¨«¨¡¨¨¨¡¨ª¨¡¨¨¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¨¨¡¨¡¨ª¨¨¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¤                           */
+/*    ¡¡¡¡¡¡¡¡                ¨¢                ¡¡¨¢    ¨¢  ¨¢¡¡ EX2¡¡¡¡¨¢          ¡¡¨¢  ¨¢        ¨¢  ¨¦¨¡¨¡¨¡¨¥    ¡¡¨¢    ¨¢    ¨¦¨¡¨¡¨¡¨¥  Local-MEM ¡¡¨¢  ¨¢  ¨¡¨¡32bit ¨¤             */
+/*    ¡¡¡¡¡¡¡¡                ¨¢                ¡¡¨¢    ¨¢  ¨¦¨¡¨¡¨¡¨¨¨¨¨¥          ¡¡¨¢  ¨¦¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¨¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¥  ¨¡¨¡32bit ¨©             */
+/*    ¡¡¡¡¡¡                  ¨¢                ¡¡¨¢    ¨¢          ¨¢¨¢            ¡¡¨¢          ¡¡¨¢                ¡¡¨¢    ¨¢          ¨¢LM.O          ¡¡¨¢      ¨¡¨¡32bit ¨©             */
+/*EMB   ¢£¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡FIFO»ÈÍÑ»þ¤Î¤ß¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¡þ¨¡¨«¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¡þ¨¡¢¡¨¡¨¡¨¡¨¡32bit ¨¡¨«¢«¢ªLMM-d 32bit ¢¡128bitMEM-d¢ª*/
+/*                          ¡¡¨¢                ¡¡¨¢    ¨¢      ¨¢  ¨¢¨¢            ¡¡¨¢          ¡¡¨¢                ¡¡¨¢    ¨¢      ¨¢  ¨¢              ¡¡¨¢                      ¢«direct */
+/*ETB[0]¢£¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¡þ¨¡¢¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡                           */
+/*ETB[1]¢£¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¡þ¨¡¢¡¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡  LM.FIFO¤âÍøÍÑ²ÄÇ½        */
+/*ETB[2]¢£¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨«¨¡¨¡¨¡¨¡¨¡¡þ¨¡¢¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡                           */
+/*ETB[3]¢£¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨«¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¡þ¨¡¢¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡                           */
+/*ETB[4]¢£¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨«¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¡þ¨¡¢¡¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨¡                           */
+/*ETB[5]¢£¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨«¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨«¨¡¨¡¨¡¨«¨¡¨«¨¡¨¡¨¡¨¡¨¡¨¡¡þ¨¡¢¡¨¡¨¡                           */
+/*                ¡¡    ¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¨¢¨£¨¡¨¡¨ª¨¤¨¢¨¢U[I].EX.LD¨¢¡¡¨¢¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¨¢¨£¨¡¨¡¨ª¨¤¨¢RG½é´ü²½¥Ñ¥¹¨¢¡¡¨¢                               */
+/*                      ¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¢­¨§¨¡¨¡¨¡¨©¨¢¨¢¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¢­¨§¨¡¨¡¨¡¨©¨¢¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢                               */
+/*                      ¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¨¦¨§¨¡¨¡¨¡¨©¨¢¨¢¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¨¦¨§¨¡¨¡¨¡¨©¨¢¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢                               */
+/*                      ¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¨§¨¡¨¡¨¡¨©¨¢¨¢¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¨§¨¡¨¡¨¡¨©¨¢¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢                               */
+/*                      ¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¨¦¨¡¨¡¨¨¨¥¨¢¨¢¡¡¡¡¡¡¡¡  ¨¢¡¡¨¢¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢¡¡¡¡¡¡¨¦¨¡¨¡¨¨¨¥¨¢¡¡¡¡¡¡¡¡¡¡¡¡¨¢¡¡¨¢                               */
+/*    ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡    ¨º¨¸¨º              ¨º¨¸¨º      ¡¡    ¨º¨¸¨º¨¢C         ¨º¨¸¨º        ¨º¨¸¨º              ¨º¨¸¨º            ¨º¨¸¨º            ¨º¨¸¨º                               */
+/*      ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨£¨¡¨¡¨ª¨¡¨¡¨¤      ¨£¨¡¨¡¨ª¨¡¨¡¨¤    ¨£¨¡¨¡¨ª¨¡¨ª¨¤    ¨£¨¡¨¡¨ª¨¡¨¡¨¤¨£¨¡¨¡¨ª¨¡¨¡¨¤  ¡¡  ¨£¨¡¨¡¨ª¨¡¨¡¨¤    ¨£¨¡¨¡¨ª¨¡¨¡¨¤    ¨£¨¡¨¡¨ª¨¡¨¡¨¤                           */
+/*      ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¦¨¡¨¡¨¡¨¡¨¡¨¥      ¨¦¨¡¨¡¨¡¨¡¨¡¨¥    ¨¦¨¡¨¡¨¡¨¡¨¡¨¥    ¨¦¨¡¨¡¨¡¨¡¨¡¨¥¨¦¨¡¨¡¨¡¨¡¨¡¨¥  ¡¡  ¨¦¨¡¨¡¨¡¨¡¨¡¨¥    ¨¦¨¡¨¡¨¡¨¡¨¡¨¥    ¨¦¨¡¨¡¨¡¨¡¨¡¨¥                           */
+/*  ¡¡¡¡¡¡¡¡¡¡¡¡¡¡      U[I].EX2.P1         U[I].EX2.P2       U[I].EX2.D        U[I].EX2.P3   U[I].LM.P3          U[I].LM.P1        U[I].LM.D         U[I].LM.P2                             */
+/*                                                                 EX2.C                    ¡¡                                                                                               */
+
+#define UNIT_DEPTH           INSN_DEPTH
+#define UNIT_WIDTH           INSN_WIDTH
+#define LMEM_SIZE            65536
+#define FIFO_DEPTH           8
+#define INT_XBR_BUS_NUM      4
+#define INT_DST_BUS_NUM      2
+#define INT_DST_CCR_NUM      1
+#define EXT_DST_BUS_NUM      2
+#define EXT_DST_CCR_NUM      3
+#define EXT_MEM_BUS_NUM      1
+#define EXT_TMP_BUS_NUM      6
+a236 112
+/* regmap */
+struct regmap { /* working table (not necessary for EMAX5 hardware) */
+  struct ixbm { /* select any portion in the same unit */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srcpos: 4; /* 0:off 1:prev_ex2.p1 2:prev_ex2.p2 3:prev_ex2.p3 4:prev_mem.p1 5:prev_mem.p2 6:prev_mem.p3 8:prev_ex2.d 9:prev_mem.d */
+  } ixbm[INT_XBR_BUS_NUM];
+
+  struct edbm { /* select dst portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srccol: 4;
+    Uint srcpos: 2; /* 0:off 1:prev_ex2.d 2:prev_mem.d */
+  } edbm[EXT_DST_BUS_NUM];
+
+  struct edcm { /* select dst portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 2; /* 0-3:regno */
+    Uint srccol: 4;
+    Uint srcpos: 1; /* 0:off 1:prev_ex2.c */
+  } edcm[EXT_DST_CCR_NUM];
+
+  struct ex1m {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint c_v      : 1;
+    Uint c_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint c_regno  : 2; /* 0-3:regno */
+    Uint dx1_v    : 1;
+    Uint dx1_rtype: 2; /* 0:immediate 1:regno 2:propagation */
+    Uint dx1_regno: 5; /* 0-31:regno */
+    Uint dx2_v    : 1;
+    Uint dx2_rtype: 2; /* 0:immediate 1:regno 2:propagation */
+    Uint dx2_regno: 5; /* 0-31:regno */
+    Uint t1_v     : 1;
+    Uint t1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t1_regno : 5; /* 0-31:regno */
+    Uint t2_v     : 1;
+    Uint t2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t2_regno : 5; /* 0-31:regno */
+    Uint t3_v     : 1;
+    Uint t3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t3_regno : 5; /* 0-31:regno */
+  } ex1m;
+
+  struct ex2m {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint c_v      : 1;
+    Uint c_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint c_regno  : 2; /* 0-3:regno */
+    Uint p1_v     : 1;
+    Uint p1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p1_regno : 5; /* 0-31:regno */
+    Uint p2_v     : 1;
+    Uint p2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p2_regno : 5; /* 0-31:regno */
+    Uint p3_v     : 1;
+    Uint p3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p3_regno : 5; /* 0-31:regno */
+  } ex2m;
+
+  struct eagm {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint t1_v     : 1;
+    Uint t1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t1_regno : 5; /* 0-31:regno */
+    Uint t2_v     : 1;
+    Uint t2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t2_regno : 5; /* 0-31:regno */
+    Uint t3_v     : 1;
+    Uint t3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint t3_regno : 5; /* 0-31:regno */
+  } eagm;
+
+  struct memm {
+    Uint d_v      : 1;
+    Uint d_rtype  : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint d_regno  : 5; /* 0-31:regno */
+    Uint p1_v     : 1;
+    Uint p1_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p1_regno : 5; /* 0-31:regno */
+    Uint p2_v     : 1;
+    Uint p2_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p2_regno : 5; /* 0-31:regno */
+    Uint p3_v     : 1;
+    Uint p3_rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint p3_regno : 5; /* 0-31:regno */
+  } memm;
+
+  struct embm { /* select memory portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srccol: 4;
+  } embm[EXT_MEM_BUS_NUM];
+
+  struct etbm { /* select same portion among neighbor units */
+    Uint v     : 1;
+    Uint rtype : 2; /* 0:immediate 1:regno 2:propagation */
+    Uint regno : 5; /* 0-31:regno */
+    Uint srccol: 4;
+  } etbm[EXT_TMP_BUS_NUM];
+} regmap[UNIT_DEPTH][UNIT_WIDTH];
+
+d238 65
+a302 128
+struct conf { /* final information for EMAX5 hardware */
+  /* struct ixbc: select any portion in the same unit */
+  /* word #0 */
+  struct cword0 {
+    Uint ixbc0_sel_r : 4;  /* 0:off 1:prev_ex2.p1 2:prev_ex2.p2 3:prev_ex2.p3 4:prev_mem.p1 5:prev_mem.p2 6:prev_mem.p3 8:prev_ex2.d 9:prev_mem.d */
+    Uint ixbc1_sel_r : 4;  /* 0:off 1:prev_ex2.p1 2:prev_ex2.p2 3:prev_ex2.p3 4:prev_mem.p1 5:prev_mem.p2 6:prev_mem.p3 8:prev_ex2.d 9:prev_mem.d */
+    Uint ixbc2_sel_r : 4;  /* 0:off 1:prev_ex2.p1 2:prev_ex2.p2 3:prev_ex2.p3 4:prev_mem.p1 5:prev_mem.p2 6:prev_mem.p3 8:prev_ex2.d 9:prev_mem.d */
+    Uint ixbc3_sel_r : 4;  /* 0:off 1:prev_ex2.p1 2:prev_ex2.p2 3:prev_ex2.p3 4:prev_mem.p1 5:prev_mem.p2 6:prev_mem.p3 8:prev_ex2.d 9:prev_mem.d */
+    /* struct edbc: select dst portion among neighbor units */
+    Uint edbc0_sel_r : 2;  /* 0:off 1:prev_ex2.d 2:prev_mem.d */
+    Uint edbc0_dir_r : 2;  /* 0:off 1:to-left 2:to-right 3:inhibited */
+    Uint edbc1_sel_r : 2;  /* 0:off 1:prev_ex2.d 2:prev_mem.d */
+    Uint edbc1_dir_r : 2;  /* 0:off 1:to-left 2:to-right 3:inhibited */
+    Uint edcc0_sel_r : 1;  /* 0:off 1:prev_ex2.c */
+    Uint edcc0_dir_r : 2;  /* 0:off 1:to-left 2:to-right 3:inhibited */
+    Uint edcc1_sel_r : 1;  /* 0:off 1:prev_ex2.c */
+    Uint edcc1_dir_r : 2;  /* 0:off 1:to-left 2:to-right 3:inhibited */
+    Uint _dmy0       : 2;
+  } cword0[UNIT_WIDTH];
+
+  /* word #1 */
+  struct cword1 {
+    /* struct edcc: select dst portion among neighbor units */
+    Uint edcc2_sel_r : 1;  /* 0:off 1:prev_ex2.c */
+    Uint edcc2_dir_r : 2;  /* 0:off 1:to-left 2:to-right 3:inhibited */
+    /* struct cndc */
+    Uint cndc_bit0_v : 1;  /* valid */
+    Uint cndc_bit0_r : 2;  /* 4to1 selector 0:idc0 1:edc0 2:edc1 3:edc2 */
+    Uint cndc_bit1_v : 1;  /* valid */
+    Uint cndc_bit1_r : 2;  /* 4to1 selector 0:idc0 1:edc0 2:edc1 3:edc2 */
+    Uint cndc_bit2_v : 1;  /* valid */
+    Uint cndc_bit2_r : 2;  /* 4to1 selector 0:idc0 1:edc0 2:edc1 3:edc2 */
+    Uint cndc_bit3_v : 1;  /* valid */
+    Uint cndc_bit3_r : 2;  /* 4to1 selector 0:idc0 1:edc0 2:edc1 3:edc2 */
+    Uint cndc_table  : 16; /* b3.b2.b1.b0¤ÎÁÈ¹ç¤» 1111,1110,1101,1100,....,0011,0010,0001,0000¤Î³Æ¡¹¤Ë0/1¤ò³ä¤êÅö¤Æ¤¿16bit¤ò»ØÄê */
+    Uint _dmy1       : 1;
+  } cword1[UNIT_WIDTH];
+
+  /* word #2 */
+  struct cword2 {
+    /* struct ex1c */
+    Uint ex1c_s1_r   : 3;  /* 5to1 selector 0:prev_p1 1:self_loop 2:idb0 3:idb1 4:edb0 5:edb1 */
+    Uint ex1c_s1_fhl : 2;  /*       1:SUFLO 2:SUFHI 3:ri/SUFFL */
+    Uint ex1c_s2_r   : 3;  /* 5to1 selector 0:prev_p2             2:idb0 3:idb1 4:edb0 5:edb1 */
+    Uint ex1c_s2_fhl : 2;  /* 0:imm 1:SUFLO 2:SUFHI 3:ri/SUFFL */
+    Uint ex1c_s3_r   : 3;  /* 5to1 selector 0:prev_p3             2:idb0 3:idb1 4:edb0 5:edb1 */
+    Uint ex1c_s3_fhl : 2;  /*       1:SUFLO 2:SUFHI 3:ri/SUFFL */
+    Uint ex1c_urZ_r  : 1;  /* opcd-extension */
+    Uint ex1c_op_r   : 6;  /* ex1_opcd */
+    Uint ex1c_px1_r  : 2;  /* 0:off 2:s2 */
+    Uint ex1c_px2_r  : 2;  /* 0:off 3:s3 */
+    Uint ex1c_x1_r   : 3;  /* 5to1 selector 0:prev_p[p] 4:ixb0 5:ixb1 6:ixb2 7:ixb3 */
+    Uint ex1c_x2_r   : 3;  /* 5to1 selector 0:prev_p[p] 4:ixb0 5:ixb1 6:ixb2 7:ixb3 */
+  } cword2[UNIT_WIDTH];
+
+  /* word #3 */
+  struct cword3 {
+    Uint ex1c_x3_r   : 3;  /* 5to1 selector 0:prev_p[p] 4:ixb0 5:ixb1 6:ixb2 7:ixb3 */
+    /* struct ex2c */
+    Uint ex2c_simmS_r: 13;
+    Uint ex2c_immT_r : 5;
+    Uint ex2c_s1_r   : 3;  /* 0:d_r(ex1) 4:dx1_r(ex1) 5:dx2_r(ex1) 6:simmS_r 7:immT_r */
+    Uint ex2c_s2_r   : 3;  /* 0:d_r(ex1) 4:dx1_r(ex1) 5:dx2_r(ex1) 6:simmS_r 7:immT_r */
+    Uint ex2c_s3_r   : 3;  /* 0:d_r(ex1) 4:dx1_r(ex1) 5:dx2_r(ex1) 6:simmS_r 7:immT_r */
+    Uint _dmy2       : 2;
+  } cword3[UNIT_WIDTH];
+
+  /* word #4 */
+  struct cword4 {
+    Uint ex2c_op_r   : 3;  /* ex2_opcd */
+    Uint ex2c_sft_r  : 3;  /* sft_opcd */
+    Uint ex2c_dsel_r : 1;  /* ex2-selector 0:ex2 direct 1:fifo */
+    Uint ex2c_x1_r   : 2;  /* ex2-output-selector 0:fixed_for_constant 1:t1_direct 2:from etb[] */
+    Uint ex2c_x2_r   : 2;  /* ex2-output-selector 0:fixed_for_constant 1:t2_direct 2:from etb[] */
+    Uint ex2c_x3_r   : 2;  /* ex2-output-selector 0:fixed_for_constant 1:t3_direct 2:from etb[] */
+    /* struct eagc */
+    Uint eagc_s1_r   : 3;  /* 5to1 selector 0:prev_p1 1:self_loop 2:idb0 3:idb1 4:edb0 5:edb1 */
+    Uint eagc_s2_r   : 3;  /* 5to1 selector 0:prev_p2             2:idb0 3:idb1 4:edb0 5:edb1 */
+    Uint eagc_s2_suffix:3; /* 0:imm 1:SUFLO 2:SUFHI 3:SUFFL 4:SUFB0 5:SUFB1 6:SUFB2 7:SUFB3 */
+    Uint eagc_s3_r   : 3;  /* 5to1 selector 0:prev_p3             2:idb0 3:idb1 4:edb0 5:edb1 */
+    Uint _dmy3       : 7;
+  } cword4[UNIT_WIDTH];
+
+  /* word #5 */
+  struct cword5 {
+    Uint eagc_op_r   : 10; /* mem_opcd */
+    Uint eagc_x1_r   : 3;  /* 5to1 selector 0:prev_p[p] 4:ixb0 5:ixb1 6:ixb2 7:ixb3 */
+    Uint eagc_x2_r   : 3;  /* 5to1 selector 0:prev_p[p] 4:ixb0 5:ixb1 6:ixb2 7:ixb3 */
+    Uint eagc_x3_r   : 3;  /* 5to1 selector 0:prev_p[p] 4:ixb0 5:ixb1 6:ixb2 7:ixb3 */
+    /* struct lmmc */
+    Uint lmmc_ssel_r : 1;  /* lmem-selector */
+    Uint lmmc_dsel_r : 1;  /* lmm-selector 0:lmm direct 1:fifo */
+    Uint lmmc_x1_r   : 2;  /* mem-output-selector 0:fixed_for_constant 1:t1_direct 2:from etb[] */
+    Uint lmmc_x2_r   : 2;  /* mem-output-selector 0:fixed_for_constant 1:t2_direct 2:from etb[] */
+    Uint lmmc_x3_r   : 2;  /* mem-output-selector 0:fixed_for_constant 1:t3_direct 2:from etb[] */
+    /* struct embc: select memory portion among neighbor units */
+    Uint embc0_sel_r : 1;  /* 0:off 1:lmem */
+    Uint embc0_dir_r : 2;  /* 0:off 1:to-left    2:to-right   3:inhibited */
+    Uint _dmy4       : 2;
+  } cword5[UNIT_WIDTH];
+
+  /* word #6 */
+  struct cword6 {
+    /* struct etbc: select same portion among neighbor units */
+    Uint etbc0_sel_r : 1;  /* 0:off 1:t[1-3] */
+    Uint etbc0_dir_r : 2;  /* 0:off 1:to-left    2:to-right   3:inhibited */
+    Uint etbc1_sel_r : 1;  /* 0:off 1:t[1-3] */
+    Uint etbc1_dir_r : 2;  /* 0:off 1:to-left    2:to-right   3:inhibited */
+    Uint etbc2_sel_r : 1;  /* 0:off 1:t[1-3] */
+    Uint etbc2_dir_r : 2;  /* 0:off 1:to-left    2:to-right   3:inhibited */
+    Uint etbc3_sel_r : 1;  /* 0:off 1:t[1-3] */
+    Uint etbc3_dir_r : 2;  /* 0:off 1:to-left    2:to-right   3:inhibited */
+    Uint etbc4_sel_r : 1;  /* 0:off 1:t[1-3] */
+    Uint etbc4_dir_r : 2;  /* 0:off 1:to-left    2:to-right   3:inhibited */
+    Uint etbc5_sel_r : 1;  /* 0:off 1:t[1-3] */
+    Uint etbc5_dir_r : 2;  /* 0:off 1:to-left    2:to-right   3:inhibited */
+    Uint _dmy5       :14;
+  } cword6[UNIT_WIDTH];
+
+  /* word #7 */
+  struct cword7 {
+    /* struct ctl */
+    Uint v1          : 1; /* unit 1/2 (ex1/eag) on */
+    Uint v2          : 1; /* unit 2/2 (ex2/lmm) on */
+    Uint map_dist    : 4; /* unit_map distance */
+    Uint _dmy6       : 26;
+  } cword7[UNIT_WIDTH];
+} conf[UNIT_DEPTH]; /* 221bit(8words)/unit */
+d305 12
+a316 7
+struct regv { /* final information for EMAX5 hardware */
+  /* inputs are connected to ex1.d*_r */
+  Uint ex2v_p1_r[UNIT_WIDTH]; /* ex2 output(prop) */
+  Uint ex2v_p2_r[UNIT_WIDTH]; /* ex2 output(prop) */
+  Uint lmmv_p1_r[UNIT_WIDTH]; /* mem output(prop) */
+  Uint lmmv_p2_r[UNIT_WIDTH]; /* mem output(prop) */
+} regv[UNIT_DEPTH]; /* 128bit(4words)/unit */
+d319 10
+a328 14
+struct memi {
+  struct mctr0 {
+    Uint v    : 4; /* 0:nop, 1:LMR, 2:LMW, 3:LMX, 4:LMP, 5:LMF(force read), 6:LMD */
+                   /* 8:MMR  9:MMTR */
+    Uint bank : 3; /* memory bank 0..7 */
+    Uint width: 2; /* 0:4bytes, 1:8bytes, 2:16bytes 3:undef */
+    Uint block: 2; /* 0:inf, 1:16, 2:32, 3:64 width*block=page(burst)_size(bytes) */
+    Uint dist : 2; /* 0:dist=width, 1:dist=width*2, 2:dist=width*4 3:dist=width*8 */
+    Uint _dmy : 19;
+  } mctr0[UNIT_WIDTH];
+  Uint lmm_top[UNIT_WIDTH];  /* lmm_addr */
+  Uint mem_top[UNIT_WIDTH];  /* mem_addr or start_of_trans */
+  Uint len[UNIT_WIDTH];      /* len or end_of_trans */
+} memi[UNIT_DEPTH]; /* for reuse by host */
+d380 5
+@
